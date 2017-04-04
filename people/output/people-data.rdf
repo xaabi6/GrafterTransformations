@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Person/Alice-McGregor">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This description is about Alice McGregor</comment>
+	<name xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alice</name>
+	<surname xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGregor</surname>
+	<nick xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali</nick>
+	<age xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34</age>
+	<homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.londonali.uk</homepage>
+	<email xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alicemc@londonali.uk</email>
+	<gender xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</gender>
+	<married xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yes</married>
+	<locality xmlns="http://www.w3.org/2006/vcard/ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</locality>
+	<nationality xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British</nationality>
+	<birthPlace xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</birthPlace>
+	<Work xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Designer</Work>
+	<Car xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota Prius</Car>
+	<knows xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Bob_Marley"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Info/">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data of this file has been created randomly</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Person/Bob-Johnson">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This description is about Bob Johnson</comment>
+	<name xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bob</name>
+	<surname xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnson</surname>
+	<nick xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bobby</nick>
+	<age xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</age>
+	<homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></homepage>
+	<email xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bobjohnson25@bobby.com</email>
+	<gender xmlns="http://xmlns.com/foaf/0.1/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</gender>
+	<married xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</married>
+	<locality xmlns="http://www.w3.org/2006/vcard/ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York</locality>
+	<nationality xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German</nationality>
+	<birthPlace xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berlin</birthPlace>
+	<Work xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lawyer</Work>
+	<Car xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mercedes CLK 320</Car>
+	<knows xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://dbpedia.org/resource/Bob_Marley"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Info/">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data of this file has been created randomly</comment>
+</rdf:Description>
+
+</rdf:RDF>

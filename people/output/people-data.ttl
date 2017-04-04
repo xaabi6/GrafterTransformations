@@ -1,0 +1,38 @@
+
+<http://opendata.eurohelp.es/resource/Person/Alice-McGregor> a <http://xmlns.com/foaf/0.1/Person> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This description is about Alice McGregor" ;
+	<http://xmlns.com/foaf/0.1/name> "Alice" ;
+	<http://opendata.eurohelp.es/property/surname> "McGregor" ;
+	<http://xmlns.com/foaf/0.1/nick> "Ali" ;
+	<http://xmlns.com/foaf/0.1/age> "34"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://xmlns.com/foaf/0.1/homepage> "https://www.londonali.uk" ;
+	<http://opendata.eurohelp.es/property/email> "alicemc@londonali.uk" ;
+	<http://xmlns.com/foaf/0.1/gender> "Female" ;
+	<http://opendata.eurohelp.es/property/married> "Yes" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Paris" ;
+	<http://dbpedia.org/ontology/nationality> "British" ;
+	<http://dbpedia.org/ontology/birthPlace> "London" ;
+	<http://dbpedia.org/ontology/Work> "Designer" ;
+	<http://dbpedia.org/resource/Car> "Toyota Prius" ;
+	<http://xmlns.com/foaf/0.1/knows> <http://dbpedia.org/resource/Bob_Marley> .
+
+<http://opendata.eurohelp.es/resource/Info/> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data of this file has been created randomly" .
+
+<http://opendata.eurohelp.es/resource/Person/Bob-Johnson> a <http://xmlns.com/foaf/0.1/Person> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This description is about Bob Johnson" ;
+	<http://xmlns.com/foaf/0.1/name> "Bob" ;
+	<http://opendata.eurohelp.es/property/surname> "Johnson" ;
+	<http://xmlns.com/foaf/0.1/nick> "Bobby" ;
+	<http://xmlns.com/foaf/0.1/age> "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://xmlns.com/foaf/0.1/homepage> "" ;
+	<http://opendata.eurohelp.es/property/email> "bobjohnson25@bobby.com" ;
+	<http://xmlns.com/foaf/0.1/gender> "Male" ;
+	<http://opendata.eurohelp.es/property/married> "No" ;
+	<http://www.w3.org/2006/vcard/ns#locality> "New York" ;
+	<http://dbpedia.org/ontology/nationality> "German" ;
+	<http://dbpedia.org/ontology/birthPlace> "Berlin" ;
+	<http://dbpedia.org/ontology/Work> "Lawyer" ;
+	<http://dbpedia.org/resource/Car> "Mercedes CLK 320" ;
+	<http://xmlns.com/foaf/0.1/knows> <http://dbpedia.org/resource/Bob_Marley> .
+
+<http://opendata.eurohelp.es/resource/Info/> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data of this file has been created randomly" .

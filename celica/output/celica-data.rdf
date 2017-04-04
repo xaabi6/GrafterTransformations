@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-1-1-4">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 1 gen, which engine version is 1.4</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1970</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1977</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A20/30</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1407cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3800rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4170mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1600mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1300mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">890kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-2-1-6">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 2 gen, which engine version is 1.6</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1977</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1981</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A40/50</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2T</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1588cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3600rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4410mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1640mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1310mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1060kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-3-1-6">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 3 gen, which engine version is 1.6</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1981</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1985</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A60</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2T-B</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1588cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4000rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4435mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1665mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1310mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1095kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-4-1-6-ST">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 4 gen, which engine version is 1.6 ST</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1985</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1989</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T160</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4A-GE</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6 ST</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1587cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3600rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4365mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1710mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1260mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1032kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-5-1-6-STi">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 5 gen, which engine version is 1.6 STi</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1989</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1993</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T180</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4A-FE</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6 STi</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1587cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3200rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4420mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1745mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1300mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-6-1-8i">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 6 gen, which engine version is 1.8i</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1993</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1999</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T200</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7A-FE</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.8i</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1762cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4400rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4420mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1750mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1300mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1170kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18750€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-7-1-8-VVT-i">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 7 gen, which engine version is 1.8 VVT-i</comment>
+	<brand xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</brand>
+	<name xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</name>
+	<startedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1999</startedProduction>
+	<finishedProduction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2006</finishedProduction>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T230</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1ZZ-FE</engineCode>
+	<version xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.8 VVT-i</version>
+	<engineSize xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1794cm³</engineSize>
+	<engineValves xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValves>
+	<engineMaxTorque xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4200rpm</engineMaxTorque>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<length xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4335mm</length>
+	<width xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1735mm</width>
+	<height xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1310mm</height>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1202kg</curbWeight>
+	<fuel xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuel>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55l</fuelTank>
+	<airbags xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</airbags>
+	<doors xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</doors>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23440€</priceSpain>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+</rdf:RDF>
