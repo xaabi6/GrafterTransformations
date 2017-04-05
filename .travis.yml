@@ -1,10 +1,13 @@
 language: clojure
 
 jdk:
-- oraclejdk8
+  - oraclejdk8
+
+env:
+  - PIPELINE_CALL = lein grafter run graftertransformations.pipeline/convert
 
 script:
-  - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
-  - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
+  - $PIPELINE_CALL-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
+  - $PIPELINE_CALL-people-to-data ./data/people-data.csv ./output/people-data.csv
+  - $PIPELINE_CALL-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
+  - $PIPELINE_CALL-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
