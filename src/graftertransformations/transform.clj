@@ -1,21 +1,35 @@
-(ns celica.transform
+(ns graftertransformations.transform
   (:require
     [clojure.string :as st]
     [grafter.rdf.protocols :as pr]
     [grafter.rdf.io :as io]
-    [celica.prefix :refer :all]
+    [graftertransformations.prefix :refer :all]
   )
 )
 
 ;;; You can specify transformation functions in this namespace for use
 ;;; within the pipeline.
 
+;; GENERAL
 (defn integer
   "An example transformation function that converts a string to an integer"
   [s]
   (Integer/parseInt s)
 )
 
+(defn missing-data-filter [triples]
+  (remove #(nil? (pr/object %)) triples)
+)
+
+(defn urlify [sr]
+  (st/replace (st/trim sr) #"\(|\)|\s|\/|\." "-")
+)
+
+(defn commentary [st]
+    (io/s st)
+)
+
+;; CELICA
 (defn add-cubic-centimetre [st]
   (str st "cm³")
 )
@@ -60,14 +74,6 @@
 ;  )
 ;)
 
-(defn missing-data-filter [triples]
-  (remove #(nil? (pr/object %)) triples)
-)
-
-(defn urlify [sr]
-  (st/replace (st/trim sr) #"\(|\)|\s|\/|\." "-")
-)
-
 (defn celica-uri [a b c d]
   (base-id
     (str "Car/Specifications/" (urlify
@@ -84,10 +90,6 @@
       )
     )
   )
-)
-
-(defn commentary [st]
-    (io/s st)
 )
 
 (def car-manufacturer (base-domain "/property/brand"))
@@ -129,3 +131,28 @@
 (def car-doors (base-domain "/property/doors"))
 
 (def car-price (base-domain "/property/priceSpain"))
+
+;; PEOPLE
+(defn person-uri [a b]
+  (base-id
+    (str "Person/" (urlify
+        (str a "-" b)
+      )
+    )
+  )
+)
+
+(defn info-uri [a]
+  (base-id
+    (str "Info/" (urlify
+        (str a)
+      )
+    )
+  )
+)
+
+(def base-marriage (base-domain "/property/married"))
+
+(def base-surname (base-domain "/property/surname"))
+
+(def base-email (base-domain "/property/email"))

@@ -1,4 +1,4 @@
-(ns celica.pipeline
+(ns graftertransformations.pipeline
     (:require
      [grafter.tabular :refer [_ add-column add-columns apply-columns
                               build-lookup-table column-names columns
@@ -18,14 +18,16 @@
      [grafter.vocabularies.qb :refer :all]
      [grafter.vocabularies.rdf :refer :all]
      [grafter.vocabularies.foaf :refer :all]
-     [celica.prefix :refer :all]
-     [celica.transform :refer :all]))
+     [grafter.vocabularies.vcard :refer :all]
+     [graftertransformations.prefix :refer :all]
+     [graftertransformations.transform :refer :all]))
 
-;; Declare our graph template which will destructure each row and
-;; convert it into an RDF graph.  This will be the final step in our
+;; Declare our graphs templates which will destructure each row and
+;; convert it into an RDF graphs. This will be the final step in our
 ;; pipeline definition.
 
-(def make-graph
+;; CELICA
+(def make-celica-graph
     (graph-fn [{:keys [brand name generation startedProduction finishedProduction
                        platform engineCode version engineSize valves maxTorque traction length width height curbWeight fuelType fuelTank
                        numberAirbags numberDoors price celica-uri data-uri] :as row}]
@@ -61,9 +63,41 @@
     )
 )
 
+;; PEOPLE
+(def make-people-graph
+  (graph-fn [{:keys [name surname nick sex age email web married city nationality birthPlace work car gender marriage person-uri info-uri] :as row}]
+            (graph (base-graph "People")
+                  [person-uri
+                      [rdf:a foaf:Person]
+                      [rdfs:comment (commentary (str "This description is about " name " " surname))]
+                      [foaf:name (s name)]
+                      [base-surname (s surname)]
+                      [foaf:nick (s nick)]
+                      [foaf:age (integer age)]
+                      ;[foaf:mbox (s mail)]
+                      ;[foaf:mbox_sha1sum mail]
+                      [foaf:homepage (s web)]
+                      [base-email (s email)]
+                      [foaf:gender sex]
+                      [base-marriage married]
+                      [vcard:locality (s city)]
+                      ["http://dbpedia.org/ontology/nationality" (s nationality)]
+                      ["http://dbpedia.org/ontology/birthPlace" (s birthPlace)]
+                      ["http://dbpedia.org/ontology/Work" (s work)]
+                      ["http://dbpedia.org/resource/Car" (s car)]
+                      [foaf:knows "http://dbpedia.org/resource/Bob_Marley"]
+                  ]
+                  [info-uri
+                      [rdfs:comment (commentary (str "All the data of this file has been created randomly"))]
+                  ]
+            )
+   )
+)
 
-;; Declare a pipe so the plugin can find and run it.  It's just a
+;; Declare pipes so the plugin can find and run them. It's just a
 ;; function from Datasetable -> Dataset.
+
+;; CELICA
 (defn convert-celica-to-data
   "Pipeline to convert tabular celica data into a different tabular format."
   [data-file]
@@ -83,13 +117,41 @@
   )
 )
 
-(declare-pipeline convert-celica-to-data [Dataset -> Dataset]
-                  {data-file "A data file"})
-
 (defn convert-celica-data-to-graph
   "Pipeline to convert the tabular Celica data sheet into graph data."
   [dataset]
-  (-> dataset convert-celica-to-data make-graph missing-data-filter))
+  (-> dataset convert-celica-to-data make-celica-graph missing-data-filter))
+
+(declare-pipeline convert-celica-to-data [Dataset -> Dataset]
+                  {data-file "A data file"})
 
 (declare-pipeline convert-celica-data-to-graph [Dataset -> (Seq Statement)]
+                  {dataset "The data file to convert into a graph."})
+
+;; PEOPLE
+(defn convert-people-to-data
+  "Pipeline to convert tabular people data into a different tabular format."
+  [data-file]
+  (-> (read-dataset data-file)
+      (make-dataset move-first-row-to-header)
+      (make-dataset [:name :surname :nick :sex :age :email :web
+        :married :city :nationality :birthPlace :work :car])
+      (mapc {:sex {"f" (s "Female")
+                   "m" (s "Male")}
+             :married {"y" (s "Yes")
+                       "n" (s "No")}})
+      (derive-column :person-uri [:name :surname] person-uri)
+      (derive-column :info-uri ["Info"] info-uri)
+  )
+)
+
+(defn convert-people-data-to-graph
+  "Pipeline to convert the tabular people data sheet into graph data."
+  [dataset]
+  (-> dataset convert-people-to-data make-people-graph missing-data-filter))
+
+(declare-pipeline convert-people-to-data [Dataset -> Dataset]
+                  {data-file "A data file"})
+
+(declare-pipeline convert-people-data-to-graph [Dataset -> (Seq Statement)]
                   {dataset "The data file to convert into a graph."})

@@ -1,4 +1,4 @@
-(ns celica.prefix
+(ns graftertransformations.prefix
   (:require [grafter.rdf :refer [prefixer]]))
 
 ;; Defines what will be useful for our next data transformations

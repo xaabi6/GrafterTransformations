@@ -1,5 +1,5 @@
-(defproject celica "0.1.0-SNAPSHOT"
-  :description "Some info about Celicas"
+(defproject graftertransformations "0.1.0-SNAPSHOT"
+  :description "A set of datasets ;)"
   :url "https://github.com/xaabi6"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
@@ -10,7 +10,7 @@
                  [org.slf4j/slf4j-jdk14 "1.7.5"]]
 
   :repl-options {:init (set! *print-length* 200)
-                 :init-ns celica.pipeline }
+                 :init-ns graftertransformations.pipeline }
 
   :jvm-opts ^:replace ["-server"
                        ;;"-XX:+AggressiveOpts"
