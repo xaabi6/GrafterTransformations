@@ -4,10 +4,10 @@ jdk:
   - oraclejdk8
 
 env:
-  - PIPELINE_CALL = lein grafter run graftertransformations.pipeline/convert
+  - PIPELINE_CALL = graftertransformations.pipeline/convert
 
 script:
-  - $PIPELINE_CALL-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
-  - $PIPELINE_CALL-people-to-data ./data/people-data.csv ./output/people-data.csv
-  - $PIPELINE_CALL-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
-  - $PIPELINE_CALL-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
+  - lein grafter run $PIPELINE_CALL-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
+  - lein grafter run $PIPELINE_CALL-people-to-data ./data/people-data.csv ./output/people-data.csv
+  - lein grafter run $PIPELINE_CALL-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
+  - lein grafter run $PIPELINE_CALL-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
