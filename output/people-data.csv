@@ -1,0 +1,3 @@
+name,surname,nick,sex,age,email,web,married,city,nationality,birthPlace,work,car,person-uri,info-uri
+Alice,McGregor,Ali,Female,34,alicemc@londonali.uk,https://www.londonali.uk,Yes,Paris,British,London,Designer,Toyota Prius,http://opendata.eurohelp.es/resource/Person/Alice-McGregor,http://opendata.eurohelp.es/resource/Info/
+Bob,Johnson,Bobby,Male,63,bobjohnson25@bobby.com,,No,New York,German,Berlin,Lawyer,Mercedes CLK 320,http://opendata.eurohelp.es/resource/Person/Bob-Johnson,http://opendata.eurohelp.es/resource/Info/

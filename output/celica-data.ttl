@@ -1,0 +1,175 @@
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-1-1-4> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 1 gen, which engine version is 1.4" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1970"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A20/30" ;
+	<http://opendata.eurohelp.es/property/engineCode> "T" ;
+	<http://opendata.eurohelp.es/property/version> "1.4" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1407cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "8" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "3800rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/length> "4170mm" ;
+	<http://opendata.eurohelp.es/property/width> "1600mm" ;
+	<http://opendata.eurohelp.es/property/height> "1300mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "890kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "50l" ;
+	<http://opendata.eurohelp.es/property/airbags> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-2-1-6> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 2 gen, which engine version is 1.6" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1981"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A40/50" ;
+	<http://opendata.eurohelp.es/property/engineCode> "2T" ;
+	<http://opendata.eurohelp.es/property/version> "1.6" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1588cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "8" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "3600rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/length> "4410mm" ;
+	<http://opendata.eurohelp.es/property/width> "1640mm" ;
+	<http://opendata.eurohelp.es/property/height> "1310mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1060kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "61l" ;
+	<http://opendata.eurohelp.es/property/airbags> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-3-1-6> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 3 gen, which engine version is 1.6" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1981"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1985"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A60" ;
+	<http://opendata.eurohelp.es/property/engineCode> "2T-B" ;
+	<http://opendata.eurohelp.es/property/version> "1.6" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1588cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "8" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "4000rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/length> "4435mm" ;
+	<http://opendata.eurohelp.es/property/width> "1665mm" ;
+	<http://opendata.eurohelp.es/property/height> "1310mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1095kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "61l" ;
+	<http://opendata.eurohelp.es/property/airbags> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-4-1-6-ST> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 4 gen, which engine version is 1.6 ST" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1985"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1989"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T160" ;
+	<http://opendata.eurohelp.es/property/engineCode> "4A-GE" ;
+	<http://opendata.eurohelp.es/property/version> "1.6 ST" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1587cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "8" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "3600rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/length> "4365mm" ;
+	<http://opendata.eurohelp.es/property/width> "1710mm" ;
+	<http://opendata.eurohelp.es/property/height> "1260mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1032kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "60l" ;
+	<http://opendata.eurohelp.es/property/airbags> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-5-1-6-STi> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 5 gen, which engine version is 1.6 STi" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1989"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T180" ;
+	<http://opendata.eurohelp.es/property/engineCode> "4A-FE" ;
+	<http://opendata.eurohelp.es/property/version> "1.6 STi" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1587cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "16" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "3200rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/length> "4420mm" ;
+	<http://opendata.eurohelp.es/property/width> "1745mm" ;
+	<http://opendata.eurohelp.es/property/height> "1300mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1000kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "60l" ;
+	<http://opendata.eurohelp.es/property/airbags> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-6-1-8i> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 6 gen, which engine version is 1.8i" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "1999"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T200" ;
+	<http://opendata.eurohelp.es/property/engineCode> "7A-FE" ;
+	<http://opendata.eurohelp.es/property/version> "1.8i" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1762cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "16" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "4400rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/length> "4420mm" ;
+	<http://opendata.eurohelp.es/property/width> "1750mm" ;
+	<http://opendata.eurohelp.es/property/height> "1300mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1170kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "60l" ;
+	<http://opendata.eurohelp.es/property/airbags> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "18750€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-7-1-8-VVT-i> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 7 gen, which engine version is 1.8 VVT-i" ;
+	<http://opendata.eurohelp.es/property/brand> "Toyota" ;
+	<http://opendata.eurohelp.es/property/name> "Celica" ;
+	<http://opendata.eurohelp.es/property/startedProduction> "1999"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/finishedProduction> "2006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T230" ;
+	<http://opendata.eurohelp.es/property/engineCode> "1ZZ-FE" ;
+	<http://opendata.eurohelp.es/property/version> "1.8 VVT-i" ;
+	<http://opendata.eurohelp.es/property/engineSize> "1794cm³" ;
+	<http://opendata.eurohelp.es/property/engineValves> "16" ;
+	<http://opendata.eurohelp.es/property/engineMaxTorque> "4200rpm" ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/length> "4335mm" ;
+	<http://opendata.eurohelp.es/property/width> "1735mm" ;
+	<http://opendata.eurohelp.es/property/height> "1310mm" ;
+	<http://opendata.eurohelp.es/property/curbWeight> "1202kg" ;
+	<http://opendata.eurohelp.es/property/fuel> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> "55l" ;
+	<http://opendata.eurohelp.es/property/airbags> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/doors> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> "23440€" .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
