@@ -10,7 +10,7 @@
      (is (= "Toyota"
             ; There is probably a better solution to achieve this
             ;(get (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 0) "brand" )
-            "Toyota"
+            (get (nth ["brand" "name"] 0) "brand" )
          )
      )
   )
@@ -21,7 +21,7 @@
      (is (= "Celica"
             ; There is probably a better solution to achieve this
             ;(get (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 1) "name" )
-            "Celica"
+            (get (nth ["brand" "name"] 1) "name" )
          )
      )
   )
