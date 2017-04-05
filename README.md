@@ -21,4 +21,4 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 - When a cell in the csv file is empty, do not create a triple, because it's useless
 
 ## Travis Tests Results
-[![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=develop)](https://travis-ci.org/xaabi6/GrafterTransformations)
+[![Build Status](https://travis-ci.org/xaabi6/Grafter-Transformations.svg?branch=develop)](https://travis-ci.org/xaabi6/Grafter-Transformations)
