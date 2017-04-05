@@ -3,6 +3,5 @@ language: clojure
 jdk:
 - oraclejdk8
 
-script:
-- lein celica
-- lein grafter run celica.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
+script: cd celica && lein grafter run celica.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
+        && cd ../people && lein grafter run people.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/people-data.rdf
