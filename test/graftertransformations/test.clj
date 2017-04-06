@@ -10,7 +10,8 @@
      (is (= "Toyota"
             ; There is probably a better solution to achieve this
             ;(get (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 0) "brand" )
-            (get ["Toyota" "Celica"] 0 )
+            ;(get ["Toyota" "Celica"] 0 )
+            (get (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 0) 0 )
          )
      )
   )
@@ -21,7 +22,8 @@
      (is (= "Celica"
             ; There is probably a better solution to achieve this
             ;(get (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 1) "name" )
-            (get ["Toyota" "Celica"] 1 )
+            ;(get ["Toyota" "Celica"] 1 )
+            (nth (:rows (convert-celica-to-data "./data/celica-data.csv")) 1)
          )
      )
   )
