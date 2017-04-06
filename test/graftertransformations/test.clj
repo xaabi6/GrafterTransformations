@@ -1,8 +1,6 @@
 (ns graftertransformations.test
   (:require
    [clojure.test :refer :all]
-   [grafter.rdf :refer :all]
-   [grafter.rdf.formats :refer :all]
    [grafter.rdf.repository :refer :all]
    [graftertransformations.pipeline :refer :all]
   )
@@ -30,6 +28,6 @@
 
 (deftest test-data-quality
   (testing "Query data"
-     (println (query (statements "./output/celica-data.rdf" :format rdf-ntriples) "SELECT * WHERE { ?s ?p ?o } LIMIT 10"))
+     (println (query (repo (native-store "/tmp/sesame-db")) "SELECT * WHERE { ?s ?p ?o } LIMIT 10"))
   )
 )
