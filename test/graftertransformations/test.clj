@@ -28,10 +28,6 @@
 
 (deftest test-data-quality
   (testing "Query data"
-     (query sesame-store "SELECT * WHERE { ?s ?p ?o } LIMIT 10")
+     (query (repo (native-store "/tmp/sesame-db")) "SELECT * WHERE { ?s ?p ?o } LIMIT 10")
   )
-)
-
-(def sesame-store
-  (repo (native-store "/tmp/sesame-db"))
 )
