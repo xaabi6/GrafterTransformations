@@ -28,6 +28,6 @@
 
 (deftest test-data-quality
   (testing "Query data"
-     (println (query (repo (native-store "/tmp/sesame-db")) "SELECT * WHERE { ?s ?p ?o } LIMIT 10"))
+     (println (query (repo (native-store "./output/celica-data.rdf")) "SELECT * WHERE { ?s ?p ?o } LIMIT 10"))
   )
 )
