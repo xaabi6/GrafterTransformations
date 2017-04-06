@@ -4,7 +4,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - lein test
   - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
   - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
   - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
