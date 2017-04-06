@@ -1,6 +1,7 @@
 (ns graftertransformations.test
   (:require
    [clojure.test :refer :all]
+   [grafter.rdf.repository :refer :all]
    [graftertransformations.pipeline :refer :all]
   )
 )
@@ -27,10 +28,10 @@
 
 (deftest test-data-quality
   (testing "Query data"
-     (grafter.rdf.repository/query sesame-store "SELECT * WHERE { ?s ?p ?o } LIMIT 10")
+     (query sesame-store "SELECT * WHERE { ?s ?p ?o } LIMIT 10")
   )
 )
 
 (def sesame-store
-  (grafter.rdf.repository/repo (grafter.rdf.repository/native-store "/tmp/sesame-db"))
+  (repo (native-store "/tmp/sesame-db"))
 )
