@@ -25,9 +25,3 @@
      )
   )
 )
-
-(deftest test-data-quality
-  (testing "Query data"
-     (println (query (repo (native-store "/tmp/sesame-db")) "SELECT * WHERE { ?s ?p ?o } LIMIT 10"))
-  )
-)

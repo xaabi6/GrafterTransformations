@@ -14,3 +14,10 @@ script:
   - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
   - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
   - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
+  - lein repl
+  - (use 'graftertransformations.querytest)
+  - (def triples (create-triple-store))
+  - (.isEmpty (.getConnection triples))
+  - (insert-triples triples (java.io.File. "output/celica-data.rdf"))
+  - (query-result-set triples (with-common-ns-prefixes (from-file "no-limit")))
+  - (clear-store triples)
