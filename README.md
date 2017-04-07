@@ -17,4 +17,4 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/PROJECTNAME-data.rdf`
 
 ## Travis Tests Results
-[![Build Status](https://travis-ci.org/xaabi6/Grafter-Transformations.svg?branch=master)](https://travis-ci.org/xaabi6/Grafter-Transformations)
+[![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=master)](https://travis-ci.org/xaabi6/GrafterTransformations)
