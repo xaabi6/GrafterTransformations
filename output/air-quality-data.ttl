@@ -1,0 +1,371 @@
+
+<http://opendata.eurohelp.es/station/3-DE-MARZO> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Vitoria-Gasteiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-Tres-de-Marzo-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.271414365E5 , 4.7448828893E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.285604797053618E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.667784994714487E0 .
+
+<http://opendata.eurohelp.es/station/ABANTO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abanto y Ciérvana-Abanto Zierbena"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-del-Minero-2-Ayuntamiento"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.93987175E5 , 4.796406558E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.332047399433485E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.0741559961978044E0 .
+
+<http://opendata.eurohelp.es/station/AGURAIN> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Agurain/Salvatierra"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Fueros-11-Subcomisaría-de-la-Ertzaintza"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.495391393E5 , 4.7442263688E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.284901250588428E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.3937033896081683E0 .
+
+<http://opendata.eurohelp.es/station/ALGORTA-BBIZI2> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Getxo"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Carretera-de-Galea-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> "498154"^^<http://www.w3.org/2001/XMLSchema#int> , "4801022"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3362055748944286E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.0227822073211765E0 .
+
+<http://opendata.eurohelp.es/station/ALONSOTEGI> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Alonsotegi"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Baztieta-s-n-Bº-Irauregi"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.009722158E5 , 4.7883074677E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3247567997964374E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.988024000380936E0 .
+
+<http://opendata.eurohelp.es/station/ARRAIZ-Monte> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Camino-de-Arraiz-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.032086894E5 , 4.7880844656E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3245553729819484E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.960475856567045E0 .
+
+<http://opendata.eurohelp.es/station/ATEGORRIETA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Donostia / San Sebastián"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-Ategorrieta-71"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.842722271E5 , 4.7970969139E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.332199194732484E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.960650618338729E0 .
+
+<http://opendata.eurohelp.es/station/AV-GASTEIZ> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Vitoria-Gasteiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-Gasteiz-97"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.26086031E5 , 4.7447381348E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.285478118366939E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.6807098224581067E0 .
+
+<http://opendata.eurohelp.es/station/AVDA-TOLOSA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Donostia / San Sebastián"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Andrestegi-2"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.80211325E5 , 4.7956504773E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.330941344063433E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.010938423674493E0 .
+
+<http://opendata.eurohelp.es/station/AZPEITIA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Azpeitia"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Perdillegi-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.594723E5 , 4.7811048E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3180370053194196E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.2682104189344456E0 .
+
+<http://opendata.eurohelp.es/station/AÑORGA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Donostia / San Sebastián"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-de-Añorga-12-Añorga-Txiki"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.814690172E5 , 4.7935682345E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.329053138556358E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.9957411467011474E0 .
+
+<http://opendata.eurohelp.es/station/BANDERAS-meteo> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Monte-Banderas-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.037908E5 , 4.7920201E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.328099012364825E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.953278416670214E0 .
+
+<http://opendata.eurohelp.es/station/BARAKALDO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barakaldo"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Hogar-propio-7-CIFP-Nicolás-Larburu"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.010436789E5 , 4.7939502238E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3298378997955E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.987132999827669E0 .
+
+<http://opendata.eurohelp.es/station/BASAURI> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Basauri"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Uribarri-5-CEIP-Bizkotxalde"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.094373144E5 , 4.7875991408E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.324113129588412E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.8837610228035238E0 .
+
+<http://opendata.eurohelp.es/station/BEASAIN> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Beasain"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-Gipuzkoa-1"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.658579851E5 , 4.7664728521E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.304809432240711E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.191380269702985E0 .
+
+<http://opendata.eurohelp.es/station/BOROA-METEO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amorebieta-Etxano"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Parque-Empresarial-Boroa-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.20243146E5 , 4.7870423114E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.323590459584916E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.7506874305174405E0 .
+
+<http://opendata.eurohelp.es/station/CASTREJANA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barakaldo"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Larrazabal-1-Bº-Castrejana"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.021544326E5 , 4.7894750682E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.325807942736176E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.973456590856772E0 .
+
+<http://opendata.eurohelp.es/station/DURANGO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Durango"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-San-Roque-20-bajo-ES-Roque"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.294287974E5 , 4.7795665562E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3168285997690994E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.6379580009450136E0 .
+
+<http://opendata.eurohelp.es/station/EASO> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Donostia / San Sebastián"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-del-Centenario-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.826436267E5 , 4.7959839845E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.331215280742268E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.9809008637096939E0 .
+
+<http://opendata.eurohelp.es/station/ELCIEGO> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elciego"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Gabriel-Celaya-8"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.312571773E5 , 4.7073894714E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.251824807424149E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.61947521199466E0 .
+
+<http://opendata.eurohelp.es/station/ERANDIO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Erandio"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-José-Luis-Goyoaga-s-n-Pasaje-de-Altzaga"@es ;
+	<http://purl.org/linked-data/cube#measureType> "501846"^^<http://www.w3.org/2001/XMLSchema#int> , "4794425"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.33026526345891E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.9772399863752486E0 .
+
+<http://opendata.eurohelp.es/station/EUROPA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Parque-Europa-Bº-Txurdinaga"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.07924189E5 , 4.7891274396E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.325491056506432E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.902376115931137E0 .
+
+<http://opendata.eurohelp.es/station/FARMACIA> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Vitoria-Gasteiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Paseo-Universidad-7-Fac-Farmacia-UPV"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.267579486E5 , 4.7431103681E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2840099615592926E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.672563184280286E0 .
+
+<http://opendata.eurohelp.es/station/FERIA-meteo> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Rafael-Moreno-Pitxitxi-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.042571663E5 , 4.7902692685E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.326522199716327E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.9475439999557134E0 .
+
+<http://opendata.eurohelp.es/station/HERNANI> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Hernani"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Aristizabal-s-n-Centro-de-salud-Hernani"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.829627015E5 , 4.7910206066E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.326743142273141E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.977715640356133E0 .
+
+<http://opendata.eurohelp.es/station/JAIZKIBEL> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Hondarribia"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Monte-Jaizkibel-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.924492822E5 , 4.7995121706E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3342775184321106E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.8594129027945114E0 .
+
+<http://opendata.eurohelp.es/station/LARRABETZU> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Larrabetzu"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Barrio-Berrezoaga-3"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.16281215E5 , 4.78984371E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3261226121618066E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.799399084312731E0 .
+
+<http://opendata.eurohelp.es/station/LAS-CARRERAS> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abanto y Ciérvana-Abanto Zierbena"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-Trinidad-s-n-Bº-Las-Carreras"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.9210256E5 , 4.79631178E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.331960312849335E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.0973975060209376E0 .
+
+<http://opendata.eurohelp.es/station/LEZO> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lezo"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-Polantzarene-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.891799795E5 , 4.79710763E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.332152243586307E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.900131049811533E0 .
+
+<http://opendata.eurohelp.es/station/LLODIO> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Laudio/Llodio"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Lamuza-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.029774251E5 , 4.7768098177E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.31440289422417E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.9633852821260223E0 .
+
+<http://opendata.eurohelp.es/station/LOS-HERRAN> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Vitoria-Gasteiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Parque-Judizmendi-Bº-Judizmendi"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.276824365E5 , 4.7435141634E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.284370295644861E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.661230556636825E0 .
+
+<http://opendata.eurohelp.es/station/MAZARREDO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Alameda-Mazarredo-s-n-Guggenheim"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.052597354E5 , 4.7905235641E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.326750551179745E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.935188110338201E0 .
+
+<http://opendata.eurohelp.es/station/MONDRAGON> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arrasate/Mondragón"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Plaza-Jose-María-Arizmendiarrieta-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.41493746E5 , 4.7680613417E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.306412079434686E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.4903966831445423E0 .
+
+<http://opendata.eurohelp.es/station/MONTORRA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amorebieta-Etxano"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Barrio-Montorra-fte-nº5"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.230219544E5 , 4.7840648793E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3209014222504145E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.7165885073623226E0 .
+
+<http://opendata.eurohelp.es/station/MUNDAKA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mundaka"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Camino-Goitiz-s-n-Depósito-de-Agua"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.240351288E5 , 4.8059324502E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.340588884294258E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.7031593675211343E0 .
+
+<http://opendata.eurohelp.es/station/MUNOA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barakaldo"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Llano-55-CEP-Munoa-Bº-Lutxana"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.0172839E5 , 4.7925298721E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.328558799716144E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.978696000976749E0 .
+
+<http://opendata.eurohelp.es/station/MUSKIZ> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Muskiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Giba-Fregenal-s-n-Estación-de-Renfe"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.908606099E5 , 4.7964366121E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.332071311956527E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.1127162723783197E0 .
+
+<http://opendata.eurohelp.es/station/Mª-DIAZ-HARO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Mª-Díaz-de-Haro-60"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.044108E5 , 4.7895565E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.325880286639215E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.945656664175787E0 .
+
+<http://opendata.eurohelp.es/station/NAUTICA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Portugalete"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Mª-Díaz-de-Haro-68-Esc-Náutica"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.981082533E5 , 4.7971227258E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.332694444265417E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.023333333735672E0 .
+
+<http://opendata.eurohelp.es/station/PAGOETA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aia"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Jardín-Botánico-de-Iturraran-Parque-Natural-de-Pagoeta"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.686032817E5 , 4.7889913758E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.325060521979407E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.1548873966664503E0 .
+
+<http://opendata.eurohelp.es/station/PUYO> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Donostia / San Sebastián"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Camino-de-Puyo-14"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.824040515E5 , 4.7949396966E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3302777170621106E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.9840112864449164E0 .
+
+<http://opendata.eurohelp.es/station/SAN-JULIAN> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Muskiz"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Camino-a-Valles-s-n-Bº-San-Julian"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.908398223E5 , 4.7977623066E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.333265015831669E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.112994770178107E0 .
+
+<http://opendata.eurohelp.es/station/SANGRONIZ> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sondika"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Iturrikosolo-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.056466E5 , 4.7939572E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.329842135635236E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.93038581833024E0 .
+
+<http://opendata.eurohelp.es/station/SANTURCE> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Santurtzi"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "C-Vista-Alegre-29"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.965497975E5 , 4.7977971715E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.333301199742545E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.042560000349237E0 .
+
+<http://opendata.eurohelp.es/station/SERANTES> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Santurtzi"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Camino-Serantes-igoera-s-n"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.948936762E5 , 4.7979564394E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.33344367083824E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.0629905698856272E0 .
+
+<http://opendata.eurohelp.es/station/SESTAO> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sestao"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Parque-Portopin"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.003284875E5 , 4.7949881863E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3307726099387494E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.9959496198447484E0 .
+
+<http://opendata.eurohelp.es/station/TOLOSA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Tolosa"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-Martin-Jose-Iraola-23"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.7499116E5 , 4.77575046E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.313078067861342E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.078002156707588E0 .
+
+<http://opendata.eurohelp.es/station/URKIOLA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abadiño"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Urkiola-auzoa-8"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.2841062E5 , "4772028"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3100442429429606E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.6508700717196243E0 .
+
+<http://opendata.eurohelp.es/station/VALDEREJO> <http://schema.org/addressRegion> "Araba"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valdegovía/Gaubea"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Ctro-de-Interpretación-Parque-Natural-de-Valderejo"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.810736693E5 , 4.7469785075E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.287516709375477E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.231732505322038E0 .
+
+<http://opendata.eurohelp.es/station/ZALLA> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zalla"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Avda-Kosme-Bibanko-Etxebarria-2"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.890781917E5 , 4.7844614469E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.32128572411877E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.134461258966499E0 .
+
+<http://opendata.eurohelp.es/station/ZELAIETA-PARQUE> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amorebieta-Etxano"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Parque-Zelaieta"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.215637353E5 , 4.7851585803E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.321890568490462E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.7344969803118295E0 .
+
+<http://opendata.eurohelp.es/station/ZIERBENA-Puerto> <http://schema.org/addressRegion> "Bizkaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zierbena"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Puerto-de-Zierbena-s-n-Bº-El-Puerto"@es ;
+	<http://purl.org/linked-data/cube#measureType> 4.934367E5 , 4.8000254E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.335305543364201E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.080988277376953E0 .
+
+<http://opendata.eurohelp.es/station/ZUMARRAGA> <http://schema.org/addressRegion> "Gipuzkoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zumarraga"@es ;
+	<http://www.w3.org/2006/vcard/ns#street-address> "Grupo-Izazpi-3-6"@es ;
+	<http://purl.org/linked-data/cube#measureType> 5.55656194E5 , 4.770489269E6 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.308507598449891E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.316228856182885E0 .

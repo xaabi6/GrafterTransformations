@@ -9,6 +9,8 @@
 
 (def base-id (prefixer (base-domain "/resource/")))
 
+(def base-air-quality (prefixer (base-domain "/station/")))
+
 (def base-vocab (prefixer (base-domain "/def/")))
 
 (def base-data (prefixer (base-domain "/data/")))
