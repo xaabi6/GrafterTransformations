@@ -9,14 +9,9 @@ notifications:
     on_failure: never
 
 script:
-  - lein test
-  - lein grafter run graftertransformations.pipeline/convert-air-quality-to-data ./data/air-quality-data.csv ./output/air-quality-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-air-quality-data-to-graph ./data/air-quality-data.csv ./output/air-quality-data.rdf
-  - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
-  - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
   - lein repl
+
+after_script:
   - (use 'graftertransformations.querytest)
   - (def triples (create-triple-store))
   - (.isEmpty (.getConnection triples))
