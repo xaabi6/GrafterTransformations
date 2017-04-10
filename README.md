@@ -1,5 +1,8 @@
 # Grafter Test Transformations
 
+- Travis:    [![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=develop)](https://travis-ci.org/xaabi6/GrafterTransformations)
+- Coveralls: [![Coverage Status](https://coveralls.io/repos/github/xaabi6/GrafterTransformations/badge.svg?branch=master)](https://coveralls.io/github/xaabi6/GrafterTransformations?branch=master)
+
 ## Datasets
 - air-quality
 - celica
@@ -16,6 +19,3 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/PROJECTNAME-data.csv`
 
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/PROJECTNAME-data.rdf`
-
-## Travis Tests Results
-[![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=develop)](https://travis-ci.org/xaabi6/GrafterTransformations)

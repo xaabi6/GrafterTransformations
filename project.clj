@@ -19,7 +19,8 @@
                        ;;"-Xmx4g"
                        ]
 
-  :plugins [[lein-grafter "0.7.0"]]
+  :plugins [[lein-grafter "0.7.0"]
+            [lein-cloverage "1.0.9"]]
   :min-lein-version "2.5.1"
 
   )
