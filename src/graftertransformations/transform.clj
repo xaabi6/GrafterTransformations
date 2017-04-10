@@ -26,7 +26,57 @@
 )
 
 (defn commentary [st]
-    (io/s st)
+  (io/s st)
+)
+
+(defn langSp [st]
+  (io/s st :es)
+)
+
+(defn langEn [st]
+  (io/s st :en)
+)
+
+(defn langVq [st]
+  (io/s st :eu)
+)
+
+(defn removeSymbols [st]
+  (let [replace clojure.string/replace]
+    (-> (str st)
+        clojure.string/trim
+        (replace "(" "-")
+        (replace ")" "")
+        (replace "  " "")
+        (replace "," "-")
+        (replace "." "")
+        (replace " " "-")
+        (replace "/" "-")
+        (replace "'" "")
+        (replace "---" "-")
+        (replace "--" "-")
+     )
+   )
+)
+
+;Convertidor a Float o Integer
+(defmulti parseValue class)
+(defmethod parseValue :default            [x] x)
+(defmethod parseValue nil                 [x] nil)
+(defmethod parseValue java.lang.Character [x] (Character/getNumericValue x))
+(defmethod parseValue java.lang.String    [x] (if (= "" x)
+                                                nil
+                                                (if (.contains x ".")
+                                                  (Double/parseDouble x)
+                                                  (Integer/parseInt x)
+                                                )
+                                              ))
+
+;; AIR QUALITY
+(defn quality-uri [a]
+  (base-air-quality
+    (str (removeSymbols a))
+  )
 )
 
 ;; CELICA

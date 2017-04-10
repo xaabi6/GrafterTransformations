@@ -26,6 +26,25 @@
 ;; convert it into an RDF graphs. This will be the final step in our
 ;; pipeline definition.
 
+;; AIR QUALITY
+(def make-air-quality-graph
+    (graph-fn [{:keys [Name Description Province Town Address CoordenatesX CoordenatesY Latitude Longitude quality-uri] :as row}]
+        (graph (base-graph "Air Quality Basque Country 2017")
+            [quality-uri
+                [qb:Observation]
+                ;;[qb:attribute (langSp Name)]
+                ["http://schema.org/addressRegion" (langVq Province)]
+                [vcard:locality (langSp Town)]
+                [vcard:street-address (langSp Address)]
+                [qb:measureType CoordenatesX]
+                [qb:measureType CoordenatesY]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#lat" Latitude]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#long" Longitude]
+            ]
+        )
+    )
+)
+
 ;; CELICA
 (def make-celica-graph
     (graph-fn [{:keys [brand name generation startedProduction finishedProduction
@@ -96,6 +115,36 @@
 
 ;; Declare pipes so the plugin can find and run them. It's just a
 ;; function from Datasetable -> Dataset.
+
+;; AIR QUALITY
+(defn convert-air-quality-to-data
+  "Pipeline to convert tabular people data into a different tabular format."
+  [data-file]
+  (-> (read-dataset data-file)
+      (make-dataset move-first-row-to-header)
+      (make-dataset [:Name :Description :Province :Town :Address :CoordenatesX :CoordenatesY :Latitude :Longitude])
+      (mapc {
+               :Latitude  parseValue
+               :Longitude parseValue
+               :CoordenatesX  parseValue
+               :CoordenatesY parseValue
+               :Address removeSymbols
+            }
+      )
+      (derive-column :quality-uri [:Name] quality-uri)
+  )
+)
+
+(defn convert-air-quality-data-to-graph
+  "Pipeline to convert the tabular people data sheet into graph data."
+  [dataset]
+  (-> dataset convert-air-quality-to-data make-air-quality-graph missing-data-filter))
+
+(declare-pipeline convert-air-quality-to-data [Dataset -> Dataset]
+                  {data-file "A data file"})
+
+(declare-pipeline convert-air-quality-data-to-graph [Dataset -> (Seq Statement)]
+                  {dataset "The data file to convert into a graph."})
 
 ;; CELICA
 (defn convert-celica-to-data
