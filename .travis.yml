@@ -16,3 +16,6 @@ script:
   - lein grafter run graftertransformations.pipeline/convert-air-quality-data-to-graph ./data/air-quality-data.csv ./output/air-quality-data.rdf
   - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
   - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
+
+after_script:
+  - bash -ex test/coveralls.sh
