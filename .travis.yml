@@ -9,7 +9,7 @@ notifications:
     on_failure: never
 
 script:
-  - lein repl < query-commands-test.txt
+  - lein repl < test/query-commands-test.txt
 
 after_script:
   - bash -ex test/coveralls.sh
