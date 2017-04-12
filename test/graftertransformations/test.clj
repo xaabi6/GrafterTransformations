@@ -1,6 +1,7 @@
 (ns graftertransformations.test
   (:require
    [clojure.test :refer :all]
+   [grafter.rdf.repository :refer :all]
    [graftertransformations.pipeline :refer :all]
   )
 )
