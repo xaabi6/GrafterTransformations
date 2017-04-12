@@ -9,13 +9,7 @@ notifications:
     on_failure: never
 
 script:
-  - lein repl
-  - (use 'graftertransformations.querytest)
-  - (def triples (create-triple-store))
-  - (.isEmpty (.getConnection triples))
-  - (insert-triples triples (java.io.File. "output/celica-data.rdf"))
-  - (query-result-set triples (with-common-ns-prefixes (from-file "no-limit")))
-  - (clear-store triples)
+  - lein repl < query-commands-test.txt
 
 after_script:
   - bash -ex test/coveralls.sh
