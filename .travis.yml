@@ -10,6 +10,7 @@ notifications:
 
 script:
   - lein test
+  - lein repl < test/query-commands-test.txt
   - lein grafter run graftertransformations.pipeline/convert-air-quality-to-data ./data/air-quality-data.csv ./output/air-quality-data.csv
   - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
   - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
