@@ -113,12 +113,32 @@
    )
 )
 
+;; WORK CALENDAR 2017
+(def make-work-calendar-2017-graph
+    (graph-fn [{:keys [Fecha DescripcionES DescripcionEU LugarES LugarEU Territorio CodigoEustat Latitud Longitud calendar-uri] :as row}]
+        (graph (base-graph "Work Calendar of Basque Country 2017")
+            [calendar-uri
+                [qb:Observation]
+                ["http://purl.org/dc/terms/date" (s Fecha)]
+                ["http://purl.org/dc/terms/description" (langSp DescripcionES)]
+                ["http://purl.org/dc/terms/description" (langVq DescripcionEU)]
+                [vcard:locality (langSp LugarES)]
+                [vcard:locality (langVq LugarEU)]
+                ["http://dbpedia.org/ontology/Territory" (s Territorio)]
+                [base-eustatCode CodigoEustat]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#lat" Latitud]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#long" Longitud]
+            ]
+        )
+    )
+)
+
 ;; Declare pipes so the plugin can find and run them. It's just a
 ;; function from Datasetable -> Dataset.
 
 ;; AIR QUALITY
 (defn convert-air-quality-to-data
-  "Pipeline to convert tabular people data into a different tabular format."
+  "Pipeline to convert tabular air quality data into a different tabular format."
   [data-file]
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
@@ -136,7 +156,7 @@
 )
 
 (defn convert-air-quality-data-to-graph
-  "Pipeline to convert the tabular people data sheet into graph data."
+  "Pipeline to convert the tabular air quality data sheet into graph data."
   [dataset]
   (-> dataset convert-air-quality-to-data make-air-quality-graph missing-data-filter))
 
@@ -148,7 +168,7 @@
 
 ;; CELICA
 (defn convert-celica-to-data
-  "Pipeline to convert tabular celica data into a different tabular format."
+  "Pipeline to convert tabular Celica data into a different tabular format."
   [data-file]
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
@@ -203,4 +223,39 @@
                   {data-file "A data file"})
 
 (declare-pipeline convert-people-data-to-graph [Dataset -> (Seq Statement)]
+                  {dataset "The data file to convert into a graph."})
+
+;; WORK CALENDAR 2017
+(defn convert-work-calendar-2017-to-data
+  "Pipeline to convert tabular work calendar data into a different tabular format."
+  [data-file]
+  (-> (read-dataset data-file)
+      (make-dataset move-first-row-to-header)
+      (make-dataset [:Fecha :DescripcionES :DescripcionEU :LugarES :LugarEU
+                     :Territorio :CodigoEustat :Latitud :Longitud])
+      (mapc {
+               :Fecha organizeDate
+               :DescripcionES adaptDescriptions
+               :DescripcionEU adaptDescriptions
+               :LugarES replaceDashes
+               :LugarEU replaceDashes
+               :Territorio replaceDashes
+               :CodigoEustat parseValue
+               :Latitud parseValue
+               :Longitud parseValue
+            }
+      )
+      (derive-column :calendar-uri [:DescripcionEU] calendar-uri)
+  )
+)
+
+(defn convert-work-calendar-2017-data-to-graph
+  "Pipeline to convert the tabular work calendar data sheet into graph data."
+  [dataset]
+  (-> dataset convert-work-calendar-2017-to-data make-work-calendar-2017-graph missing-data-filter))
+
+(declare-pipeline convert-work-calendar-2017-to-data [Dataset -> Dataset]
+                  {data-file "A data file"})
+
+(declare-pipeline convert-work-calendar-2017-data-to-graph [Dataset -> (Seq Statement)]
                   {dataset "The data file to convert into a graph."})

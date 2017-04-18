@@ -29,14 +29,17 @@
   (io/s st)
 )
 
+;Español
 (defn langSp [st]
   (io/s st :es)
 )
 
+;English
 (defn langEn [st]
   (io/s st :en)
 )
 
+;Euskera
 (defn langVq [st]
   (io/s st :eu)
 )
@@ -71,6 +74,15 @@
                                                   (Integer/parseInt x)
                                                 )
                                               ))
+
+;Cambia el formato de la fecha [dd/mm/yyyy ~> yyyy-mm-dd]
+(defn organizeDate [date]
+  (when (seq date)
+    (let [[d m y] (st/split date #"/")]
+      (apply str (interpose "-" [y m d] ))
+    )
+  )
+)
 
 ;; AIR QUALITY
 (defn quality-uri [a]
@@ -206,3 +218,32 @@
 (def base-surname (base-domain "/property/surname"))
 
 (def base-email (base-domain "/property/email"))
+
+;; WORK CALENDAR 2017
+(defn replaceDashes [st]
+  (let [replace clojure.string/replace]
+    (-> (str st)
+        clojure.string/trim
+        (replace " - " "/")
+     )
+   )
+)
+
+(defn adaptDescriptions [st]
+  (let [replace clojure.string/replace]
+    (-> (str st)
+        clojure.string/trim
+        (replace "  " "")
+     )
+   )
+)
+
+(defn calendar-uri [a]
+  (base-calendar
+    (urlify
+      (str a)
+    )
+  )
+)
+
+(def base-eustatCode (base-domain "/property/EustatCode"))
