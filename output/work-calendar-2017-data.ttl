@@ -1,0 +1,2378 @@
+
+<http://opendata.eurohelp.es/jaiegunak/Jaunaren-Agerkundea> <http://purl.org/dc/terms/date> "2017-01-06" ;
+	<http://purl.org/dc/terms/description> "Epifanía del Señor"@es , "Jaunaren Agerkundea"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Ostegun-Santua> <http://purl.org/dc/terms/date> "2017-04-13" ;
+	<http://purl.org/dc/terms/description> "Jueves Santo"@es , "Ostegun Santua"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Ostiral-Santua> <http://purl.org/dc/terms/date> "2017-04-14" ;
+	<http://purl.org/dc/terms/description> "Viernes Santo"@es , "Ostiral Santua"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Pazko-Astelehena> <http://purl.org/dc/terms/date> "2017-04-17" ;
+	<http://purl.org/dc/terms/description> "Lunes de Pascua de Resurrección"@es , "Pazko Astelehena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Langileen-eguna> <http://purl.org/dc/terms/date> "2017-05-01" ;
+	<http://purl.org/dc/terms/description> "Fiesta del trabajo"@es , "Langileen eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Santiago-apostolua> <http://purl.org/dc/terms/date> "2017-07-25" ;
+	<http://purl.org/dc/terms/description> "Santiago Apóstol"@es , "Santiago apostolua"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Ama-Birjinaren-Jasokundea> <http://purl.org/dc/terms/date> "2017-08-15" ;
+	<http://purl.org/dc/terms/description> "Asunción de la Virgen"@es , "Ama Birjinaren Jasokundea"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Festa-Nazionala> <http://purl.org/dc/terms/date> "2017-10-12" ;
+	<http://purl.org/dc/terms/description> "Fiesta Nacional"@es , "Festa Nazionala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Santu-guztien-eguna> <http://purl.org/dc/terms/date> "2017-11-01" ;
+	<http://purl.org/dc/terms/description> "Todos los Santos"@es , "Santu guztien eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Konstituzioaren-eguna> <http://purl.org/dc/terms/date> "2017-12-06" ;
+	<http://purl.org/dc/terms/description> "La Constitución"@es , "Konstituzioaren eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Sorkundez-Garbiaren-eguna> <http://purl.org/dc/terms/date> "2017-12-08" ;
+	<http://purl.org/dc/terms/description> "Inmaculada Concepción"@es , "Sorkundez Garbiaren eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Eguberri-eguna> <http://purl.org/dc/terms/date> "2017-12-25" ;
+	<http://purl.org/dc/terms/description> "Natividad del Señor"@es , "Eguberri eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "CAV"@es , "EAE"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Todos" .
+
+<http://opendata.eurohelp.es/jaiegunak/Loiolako-San-Ignazio> <http://purl.org/dc/terms/date> "2017-07-31" ;
+	<http://purl.org/dc/terms/description> "San Ignacio de Loiola"@es , "Loiolako San Ignazio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bizkaia"@es , "Bizkaia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://purl.org/dc/terms/date> "2017-07-31" ;
+	<http://purl.org/dc/terms/description> "San Ignacio de Loiola"@es , "Loiolako San Ignazio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gipuzkoa"@es , "Gipuzkoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Prudentzio> <http://purl.org/dc/terms/date> "2017-04-28" ;
+	<http://purl.org/dc/terms/description> "San Prudencio"@es , "San Prudentzio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Álava/Araba"@es , "Álava/Araba"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "San Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abadiño"@es , "Abadiño"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.315E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.610278E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antonio> <http://purl.org/dc/terms/date> "2017-06-13" ;
+	<http://purl.org/dc/terms/description> "San Antonio"@es , "San Antonio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abanto y Ciérvana"@es , "Abanto Zierbena"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3316389E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.083333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Asentzio-Eguna> <http://purl.org/dc/terms/date> "2017-05-25" ;
+	<http://purl.org/dc/terms/description> "La Ascensión"@es , "Asentzio Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ajangiz"@es , "Ajangiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "911"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3301E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.671E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolomé> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "San Bartolomé"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Alonsotegi"@es , "Alonsotegi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "912"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3245186E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.988701E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Karmengo-Andra-Mari> <http://purl.org/dc/terms/date> "2017-07-17" ;
+	<http://purl.org/dc/terms/description> "Virgen del Carmen"@es , "Karmengo Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amorebieta-Etxano"@es , "Amorebieta-Etxano"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3226104E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.712628E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Martin-Deuna> <http://purl.org/dc/terms/date> "2017-07-04" ;
+	<http://purl.org/dc/terms/description> "San Martín"@es , "Martin Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amoroto"@es , "Amoroto"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.33285E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.5125E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Mariñe> <http://purl.org/dc/terms/date> "2017-07-18" ;
+	<http://purl.org/dc/terms/description> "Santa Marina"@es , "Santa Mariñe"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arakaldo"@es , "Arakaldo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.314955E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.925086E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arantzazu"@es , "Arantzazu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3152904E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.79043E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Jaun-Done-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "Jaun Done Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Areatza"@es , "Areatza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "93"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3121079E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.767771E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arrankudiaga"@es , "Arrankudiaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3173503E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.917886E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santo-Tomás> <http://purl.org/dc/terms/date> "2017-12-21" ;
+	<http://purl.org/dc/terms/description> "Santu Tomas"@es , "Santo Tomás"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arratzu"@es , "Arratzu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "914"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3311667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.638611E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Mari"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arrieta"@es , "Arrieta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3340362E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.769799E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Madalena> <http://purl.org/dc/terms/date> "2017-07-22" ;
+	<http://purl.org/dc/terms/description> "La Magdalena"@es , "Madalena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arrigorriaga"@es , "Arrigorriaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.320752E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.887839E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Mari"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Artea"@es , "Artea"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3133718E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.784141E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ntra--Sra--De-Traslaviña> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Ntra. Sra. De Traslaviña"@es , "Ntra. Sra. De Traslaviña"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Artzentales"@es , "Artzentales"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3240556E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.241389E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Atxondo"@es , "Atxondo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "91"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3130342E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.585079E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-23" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aulesti"@es , "Aulesti"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "70"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3296084E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.563355E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Mikel Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bakio"@es , "Bakio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3427778E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.811389E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Seberino-deuna> <http://purl.org/dc/terms/date> "2017-10-23" ;
+	<http://purl.org/dc/terms/description> "San Severino"@es , "Seberino deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Balmaseda"@es , "Balmaseda"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3192866E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.196942E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Alejo> <http://purl.org/dc/terms/date> "2017-07-17" ;
+	<http://purl.org/dc/terms/description> "San Alejo"@es , "San Alejo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barakaldo"@es , "Barakaldo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3297222E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.991667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Blas> <http://purl.org/dc/terms/date> "2017-02-03" ;
+	<http://purl.org/dc/terms/description> "San Blas"@es , "San Blas"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barrika"@es , "Barrika"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3406384E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.962425E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Fausto> <http://purl.org/dc/terms/date> "2017-10-13" ;
+	<http://purl.org/dc/terms/description> "San Fausto"@es , "San Fausto"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Basauri"@es , "Basauri"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3233333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.883333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bedia"@es , "Bedia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "92"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3209374E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.804965E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Guzmanezko-Santu-Domingo> <http://purl.org/dc/terms/date> "2017-08-04" ;
+	<http://purl.org/dc/terms/description> "Santo Domingo de Guzmán"@es , "Guzmanezko Santu Domingo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berango"@es , "Berango"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3365899E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.996356E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Almikako-Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Almikako Andra Mari"@es , "Almikako Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bermeo"@es , "Bermeo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3420422E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.722158E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Gregorio> <http://purl.org/dc/terms/date> "2017-05-09" ;
+	<http://purl.org/dc/terms/description> "San Gregorio"@es , "San Gregorio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berriatua"@es , "Berriatua"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3316667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.466667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berriz"@es , "Berriz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3193923E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.589165E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Aste-Nagusiko-Ostirala> <http://purl.org/dc/terms/date> "2017-08-25" ;
+	<http://purl.org/dc/terms/description> "Viernes de la Semana Grande"@es , "Aste Nagusiko Ostirala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bilbao"@es , "Bilbao"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3256963E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.923441E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Kristobal> <http://purl.org/dc/terms/date> "2017-07-10" ;
+	<http://purl.org/dc/terms/description> "San Cristóbal"@es , "San Kristobal"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Busturia"@es , "Busturia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3383E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.697E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Isidor-Nekazari-Deuna> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro Labrador"@es , "Isidor Nekazari Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Derio"@es , "Derio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "901"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3302E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.881833E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Dima"@es , "Dima"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "26"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3143389E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.751464E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Fausto> <http://purl.org/dc/terms/date> "2017-10-13" ;
+	<http://purl.org/dc/terms/description> "San Fausto"@es , "San Fausto"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Durango"@es , "Durango"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3169068E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.632655E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolomé> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "San Bartolomé"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ea"@es , "Ea"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3380135E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.585593E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elantxobe"@es , "Elantxobe"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "31"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3403422E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.6398E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Berrio-Otxoatar-San-Balendin> <http://purl.org/dc/terms/date> "2017-07-04" ;
+	<http://purl.org/dc/terms/description> "San Valentín de Berri-Otxoa"@es , "Berrio-Otxoatar San Balendin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elorrio"@es , "Elorrio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "32"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3130387E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.542155E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Agustin-Deuna> <http://purl.org/dc/terms/date> "2017-08-28" ;
+	<http://purl.org/dc/terms/description> "San Agustín"@es , "Agustin Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Erandio"@es , "Erandio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3307458E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.946418E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Mikel Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ereño"@es , "Ereño"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3356944E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.621667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Zezen-eguna> <http://purl.org/dc/terms/date> "2017-07-27" ;
+	<http://purl.org/dc/terms/description> "Zezen eguna"@es , "Zezen eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ermua"@es , "Ermua"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "34"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3186642E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.502607E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antonio> <http://purl.org/dc/terms/date> "2017-06-13" ;
+	<http://purl.org/dc/terms/description> "San Antonio"@es , "San Antonio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Errigoiti"@es , "Errigoiti"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "79"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3318709E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.725344E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Doneztebe> <http://purl.org/dc/terms/date> "2017-12-26" ;
+	<http://purl.org/dc/terms/description> "San Esteban"@es , "Doneztebe"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Etxebarri"@es , "Etxebarri"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3247179E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.890139E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andres-Deuna> <http://purl.org/dc/terms/date> "2017-11-30" ;
+	<http://purl.org/dc/terms/description> "San Andrés"@es , "Andres Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Etxebarria"@es , "Etxebarria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3254146E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.477354E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Martin-Deuna> <http://purl.org/dc/terms/date> "2017-11-13" ;
+	<http://purl.org/dc/terms/description> "San Martin"@es , "Martin Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Forua"@es , "Forua"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "906"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3333712E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.678589E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jai-eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Fruiz"@es , "Fruiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3328889E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.783333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Gurutze-Santuaren-Gorozpena> <http://purl.org/dc/terms/date> "2017-09-14" ;
+	<http://purl.org/dc/terms/description> "Exaltación de la Santa Cruz"@es , "Gurutze Santuaren Gorozpena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Galdakao"@es , "Galdakao"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3230556E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.845833E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Galdames"@es , "Galdames"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3255E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.096389E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antolin> <http://purl.org/dc/terms/date> "2017-11-11" ;
+	<http://purl.org/dc/terms/description> "San Antolín"@es , "San Antolin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gamiz-Fika"@es , "Gamiz-Fika"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3311728E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.810701E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-06-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Garai"@es , "Garai"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3194722E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.609722E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolome> <http://purl.org/dc/terms/date> "2017-04-25" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "San Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gatika"@es , "Gatika"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3363889E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.871944E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Polikarpo> <http://purl.org/dc/terms/date> "2017-01-26" ;
+	<http://purl.org/dc/terms/description> "San Polikarpo"@es , "San Polikarpo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gautegiz Arteaga"@es , "Gautegiz Arteaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3353104E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.650985E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Roke-Deuna> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "Roke Deuna"@es , "Roke Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gernika-Lumo"@es , "Gernika-Lumo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "46"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3317073E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.678975E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Isidro-Deuna> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "Isidro Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Getxo"@es , "Getxo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3344167E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.006389E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Mari"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gizaburuaga"@es , "Gizaburuaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "47"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.333194E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.536111E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Kosme-eta-San-Damian> <http://purl.org/dc/terms/date> "2017-09-26" ;
+	<http://purl.org/dc/terms/description> "San Cosme y San Damián"@es , "San Kosme eta San Damian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gordexola"@es , "Gordexola"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3178611E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.072778E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Edurne-eta-Agirreko-Andra-Mari> <http://purl.org/dc/terms/date> "2017-08-05" ;
+	<http://purl.org/dc/terms/description> "Nª Sª de Agirre y de las Nieves"@es , "Edurne eta Agirreko Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gorliz"@es , "Gorliz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3416667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.933333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Lorentzo> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "San Lorenzo"@es , "San Lorentzo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Güeñes"@es , "Güeñes"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "45"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3210321E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.095317E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Corpus-Christi> <http://purl.org/dc/terms/date> "2017-06-15" ;
+	<http://purl.org/dc/terms/description> "Corpus Christi"@es , "Corpus Christi"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ibarrangelu"@es , "Ibarrangelu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "48"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3390215E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.633802E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antonio> <http://purl.org/dc/terms/date> "2017-06-13" ;
+	<http://purl.org/dc/terms/description> "San Antonio"@es , "San Antonio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Igorre"@es , "Igorre"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "94"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3165833E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.776111E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ispaster"@es , "Ispaster"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "49"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3362954E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.544635E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Iurreta"@es , "Iurreta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "910"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3176705E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.633777E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Erdoizako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Nuestra Señora de Erdoiza"@es , "Erdoizako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Izurtza"@es , "Izurtza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3152273E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.641978E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Buen-Sucesoko-Ama> <http://purl.org/dc/terms/date> "2017-09-18" ;
+	<http://purl.org/dc/terms/description> "Nuestra Señora del Buen Suceso"@es , "Buen Sucesoko Ama"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Carranza"@es , "Karrantza Harana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3225278E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.359444E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jai-eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Kortezubi"@es , "Kortezubi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "907"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3335982E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.654319E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Edurneko-Andra-Mari> <http://purl.org/dc/terms/date> "2017-08-05" ;
+	<http://purl.org/dc/terms/description> "Nª Sª de las Nieves"@es , "Edurneko Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lanestosa"@es , "Lanestosa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3221169E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.439148E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Isidro-baserritar> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro Labrador"@es , "San Isidro baserritar"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Larrabetzu"@es , "Larrabetzu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "52"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3260973E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.796175E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Mikel Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Laukiz"@es , "Laukiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3353333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.906111E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Leioa"@es , "Leioa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "54"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3326097E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.987704E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antolín> <http://purl.org/dc/terms/date> "2017-09-02" ;
+	<http://purl.org/dc/terms/description> "San Antolín"@es , "San Antolín"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lekeitio"@es , "Lekeitio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "57"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3365509E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.503344E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Maria"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lemoa"@es , "Lemoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3208759E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.774116E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna> <http://purl.org/dc/terms/date> "2017-10-17" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jai-eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lemoiz"@es , "Lemoiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3413244E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.902253E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Maria"@es , "Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lezama"@es , "Lezama"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "81"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3272167E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.832167E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Loiu"@es , "Loiu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "903"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3315E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.938333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Hausterre-eguna> <http://purl.org/dc/terms/date> "2017-03-01" ;
+	<http://purl.org/dc/terms/description> "Miércoles de Ceniza"@es , "Hausterre eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mallabia"@es , "Mallabia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "58"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3189651E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.529969E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Urtsula> <http://purl.org/dc/terms/date> "2017-10-21" ;
+	<http://purl.org/dc/terms/description> "Santa Ursula"@es , "Santa Urtsula"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mañaria"@es , "Mañaria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3137485E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.661135E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Mikel Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Markina-Xemein"@es , "Markina-Xemein"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3270604E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.497155E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Lorentzo-jai-eguna> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "San Lorenzo"@es , "San Lorentzo jai-eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Maruri-Jatabe"@es , "Maruri-Jatabe"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "61"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3382772E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.874989E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mendata"@es , "Mendata"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "62"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3283333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.633333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro-Ad-Vincula> <http://purl.org/dc/terms/date> "2017-08-01" ;
+	<http://purl.org/dc/terms/description> "San Pedro Ad Vincula"@es , "San Pedro Ad Vincula"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mendexa"@es , "Mendexa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3346389E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.483333E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Roke-eguna> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "San Roke eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Meñaka"@es , "Meñaka"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "64"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3364464E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.801795E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Morga"@es , "Morga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "66"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3297932E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.752739E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro-eta-San-Pablo> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro y San Pablo"@es , "San Pedro eta San Pablo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mundaka"@es , "Mundaka"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3407335E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.698322E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mungia"@es , "Mungia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "69"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.335441E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.846714E0 ;
+	<http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Munitibar-Arbatzegi Gerrikaitz"@es , "Munitibar-Arbatzegi Gerrikaitz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3265332E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.591845E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Maria"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Murueta"@es , "Murueta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "908"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3354463E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.684153E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Muskiz"@es , "Muskiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "71"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3323333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.121667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Urriako-azken-astelehena> <http://purl.org/dc/terms/date> "2017-10-30" ;
+	<http://purl.org/dc/terms/description> "Ultimo lunes de octubre"@es , "Urriako azken astelehena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Muxika"@es , "Muxika"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "67"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3289668E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.692941E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Maria"@es , "Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Nabarniz"@es , "Nabarniz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "909"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3321597E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.5844E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Arrantzale-eguna> <http://purl.org/dc/terms/date> "2017-08-17" ;
+	<http://purl.org/dc/terms/description> "Día del pescador"@es , "Arrantzale eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ondarroa"@es , "Ondarroa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "73"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3320698E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.420475E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Antolin-Deuna> <http://purl.org/dc/terms/date> "2017-09-02" ;
+	<http://purl.org/dc/terms/description> "San Antolin"@es , "Antolin Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Orozko"@es , "Orozko"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3108611E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.911111E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Kantalizioko-San-Felix> <http://purl.org/dc/terms/date> "2017-05-18" ;
+	<http://purl.org/dc/terms/description> "San Félix de Cantalicio"@es , "Kantalizioko San Felix"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ortuella"@es , "Ortuella"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "83"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.331137E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.055952E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-07-18" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Otxandio"@es , "Otxandio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "72"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3040447E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.654584E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Madalen> <http://purl.org/dc/terms/date> "2017-07-21" ;
+	<http://purl.org/dc/terms/description> "La Magdalena"@es , "Madalen"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Plentzia"@es , "Plentzia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "77"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.340443E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.950102E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Roke-Deuna> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roke"@es , "Roke Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Portugalete"@es , "Portugalete"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "78"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3320664E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.020252E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Itsasoko-Ama-Birjina> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen del Mar"@es , "Itsasoko Ama Birjina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Santurtzi"@es , "Santurtzi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "82"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3328711E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.031772E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro-Apostol> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro Apostol"@es , "San Pedro Apostol"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sestao"@es , "Sestao"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "84"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3309635E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.00694E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sondika"@es , "Sondika"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "904"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3300063E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.927103E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sopelana"@es , "Sopelana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "85"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3378918E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.983002E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sopuerta"@es , "Sopuerta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "86"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3262778E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.1525E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Andres> <http://purl.org/dc/terms/date> "2017-11-30" ;
+	<http://purl.org/dc/terms/description> "San Andrés"@es , "San Andres"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Sukarrieta"@es , "Sukarrieta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "76"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3395342E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.696367E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Trucios-Turtzioz"@es , "Trucios-Turtzioz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "87"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3272678E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.288545E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ubide"@es , "Ubide"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "88"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3026832E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.688209E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Udiarragako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Nuestra Señora de Udiarraga"@es , "Udiarragako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ugao-Miraballes"@es , "Ugao-Miraballes"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "65"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3179989E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.902508E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Andra Maria"@es , "Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Urduliz"@es , "Urduliz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "89"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3379667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.962E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Otxomaio> <http://purl.org/dc/terms/date> "2017-05-08" ;
+	<http://purl.org/dc/terms/description> "Otxomaio"@es , "Otxomaio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Urduña/Orduña"@es , "Urduña/Orduña"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "74"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2994449E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.009622E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Jaungoikoaren-antzaldatzea> <http://purl.org/dc/terms/date> "2017-08-07" ;
+	<http://purl.org/dc/terms/description> "Transfiguración del Señor"@es , "Jaungoikoaren antzaldatzea"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Trápaga-Trapagaran"@es , "Valle de Trápaga-Trapagaran"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3303108E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.035548E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-07-07" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zaldibar"@es , "Zaldibar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "95"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.317097E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.54713E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mahuka-Eguna> <http://purl.org/dc/terms/date> "2017-10-03" ;
+	<http://purl.org/dc/terms/description> "Día de Gangas"@es , "Mahuka Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zalla"@es , "Zalla"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "96"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3214009E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.135223E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Pentecostés> <http://purl.org/dc/terms/date> "2017-06-05" ;
+	<http://purl.org/dc/terms/description> "Pentecostes"@es , "Pentecostés"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zamudio"@es , "Zamudio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "905"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3283333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.866667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Lorentzo> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "San Lorenzo"@es , "San Lorentzo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zaratamo"@es , "Zaratamo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "97"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3211505E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.873626E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "San Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zeanuri"@es , "Zeanuri"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3099664E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.749615E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Antolin> <http://purl.org/dc/terms/date> "2017-09-02" ;
+	<http://purl.org/dc/terms/description> "San Antolín"@es , "San Antolin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zeberio"@es , "Zeberio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3152778E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.852778E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Zierbenako-Independentziaren-Eguna> <http://purl.org/dc/terms/date> "2017-10-16" ;
+	<http://purl.org/dc/terms/description> "Día de la Independencia de Zierbena"@es , "Zierbenako Independentziaren Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zierbena"@es , "Zierbena"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "913"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3347655E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.086152E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ziortza-Bolibar"@es , "Ziortza-Bolibar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Bizkaia" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "915"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.324982E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.550174E0 ;
+	<http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Abaltzisketa"@es , "Abaltzisketa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3047582E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.105388E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ama-Birjin-jaiak> <http://purl.org/dc/terms/date> "2017-08-14" ;
+	<http://purl.org/dc/terms/description> "Fiestas de la Virgen"@es , "Ama Birjin jaiak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aduna"@es , "Aduna"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3203792E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.050079E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Donato> <http://purl.org/dc/terms/date> "2017-08-07" ;
+	<http://purl.org/dc/terms/description> "San Donato"@es , "San Donato"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aia"@es , "Aia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3236922E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.149008E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aizarnazabal"@es , "Aizarnazabal"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3255405E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.236461E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Jasokundeko-Andra-Mariren-jaiak> <http://purl.org/dc/terms/date> "2017-08-14" ;
+	<http://purl.org/dc/terms/description> "Asunción de la Virgen"@es , "Jasokundeko Andra Mariren jaiak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Albiztur"@es , "Albiztur"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3129723E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.13718E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Karmen-eguna> <http://purl.org/dc/terms/date> "2017-07-14" ;
+	<http://purl.org/dc/terms/description> "La Virgen del Carmen"@es , "Karmen eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Alegia"@es , "Alegia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3100017E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.096273E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Zaindariaren-jaiak> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Zaindariaren jaiak"@es , "Zaindariaren jaiak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Alkiza"@es , "Alkiza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3172434E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.109436E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Altzaga"@es , "Altzaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "906"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.306449E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.153833E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Iñauterietako-astelehena> <http://purl.org/dc/terms/date> "2017-02-27" ;
+	<http://purl.org/dc/terms/description> "Lunes Carnaval"@es , "Iñauterietako astelehena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Altzo"@es , "Altzo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3100072E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.083905E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolome"@es , "San Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amezketa"@es , "Amezketa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3044517E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.083235E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Andoain"@es , "Andoain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.322048E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.021122E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Gorpuzti-eguna> <http://purl.org/dc/terms/date> "2017-06-15" ;
+	<http://purl.org/dc/terms/description> "Corpus Christi"@es , "Gorpuzti-eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Anoeta"@es , "Anoeta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3161467E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.070695E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Uztailaren-3--igandearen-aurreko-ostirala> <http://purl.org/dc/terms/date> "2017-07-14" ;
+	<http://purl.org/dc/terms/description> "Viernes anterior al 3er domingo julio"@es , "Uztailaren 3. igandearen aurreko ostirala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Antzuola"@es , "Antzuola"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3099441E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.381747E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martin> <http://purl.org/dc/terms/date> "2017-11-11" ;
+	<http://purl.org/dc/terms/description> "San Martín"@es , "San Martin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arama"@es , "Arama"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3063637E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.165558E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andramaixak> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "Andra Mari"@es , "Andramaixak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aretxabaleta"@es , "Aretxabaleta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3036248E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.504542E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mondragón"@es , "Arrasate"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3066517E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.487562E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Asteasu"@es , "Asteasu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3195198E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.097548E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Astigarraga"@es , "Astigarraga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "903"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3280652E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.94756E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martín> <http://purl.org/dc/terms/date> "2017-11-11" ;
+	<http://purl.org/dc/terms/description> "San Martín"@es , "San Martín"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ataun/Bº San Martin"@es , "Ataun/San Martin auzoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.300548E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.17662E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Gregorio> <http://purl.org/dc/terms/date> "2017-09-01" ;
+	<http://purl.org/dc/terms/description> "San Gregorio"@es , "San Gregorio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ataun/Bº San Gregorio"@es , "Ataun/San Gregorio auzoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2978091E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.180286E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Isabel-aurreko-ostirala> <http://purl.org/dc/terms/date> "2017-06-30" ;
+	<http://purl.org/dc/terms/description> "Viernes anterior a Santa Isabel"@es , "Santa Isabel aurreko ostirala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ataun/Bº de Aia"@es , "Ataun/Aia auzoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2966249E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.15433E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Andres> <http://purl.org/dc/terms/date> "2017-11-30" ;
+	<http://purl.org/dc/terms/description> "San Andrés"@es , "San Andres"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Azkoitia"@es , "Azkoitia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3178205E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.31164E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Sebastian> <http://purl.org/dc/terms/date> "2017-01-20" ;
+	<http://purl.org/dc/terms/description> "San Sebastián"@es , "San Sebastian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Azpeitia"@es , "Azpeitia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.31839E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.265466E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "San Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Baliarrain"@es , "Baliarrain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "904"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3069306E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.129235E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Loinatz-bigarrena> <http://purl.org/dc/terms/date> "2017-05-29" ;
+	<http://purl.org/dc/terms/description> "San Martin de Loinaz"@es , "Loinatz bigarrena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Beasain"@es , "Beasain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3047076E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.204605E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Beizama"@es , "Beizama"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3134191E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.200113E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan-bezpera> <http://purl.org/dc/terms/date> "2017-06-23" ;
+	<http://purl.org/dc/terms/description> "Víspera de San Juan"@es , "San Juan bezpera"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Belaunza"@es , "Belaunza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3135283E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.050705E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Lorentzo> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "San Lorenzo"@es , "San Lorentzo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berastegi"@es , "Berastegi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3124029E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.979426E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martin-Agirre> <http://purl.org/dc/terms/date> "2017-09-16" ;
+	<http://purl.org/dc/terms/description> "San Martín de Agirre"@es , "San Martin Agirre"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bergara"@es , "Bergara"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "74"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3118217E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.413358E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Agustin> <http://purl.org/dc/terms/date> "2017-08-28" ;
+	<http://purl.org/dc/terms/description> "San Agustín"@es , "San Agustin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berrobi"@es , "Berrobi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3145479E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.026374E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ama-Birjina> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "La Virgen"@es , "Ama Birjina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bidegoian /Goiatz"@es , "Bidegoian /Goiatz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3142086E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.167475E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "San Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bidegoian/Bidania"@es , "Bidegoian/Bidania"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3139399E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.159979E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "San Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Deba"@es , "Deba"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3295562E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.353894E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Sebastian> <http://purl.org/dc/terms/date> "2017-01-20" ;
+	<http://purl.org/dc/terms/description> "San Sebastián"@es , "San Sebastian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "San Sebastián"@es , "Donostia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "69"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3321874E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.98552E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Eibar"@es , "Eibar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.318418E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.473289E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Birjinaren-jaiotza> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "La Natividad de la Virgen"@es , "Birjinaren jaiotza"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elduaien"@es , "Elduaien"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "31"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3140712E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.000488E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ferixa-Nagusiko-jaietako-ostirala> <http://purl.org/dc/terms/date> "2017-06-30" ;
+	<http://purl.org/dc/terms/description> "Viernes fiestas Feria Principal"@es , "Ferixa Nagusiko jaietako ostirala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elgeta"@es , "Elgeta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3136572E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.487392E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Anton> <http://purl.org/dc/terms/date> "2017-01-17" ;
+	<http://purl.org/dc/terms/description> "San Antón"@es , "San Anton"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elgoibar"@es , "Elgoibar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "32"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3215187E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.415702E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Madalena> <http://purl.org/dc/terms/date> "2017-07-22" ;
+	<http://purl.org/dc/terms/description> "María Magdalena"@es , "Madalena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Errenteria"@es , "Errenteria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "67"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3312752E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.899633E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-06-13" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Errezil"@es , "Errezil"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "66"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3164674E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.173594E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Eskoriatza"@es , "Eskoriatza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "34"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3017074E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.52698E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/S--Migelen-Ageraldia> <http://purl.org/dc/terms/date> "2017-05-08" ;
+	<http://purl.org/dc/terms/description> "Aparicion de S. Miguel"@es , "S. Migelen Ageraldia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ezkio-Itsaso/Ezkio"@es , "Ezkio-Itsaso/Ezkio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3080484E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.275421E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ezkio-Itsaso/Sta. Lutzi-Anduaga"@es , "Ezkio-Itsaso/Sta. Lutzi-Anduaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3064321E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.274735E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Madalena> <http://purl.org/dc/terms/date> "2017-07-22" ;
+	<http://purl.org/dc/terms/description> "Maria Madalena"@es , "Madalena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ezkio-Itsaso/Alegia"@es , "Ezkio-Itsaso/Alegia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3058055E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.268215E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ageda-Donea> <http://purl.org/dc/terms/date> "2017-02-05" ;
+	<http://purl.org/dc/terms/description> "Santa Ageda"@es , "Ageda Donea"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ezkio-Itsaso/Matxinbenta"@es , "Ezkio-Itsaso/Matxinbenta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3072544E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.257418E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "San Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gabiria"@es , "Gabiria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3049689E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.279856E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gaintza"@es , "Gaintza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3052629E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.13237E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-08-14" ;
+	<http://purl.org/dc/terms/description> "La Virgen"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Gaztelu"@es , "Gaztelu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "907"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3116579E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.022278E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Salbatore-Deuna> <http://purl.org/dc/terms/date> "2017-08-07" ;
+	<http://purl.org/dc/terms/description> "San Salvador"@es , "Salbatore Deuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Getaria"@es , "Getaria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3303261E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.204363E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Hernani"@es , "Hernani"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3267549E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.975814E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "La Virgen"@es , "Andra Mari"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Hernialde"@es , "Hernialde"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3154467E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.085025E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Ama-Guadalupekoa> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen de Guadalupe"@es , "Ama Guadalupekoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Hondarribia"@es , "Hondarribia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3362531E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.791498E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "San Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ibarra"@es , "Ibarra"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3132345E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.065462E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Blas-biharamuna> <http://purl.org/dc/terms/date> "2017-02-03" ;
+	<http://purl.org/dc/terms/description> "San Blas"@es , "San Blas biharamuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Idiazabal"@es , "Idiazabal"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3011782E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.234214E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Lorentzo> <http://purl.org/dc/terms/date> "2017-08-10" ;
+	<http://purl.org/dc/terms/description> "San Lorenzo"@es , "San Lorentzo"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ikaztegieta"@es , "Ikaztegieta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.309496E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.1239E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martzial> <http://purl.org/dc/terms/date> "2017-06-30" ;
+	<http://purl.org/dc/terms/description> "San Marcial"@es , "San Martzial"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Irun"@es , "Irun"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "45"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3338233E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.789272E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Irura"@es , "Irura"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "46"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3165688E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.069616E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Iraileko-jaiak> <http://purl.org/dc/terms/date> "2017-09-22" ;
+	<http://purl.org/dc/terms/description> "Fiestas de septiembre"@es , "Iraileko jaiak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Itsasondo"@es , "Itsasondo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "47"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3066932E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.167393E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Esteban> <http://purl.org/dc/terms/date> "2017-08-03" ;
+	<http://purl.org/dc/terms/description> "San Esteban"@es , "San Esteban"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Larraul"@es , "Larraul"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "48"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3187739E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.102534E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lasarte"@es , "Lasarte"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3267455E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.020179E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Prudentzio> <http://purl.org/dc/terms/date> "2017-04-28" ;
+	<http://purl.org/dc/terms/description> "San Prudencio"@es , "San Prudentzio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lazkao"@es , "Lazkao"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "49"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3034324E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.187379E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Leaburu"@es , "Leaburu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3124984E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.052106E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santikutz> <http://purl.org/dc/terms/date> "2017-05-03" ;
+	<http://purl.org/dc/terms/description> "Santa Cruz"@es , "Santikutz"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Legazpi"@es , "Legazpi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3054361E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.333641E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Azintzio-eguna> <http://purl.org/dc/terms/date> "2017-05-25" ;
+	<http://purl.org/dc/terms/description> "La Ascensión"@es , "Azintzio eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Legorreta"@es , "Legorreta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "52"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3085794E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.150909E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Dorletako-Ama-Birjina> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen de Dorleta"@es , "Dorletako Ama Birjina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Leintz-Gatzaga"@es , "Leintz-Gatzaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2987112E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.568626E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Gurutze-Santuaren-Gorespena> <http://purl.org/dc/terms/date> "2017-09-14" ;
+	<http://purl.org/dc/terms/description> "Exaltación de la Sta Cruz"@es , "Gurutze Santuaren Gorespena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lezo"@es , "Lezo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3321127E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.898775E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lizartza"@es , "Lizartza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "54"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.310372E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.034254E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mendaro"@es , "Mendaro"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "901"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3264167E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.3755E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mutiloa"@es , "Mutiloa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "57"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.302238E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.272826E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Madalena> <http://purl.org/dc/terms/date> "2017-09-14" ;
+	<http://purl.org/dc/terms/description> "Maria Madalena"@es , "Madalena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Mutriku"@es , "Mutriku"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3307069E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.385083E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Doneztebe> <http://purl.org/dc/terms/date> "2017-08-03" ;
+	<http://purl.org/dc/terms/description> "San Esteban"@es , "Doneztebe"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Oiartzun"@es , "Oiartzun"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3299282E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.857874E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Olaberria"@es , "Olaberria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "58"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3027075E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.203089E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Oñati"@es , "Oñati"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3032888E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.411348E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ordizia"@es , "Ordizia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "76"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3054198E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.178115E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Sebastian> <http://purl.org/dc/terms/date> "2017-01-20" ;
+	<http://purl.org/dc/terms/description> "San Sebastián"@es , "San Sebastian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Orendain"@es , "Orendain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "905"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3079721E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.11429E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Kruz> <http://purl.org/dc/terms/date> "2017-05-03" ;
+	<http://purl.org/dc/terms/description> "Santa Cruz"@es , "Santa Kruz"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Orexa"@es , "Orexa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3093881E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.011392E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Orio"@es , "Orio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "61"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3278323E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.126597E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Andres> <http://purl.org/dc/terms/date> "2017-11-30" ;
+	<http://purl.org/dc/terms/description> "San Andrés"@es , "San Andres"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ormaiztegi"@es , "Ormaiztegi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "62"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3042735E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.255848E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Fermin> <http://purl.org/dc/terms/date> "2017-07-07" ;
+	<http://purl.org/dc/terms/description> "San Fermín"@es , "San Fermin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Pasai Antxo"@es , "Pasai Antxo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "64"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3317534E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.917562E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Pasai Donibane"@es , "Pasai Donibane"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "64"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3327481E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.919883E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Pasai San Pedro"@es , "Pasai San Pedro"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "64"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3323348E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.930432E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Karmen-biharamuna> <http://purl.org/dc/terms/date> "2017-07-17" ;
+	<http://purl.org/dc/terms/description> "Siguiente al Carmen"@es , "Karmen biharamuna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Trintxerpe"@es , "Trintxerpe"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "64"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3326138E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.931587E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Segura"@es , "Segura"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "70"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3009216E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.252519E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Soraluze/P. De Las Armas"@es , "Soraluze/P. De Las Armas"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "65"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.317543E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.412494E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Juan> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "San Juan"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Tolosa"@es , "Tolosa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "71"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3136978E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.073914E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Migel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "San Migel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Urnieta"@es , "Urnieta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "72"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.32482E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -1.990517E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Anastasia> <http://purl.org/dc/terms/date> "2017-09-18" ;
+	<http://purl.org/dc/terms/description> "Santa Anastasia"@es , "Santa Anastasia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Urretxu"@es , "Urretxu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "77"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3092282E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.314383E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ixabel-aurreko-ostirala> <http://purl.org/dc/terms/date> "2017-06-30" ;
+	<http://purl.org/dc/terms/description> "Viernes anterior a Santa Isabel"@es , "Santa Ixabel aurreko ostirala"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Usurbil"@es , "Usurbil"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "73"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3271382E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.049934E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Ana> <http://purl.org/dc/terms/date> "2017-07-26" ;
+	<http://purl.org/dc/terms/description> "Santa Ana"@es , "Santa Ana"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Villabona"@es , "Billabona"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "75"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3189944E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.052453E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Fe> <http://purl.org/dc/terms/date> "2017-10-06" ;
+	<http://purl.org/dc/terms/description> "Santa Fe"@es , "Santa Fe"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zaldibia"@es , "Zaldibia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "78"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3037964E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.150894E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pelaio> <http://purl.org/dc/terms/date> "2017-06-26" ;
+	<http://purl.org/dc/terms/description> "San Pelayo"@es , "San Pelaio"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zarautz"@es , "Zarautz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "79"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3280364E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.171588E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Mendekoste-astelehena> <http://purl.org/dc/terms/date> "2017-06-05" ;
+	<http://purl.org/dc/terms/description> "Lunes de Pentecostés"@es , "Mendekoste astelehena"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zegama"@es , "Zegama"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2975677E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.290072E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "San Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zerain"@es , "Zerain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "26"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3012119E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.274118E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Birjinaren-jaiotza> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Natividad de la Virgen"@es , "Birjinaren jaiotza"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zestoa"@es , "Zestoa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3239442E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.258113E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zizurkil"@es , "Zizurkil"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3199523E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.074073E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zumaia"@es , "Zumaia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "81"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3297258E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.256848E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Isabel> <http://purl.org/dc/terms/date> "2017-07-03" ;
+	<http://purl.org/dc/terms/description> "Santa Isabel"@es , "Santa Isabel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zumarraga"@es , "Zumarraga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Gipuzkoa" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3090476E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.31322E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Blas> <http://purl.org/dc/terms/date> "2017-02-03" ;
+	<http://purl.org/dc/terms/description> "San Blas"@es , "Done Blas"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Alegría-Dulantzi"@es , "Alegria-Dulantzi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2841035E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.512684E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "San Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Amurrio"@es , "Amurrio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3057875E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.998775E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Kristobal> <http://purl.org/dc/terms/date> "2017-07-10" ;
+	<http://purl.org/dc/terms/description> "San Cristóbal"@es , "Done Kristobal"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Añana"@es , "Añana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "49"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2802352E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.982607E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martin> <http://purl.org/dc/terms/date> "2017-07-03" ;
+	<http://purl.org/dc/terms/description> "San Martín"@es , "San Martin"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Aramaio"@es , "Aramaio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3054E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.566E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Martin-Toursekoa> <http://purl.org/dc/terms/date> "2017-11-11" ;
+	<http://purl.org/dc/terms/description> "San Martin de Tours"@es , "San Martin Toursekoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Armiñón"@es , "Armiñón"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2723045E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.872574E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Adrian> <http://purl.org/dc/terms/date> "2017-06-19" ;
+	<http://purl.org/dc/terms/description> "San Adrián"@es , "Done Adrian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arraia-Maeztu"@es , "Arraia-Maeztu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2739815E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.44598E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Esteban> <http://purl.org/dc/terms/date> "2017-12-26" ;
+	<http://purl.org/dc/terms/description> "San Esteban"@es , "Done Esteban"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Arrazua-Ubarrundia"@es , "Arrazua-Ubarrundia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2890278E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.639167E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Arteko-Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen de la Encina"@es , "Arteko Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Artziniega"@es , "Artziniega"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3122201E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.128209E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Petri> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "Done Petri"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Asparrena"@es , "Asparrena"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2895667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.321E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Jakue> <http://purl.org/dc/terms/date> "2017-07-25" ;
+	<http://purl.org/dc/terms/description> "Santiago"@es , "Done Jakue"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Agiñaga"@es , "Aiara/Agiñaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.303508E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.071144E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Ramiro> <http://purl.org/dc/terms/date> "2017-05-22" ;
+	<http://purl.org/dc/terms/description> "San Ramiro"@es , "Done Ramiro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Añes"@es , "Aiara/Añes"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3058414E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.132924E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Mikel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Done Mikel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Beotegi"@es , "Aiara/Beotegi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.308866E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.075259E0 ;
+	<http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Done Mikel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Costera"@es , "Aiara/Opellora"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3102599E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.103772E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Gurutzea> <http://purl.org/dc/terms/date> "2017-05-03" ;
+	<http://purl.org/dc/terms/description> "La Cruz"@es , "Gurutzea"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Erbi"@es , "Aiara/Erbi"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3074143E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.111819E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Antiguako-Ama> <http://purl.org/dc/terms/date> "2017-05-08" ;
+	<http://purl.org/dc/terms/description> "Ntra. Sra. de la Antigua"@es , "Antiguako Ama"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Etxegoien"@es , "Aiara/Etxegoien"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3043726E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.02107E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Julian> <http://purl.org/dc/terms/date> "2017-01-07" ;
+	<http://purl.org/dc/terms/description> "San Julián"@es , "Done Julian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Izoria"@es , "Aiara/Izoria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3061416E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.036324E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Sortzez-Garbiaren-Eguna> <http://purl.org/dc/terms/date> "2017-12-09" ;
+	<http://purl.org/dc/terms/description> "La Inmaculada"@es , "Sortzez Garbiaren Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Lejarzo"@es , "Aiara/Lejarzo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3060158E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.122923E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Jasokundearen-Eguna> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "La Asunción"@es , "Jasokundearen Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Lujo"@es , "Aiara/Luxo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3077952E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.096407E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Magdalena-Eguna> <http://purl.org/dc/terms/date> "2017-07-22" ;
+	<http://purl.org/dc/terms/description> "La Magdalena"@es , "Magdalena Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Luiaondo"@es , "Aiara/Luiaondo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3102723E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.997211E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Jakue> <http://purl.org/dc/terms/date> "2017-07-25" ;
+	<http://purl.org/dc/terms/description> "Santiago"@es , "Done Jakue"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Llanteno"@es , "Aiara/Llanteno"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3091803E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.099984E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Klemente> <http://purl.org/dc/terms/date> "2017-11-23" ;
+	<http://purl.org/dc/terms/description> "San Clemente"@es , "Done Klemente"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Madaria"@es , "Aiara/Madaria"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.304389E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.085953E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Anton> <http://purl.org/dc/terms/date> "2017-01-17" ;
+	<http://purl.org/dc/terms/description> "San Antón"@es , "Done Anton"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Maroño"@es , "Aiara/Maroño"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3055065E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.05901E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Petri> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "Done Petri"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Menagarai"@es , "Aiara/Menagarai"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3096299E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.072769E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Marko> <http://purl.org/dc/terms/date> "2017-04-25" ;
+	<http://purl.org/dc/terms/description> "San Marcos"@es , "Done Marko"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Menoio"@es , "Aiara/Menoio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3069585E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.072926E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Murga"@es , "Aiara/Murga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3075372E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.02559E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Babilas> <http://purl.org/dc/terms/date> "2017-01-24" ;
+	<http://purl.org/dc/terms/description> "San Babilás"@es , "Done Babilas"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Olabezar"@es , "Aiara/Olabezar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3069997E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.014813E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Errosarioko-Andra-Maria> <http://purl.org/dc/terms/date> "2017-10-09" ;
+	<http://purl.org/dc/terms/description> "Ntra. Sra. del Rosario"@es , "Errosarioko Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Ozeka"@es , "Aiara/Ozeka"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3070824E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.090905E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Elurretako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-08-05" ;
+	<http://purl.org/dc/terms/description> "Las Nieves"@es , "Elurretako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Quejana"@es , "Aiara/Kexaa"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3081485E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.063094E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "Done Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Respaldiza"@es , "Aiara/Arespalditza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3078065E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.042931E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Magdalena-Eguna> <http://purl.org/dc/terms/date> "2017-07-22" ;
+	<http://purl.org/dc/terms/description> "La Magdalena"@es , "Magdalena Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Retes de Llanteno"@es , "Aiara/Retes de Llanteno"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3091803E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.099984E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Dona-Marina> <http://purl.org/dc/terms/date> "2017-07-18" ;
+	<http://purl.org/dc/terms/description> "Santa Marina"@es , "Dona Marina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Salmantón"@es , "Aiara/Salmanton"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3052629E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.088347E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Meteri> <http://purl.org/dc/terms/date> "2017-08-30" ;
+	<http://purl.org/dc/terms/description> "San Emeterio"@es , "Done Meteri"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Sojo"@es , "Aiara/Sojo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.309073E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.122839E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Dona-Marina> <http://purl.org/dc/terms/date> "2017-07-18" ;
+	<http://purl.org/dc/terms/description> "Santa Marina"@es , "Dona Marina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ayala/Zuaza"@es , "Aiara/Zuaza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3099672E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.049447E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Kristobal> <http://purl.org/dc/terms/date> "2017-07-10" ;
+	<http://purl.org/dc/terms/description> "San Cristóbal"@es , "Done Kristobal"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Baños de Ebro"@es , "Mañueta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.253029E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.679144E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-26" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Barrundia"@es , "Barrundia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2916667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.491667E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Jaiotzaren-eguna> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "La Natividad"@es , "Jaiotzaren eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Berantevilla"@es , "Berantevilla"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.268245E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.860401E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Santa María Magdalena"@es , "Santa Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Bernedo"@es , "Bernedo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2626684E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.497532E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "Done Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Campezo"@es , "Kanpezu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2691944E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.37E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "La Virgen"@es , "Andra maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Kripan"@es , "Kripan"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2591666E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.516079E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-06-23" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Kuartango"@es , "Kuartango"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2871389E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.885556E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Pedro> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "San Pedro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elburgo"@es , "Burgelu"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2849564E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.544762E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Plazako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen de la Plaza"@es , "Plazako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elciego"@es , "Zieko"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2515073E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.618277E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "Done Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Elvillar"@es , "Bilar"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2570497E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.544915E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/San-Isidro-Nekazaria> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro Labrador"@es , "San Isidro Nekazaria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Arana"@es , "Harana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2752731E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.312303E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Petri> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Pedro"@es , "Done Petri"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Arana/Alda"@es , "Harana/Alda"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2752791E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.33071E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "Done Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Arana/Contrasta"@es , "Harana/Kontrasta"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2770305E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.295079E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Aranako-Done-Bikendi> <http://purl.org/dc/terms/date> "2017-01-22" ;
+	<http://purl.org/dc/terms/description> "San Vicente de Arana"@es , "Aranako Done Bikendi"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Arana/San Vicente De Arana"@es , "Harana/Done Bikendi Arana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2744143E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.360905E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valle de Arana"@es , "Ullibarri-Harana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "56"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.275957E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.319402E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-08-17" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Iruña de Oca/Nanclares de la Oca"@es , "Iruña Oka/Langraiz Oka"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "901"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2817197E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.811518E0 ;
+	<http://purl.org/dc/terms/date> "2017-05-20" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Iruña de Oca/Trespuentes"@es , "Iruña Oka/Tresponde"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "901"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2845544E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.789037E0 ;
+	<http://purl.org/dc/terms/date> "2017-01-10" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Iruña de Oca/Villodas"@es , "Iruña Oka/Billoda"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "901"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.283253E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.787077E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-23" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Iruraiz-Gauna"@es , "Iruraiz-Gauna"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2822072E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.495043E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/2--Esker-Oneko-Eguna> <http://purl.org/dc/terms/date> "2017-11-24" ;
+	<http://purl.org/dc/terms/description> "2º día de Acción de Gracias"@es , "2. Esker Oneko Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Labastida"@es , "Labastida"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2590459E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.792991E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "Done Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lagrán"@es , "Lagrán"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2626395E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.58382E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-29" ;
+	<http://purl.org/dc/terms/description> "San Juan Bautista"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Laguardia"@es , "Laguardia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "31"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2554278E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.584237E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Amabirjina> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen del Campo"@es , "Amabirjina"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lanciego"@es , "Lantziego"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "32"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2562619E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.513204E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Kornelio-eta-Done-Zipri> <http://purl.org/dc/terms/date> "2017-09-18" ;
+	<http://purl.org/dc/terms/description> "Santos Cornelio y Cipriano"@es , "Done Kornelio eta Done Zipri"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lantarón"@es , "Lantarón"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2756673E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.987556E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "Done Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Lapuebla de Labarca"@es , "Lapuebla de Labarca"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2493969E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.573024E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Kofradiak> <http://purl.org/dc/terms/date> "2017-09-11" ;
+	<http://purl.org/dc/terms/description> "La Cofradias"@es , "Kofradiak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Legutio"@es , "Legutiano"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "58"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2977822E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.642724E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Roke> <http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "Done Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Leza"@es , "Leza"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "34"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2566068E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.633635E0 ;
+	<http://purl.org/dc/terms/date> "2017-08-16" ;
+	<http://purl.org/dc/terms/description> "San Roque"@es , "Done Roke"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Llodio"@es , "Laudio"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3143333E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.962985E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Esker-Oneko-eguna> <http://purl.org/dc/terms/date> "2017-08-18" ;
+	<http://purl.org/dc/terms/description> "Acción de Gracias"@es , "Esker Oneko eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Moreda de Alava"@es , "Moreda de Alava"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "39"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2528016E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.40767E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane-Ortegakoa> <http://purl.org/dc/terms/date> "2017-06-02" ;
+	<http://purl.org/dc/terms/description> "San Juan de Ortega"@es , "Done Joane Ortegakoa"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Navaridas"@es , "Nabaridas"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2545171E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.624532E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Bartolome> <http://purl.org/dc/terms/date> "2017-08-24" ;
+	<http://purl.org/dc/terms/description> "San Bartolomé"@es , "Done Bartolome"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Okondo"@es , "Okondo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.3162222E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.018889E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Bikendi-eta-Anastasi-Santuak> <http://purl.org/dc/terms/date> "2017-01-23" ;
+	<http://purl.org/dc/terms/description> "San Vicente y San Anastasio"@es , "Bikendi eta Anastasi Santuak"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Oyón/Oion"@es , "Oyón/Oion"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2506137E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.436965E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Isidro-Nekazaria> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro Labrador"@es , "Done Isidro Nekazaria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Peñacerrada"@es , "Urizaharra"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2644095E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.713374E0 ;
+	<http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro Labrador"@es , "Done Isidro Nekazaria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ribera Alta"@es , "Erribera Goitia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "46"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2807222E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.9175E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna> <http://purl.org/dc/terms/date> "2017-08-28" ;
+	<http://purl.org/dc/terms/description> "Fiesta local"@es , "Tokiko jaieguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Ribera Baja"@es , "Erribera Beitia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "47"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2719678E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.907609E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Joane> <http://purl.org/dc/terms/date> "2017-06-24" ;
+	<http://purl.org/dc/terms/description> "San Juan"@es , "Done Joane"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Salvatierra"@es , "Agurain"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2852442E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.389455E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Haranako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-09-08" ;
+	<http://purl.org/dc/terms/description> "Virgen del Valle"@es , "Haranako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Samaniego"@es , "Samaniego"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "52"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2569832E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.680185E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Milian> <http://purl.org/dc/terms/date> "2017-11-13" ;
+	<http://purl.org/dc/terms/description> "San Millán"@es , "Done Milian"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "San Millán"@es , "Donemiliaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2874722E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.376111E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Errosarioko-Andra-Maria> <http://purl.org/dc/terms/date> "2017-10-02" ;
+	<http://purl.org/dc/terms/description> "Nuestra Señora del Rosario"@es , "Errosarioko Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Urkabustaiz"@es , "Urkabustaiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "54"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2971944E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.922222E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Isidro> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Isidro"@es , "Done Isidro"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Valdegovía"@es , "Valdegovía"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.285E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -3.1E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Torkuato> <http://purl.org/dc/terms/date> "2017-05-15" ;
+	<http://purl.org/dc/terms/description> "San Torcuato"@es , "Done Torkuato"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Villabuena de Álava"@es , "Eskuernaga"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "57"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2548717E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.665456E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Andra-Mari-Zuria> <http://purl.org/dc/terms/date> "2017-08-05" ;
+	<http://purl.org/dc/terms/description> "Virgen Blanca"@es , "Andra Mari Zuria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Vitoria-Gasteiz"@es , "Vitoria-Gasteiz"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2846406E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.667893E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Berzijanako-Andra-Maria> <http://purl.org/dc/terms/date> "2017-08-18" ;
+	<http://purl.org/dc/terms/description> "Nuestra Señora de Bercijana"@es , "Berzijanako Andra Maria"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Yécora"@es , "Ikeora"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2569303E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.470064E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Hargatiko-Eguna> <http://purl.org/dc/terms/date> "2017-06-10" ;
+	<http://purl.org/dc/terms/description> "San Kisimos"@es , "Hargatiko Eguna"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zalduondo"@es , "Zalduondo"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "61"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2885626E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.347254E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Santa-Luzia> <http://purl.org/dc/terms/date> "2017-08-05" ;
+	<http://purl.org/dc/terms/description> "Santa Lucia"@es , "Santa Luzia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zambrana"@es , "Zambrana"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "62"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2659981E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.879353E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Eguzki-Jaia> <http://purl.org/dc/terms/date> "2017-08-04" ;
+	<http://purl.org/dc/terms/description> "Eguzki Jaia"@es , "Eguzki Jaia"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zigoitia"@es , "Zigoitia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.29682E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.7183E0 .
+
+<http://opendata.eurohelp.es/jaiegunak/Done-Mikel> <http://purl.org/dc/terms/date> "2017-09-29" ;
+	<http://purl.org/dc/terms/description> "San Miguel"@es , "Done Mikel"@eu ;
+	<http://www.w3.org/2006/vcard/ns#locality> "Zuia"@es , "Zuia"@eu ;
+	<http://dbpedia.org/ontology/Territory> "Álava/Araba" ;
+	<http://opendata.eurohelp.es/property/EustatCode> "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> 4.2981667E1 ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> -2.844E0 .
