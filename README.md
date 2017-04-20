@@ -4,10 +4,11 @@
 - air-quality
 - celica
 - people
+- work-calendar-2017
 
 ## Usage
 
-As for now, we've got three different transformations, so the pipeline name will always be one of the names in the above list. Files containing data will also start it's name with the name of the above datasets. The same will apply to the transformations functions itself.
+Pipeline name will always be one of the names in the above list. Files containing data will also start it's name with the name of the above datasets. The same will apply to the transformations functions itself.
 
 Below, you will find clear examples of usage, having to replace 'PROJECTNAME' with one of the datasets names ;)
 
