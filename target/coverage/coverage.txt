@@ -1,4 +1,4 @@
 Lines Non-Blank Instrumented Covered Partial
-   16         9       7          7          0 graftertransformations/prefix.clj
-  208       159      91         51          4 graftertransformations/transform.clj
-  206       189     104         23          3 graftertransformations/pipeline.clj
+   18        10       8          8          0 graftertransformations/prefix.clj
+  237       198     111         66          3 graftertransformations/transform.clj
+  301       279     169         42          4 graftertransformations/pipeline.clj
