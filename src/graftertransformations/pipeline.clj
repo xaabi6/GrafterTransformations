@@ -47,33 +47,59 @@
 
 ;; CELICA
 (def make-celica-graph
-    (graph-fn [{:keys [brand name generation startedProduction finishedProduction
-                       platform engineCode version engineSize valves maxTorque traction length width height curbWeight fuelType fuelTank
-                       numberAirbags numberDoors price celica-uri data-uri] :as row}]
+    (graph-fn [{:keys [manufacturer model generation productionStartYear productionEndYear
+                       platform engineCode engine displacement valves torqueOutput traction length width height curbWeight fuelType fuelTank
+                       numberAirbags numberDoors price celica-uri celica-displacement-extended-uri celica-torqueOutput-extended-uri
+                       celica-dimensions-extended-uri celica-curbWeight-extended-uri celica-fuelCapacity-extended-uri
+                       celica-price-extended-uri data-uri] :as row}]
               (graph (base-graph "Celica")
                     [celica-uri
                         [rdf:a "http://dbpedia.org/resource/Car"]
-                        [rdfs:comment (commentary (str "This info is about the " brand " " name " " generation " gen, which engine version is " version))]
-                        [car-manufacturer (s brand)]
-                        [car-name (s name)]
-                        [start-manufacture (integer startedProduction)]
-                        [end-manufacture (integer finishedProduction)]
+                        [rdfs:comment (commentary (str "This info is about the " manufacturer " " model " " generation " gen, which engine version is " engine))]
+                        ["http://dbpedia.org/ontology/manufacturer" (s manufacturer)]
+                        ["http://dbpedia.org/resource/Car_model" (s model)]
+                        ["http://dbpedia.org/ontology/productionStartYear" (integer productionStartYear)]
+                        ["http://dbpedia.org/ontology/productionEndYear" (integer productionEndYear)]
                         [platform-types (s platform)]
                         [engine-code (s engineCode)]
-                        [car-version (s version)]
-                        [engine-size (s (add-cubic-centimetre engineSize))]
-                        [engine-valves (s valves)]
-                        [engine-maxTorque (s (add-revolutions-per-minute maxTorque))]
+                        ["http://dbpedia.org/property/engine" (s engine)]
+                        [engine-displacement celica-displacement-extended-uri]
+                        ["http://dbpedia.org/property/engineValve" (s valves)]
+                        [engine-torque celica-torqueOutput-extended-uri]
                         [car-traction (s traction)]
-                        [measurements-length (s (add-millimeters length))]
-                        [measurements-width (s (add-millimeters width))]
-                        [measurements-height (s (add-millimeters height))]
-                        [measurements-curbWeight (s (add-kilograms curbWeight))]
-                        [car-fuel fuelType]
-                        [car-fuel-tank (s (add-litres fuelTank))]
-                        [car-airbags (integer numberAirbags)]
-                        [car-doors (integer numberDoors)]
-                        [car-price (s (add-euro-symbol price))]
+                        [measurements-size celica-dimensions-extended-uri]
+                        [measurements-curbWeight celica-curbWeight-extended-uri]
+                        ["http://dbpedia.org/ontology/fuelType" fuelType]
+                        [car-fuel-tank celica-fuelCapacity-extended-uri]
+                        ["http://dbpedia.org/resource/Airbag" (integer numberAirbags)]
+                        ["http://dbpedia.org/resource/Cardoor" (integer numberDoors)]
+                        [car-price celica-price-extended-uri]
+                    ]
+                    [celica-displacement-extended-uri
+                        ["http://dbpedia.org/ontology/Engine/displacement" displacement]
+                        [qb:measureType "http://dbpedia.org/resource/Cubic_centimetre"]
+                    ]
+                    [celica-torqueOutput-extended-uri
+                        ["http://dbpedia.org/ontology/Engine/torqueOutput" torqueOutput]
+                        [qb:measureType "http://dbpedia.org/resource/Revolutions_per_minute"]
+                    ]
+                    [celica-dimensions-extended-uri
+                        ["http://live.dbpedia.org/ontology/MeanOfTransportation/length" length]
+                        ["http://live.dbpedia.org/ontology/MeanOfTransportation/width" width]
+                        ["http://live.dbpedia.org/ontology/MeanOfTransportation/height" height]
+                        [qb:measureType "http://dbpedia.org/resource/Millimetre"]
+                    ]
+                    [celica-curbWeight-extended-uri
+                        ["http://dbpedia.org/property/curbWeight" curbWeight]
+                        [qb:measureType "http://dbpedia.org/resource/Kilogram"]
+                    ]
+                    [celica-fuelCapacity-extended-uri
+                        ["http://dbpedia.org/ontology/fuelCapacity" fuelTank]
+                        [qb:measureType "http://dbpedia.org/resource/Litre"]
+                    ]
+                    [celica-price-extended-uri
+                        ["http://dbpedia.org/ontology/price" price]
+                        ["http://dbpedia.org/ontology/Currency" "http://dbpedia.org/resource/Euro"]
                     ]
                     [data-uri
                         [rdfs:comment (commentary (str "All the data references are taken from one model, even though, there are more") )]
@@ -113,12 +139,32 @@
    )
 )
 
+;; WORK CALENDAR 2017
+(def make-work-calendar-2017-graph
+    (graph-fn [{:keys [Fecha DescripcionES DescripcionEU LugarES LugarEU Territorio CodigoEustat Latitud Longitud calendar-uri] :as row}]
+        (graph (base-graph "Work Calendar of Basque Country 2017")
+            [calendar-uri
+                [qb:Observation]
+                ["http://purl.org/dc/terms/date" (s Fecha)]
+                ["http://purl.org/dc/terms/description" (langSp DescripcionES)]
+                ["http://purl.org/dc/terms/description" (langVq DescripcionEU)]
+                [vcard:locality (langSp LugarES)]
+                [vcard:locality (langVq LugarEU)]
+                ["http://dbpedia.org/ontology/Territory" (s Territorio)]
+                [base-eustatCode CodigoEustat]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#lat" Latitud]
+                ["http://www.w3.org/2003/01/geo/wgs84_pos#long" Longitud]
+            ]
+        )
+    )
+)
+
 ;; Declare pipes so the plugin can find and run them. It's just a
 ;; function from Datasetable -> Dataset.
 
 ;; AIR QUALITY
 (defn convert-air-quality-to-data
-  "Pipeline to convert tabular people data into a different tabular format."
+  "Pipeline to convert tabular air quality data into a different tabular format."
   [data-file]
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
@@ -136,7 +182,7 @@
 )
 
 (defn convert-air-quality-data-to-graph
-  "Pipeline to convert the tabular people data sheet into graph data."
+  "Pipeline to convert the tabular air quality data sheet into graph data."
   [dataset]
   (-> dataset convert-air-quality-to-data make-air-quality-graph missing-data-filter))
 
@@ -148,21 +194,35 @@
 
 ;; CELICA
 (defn convert-celica-to-data
-  "Pipeline to convert tabular celica data into a different tabular format."
+  "Pipeline to convert tabular Celica data into a different tabular format."
   [data-file]
   (-> (read-dataset data-file)
       (make-dataset move-first-row-to-header)
-      (make-dataset [:brand :name :generation :startedProduction :finishedProduction
-                     :platform :engineCode :version :engineSize :valves :maxTorque :traction
+      (make-dataset [:manufacturer :model :generation :productionStartYear :productionEndYear
+                     :platform :engineCode :engine :displacement :valves :torqueOutput :traction
                      :length :width :height :curbWeight :fuelType :fuelTank
                      :numberAirbags :numberDoors :price])
       (mapc {:fuelType {"p" (s "Petrol")
                         "d" (s "Diesel")
                        }
+             :displacement parseValue
+             :torqueOutput parseValue
+             :length parseValue
+             :width parseValue
+             :height parseValue
+             :curbWeight parseValue
+             :fuelTank parseValue
+             :price parseValue
             }
       )
-      (derive-column :celica-uri [:brand :name :generation :version] celica-uri)
-      (derive-column :data-uri [:brand :name] data-uri)
+      (derive-column :celica-uri [:manufacturer :model :generation :engine] celica-uri)
+      (derive-column :celica-displacement-extended-uri [:manufacturer :model :generation :engine :displacement] celica-displacement-extended-uri)
+      (derive-column :celica-torqueOutput-extended-uri [:manufacturer :model :generation :engine :torqueOutput] celica-torqueOutput-extended-uri)
+      (derive-column :celica-dimensions-extended-uri [:manufacturer :model :generation :engine :length :width :height] celica-dimensions-extended-uri)
+      (derive-column :celica-curbWeight-extended-uri [:manufacturer :model :generation :engine :curbWeight] celica-curbWeight-extended-uri)
+      (derive-column :celica-fuelCapacity-extended-uri [:manufacturer :model :generation :engine :fuelTank] celica-fuelCapacity-extended-uri)
+      (derive-column :celica-price-extended-uri [:manufacturer :model :generation :engine :price] celica-price-extended-uri)
+      (derive-column :data-uri [:manufacturer :model] data-uri)
   )
 )
 
@@ -203,4 +263,39 @@
                   {data-file "A data file"})
 
 (declare-pipeline convert-people-data-to-graph [Dataset -> (Seq Statement)]
+                  {dataset "The data file to convert into a graph."})
+
+;; WORK CALENDAR 2017
+(defn convert-work-calendar-2017-to-data
+  "Pipeline to convert tabular work calendar data into a different tabular format."
+  [data-file]
+  (-> (read-dataset data-file)
+      (make-dataset move-first-row-to-header)
+      (make-dataset [:Fecha :DescripcionES :DescripcionEU :LugarES :LugarEU
+                     :Territorio :CodigoEustat :Latitud :Longitud])
+      (mapc {
+               :Fecha organizeDate
+               :DescripcionES adaptDescriptions
+               :DescripcionEU adaptDescriptions
+               :LugarES replaceDashes
+               :LugarEU replaceDashes
+               :Territorio replaceDashes
+               :CodigoEustat parseValue
+               :Latitud parseValue
+               :Longitud parseValue
+            }
+      )
+      (derive-column :calendar-uri [:DescripcionEU] calendar-uri)
+  )
+)
+
+(defn convert-work-calendar-2017-data-to-graph
+  "Pipeline to convert the tabular work calendar data sheet into graph data."
+  [dataset]
+  (-> dataset convert-work-calendar-2017-to-data make-work-calendar-2017-graph missing-data-filter))
+
+(declare-pipeline convert-work-calendar-2017-to-data [Dataset -> Dataset]
+                  {data-file "A data file"})
+
+(declare-pipeline convert-work-calendar-2017-data-to-graph [Dataset -> (Seq Statement)]
                   {dataset "The data file to convert into a graph."})

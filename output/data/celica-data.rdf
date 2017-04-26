@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-1-1-4">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 1 gen, which engine version is 1.4</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1970</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1977</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A20/30</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.4</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-1-1-4-1407"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-1-1-4-3800"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-1-1-4-4170-1600-1300"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-1-1-4-890"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-1-1-4-50"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-1-1-4-"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-1-1-4-1407">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1407</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-1-1-4-3800">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3800</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-1-1-4-4170-1600-1300">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4170</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1600</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1300</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-1-1-4-890">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">890</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-1-1-4-50">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-1-1-4-">
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-2-1-6">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 2 gen, which engine version is 1.6</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1977</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1981</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A40/50</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2T</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-2-1-6-1588"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-2-1-6-3600"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-2-1-6-4410-1640-1310"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-2-1-6-1060"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-2-1-6-61"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-2-1-6-"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-2-1-6-1588">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1588</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-2-1-6-3600">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3600</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-2-1-6-4410-1640-1310">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4410</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1640</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1310</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-2-1-6-1060">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1060</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-2-1-6-61">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-2-1-6-">
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-3-1-6">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 3 gen, which engine version is 1.6</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1981</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1985</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A60</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2T-B</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-3-1-6-1588"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-3-1-6-4000"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-3-1-6-4435-1665-1310"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-3-1-6-1095"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-3-1-6-61"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-3-1-6-"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-3-1-6-1588">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1588</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-3-1-6-4000">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4000</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-3-1-6-4435-1665-1310">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4435</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1665</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1310</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-3-1-6-1095">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1095</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-3-1-6-61">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-3-1-6-">
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-4-1-6-ST">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 4 gen, which engine version is 1.6 ST</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1985</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1989</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T160</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4A-GE</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6 ST</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-4-1-6-ST-1587"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-4-1-6-ST-3600"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-4-1-6-ST-4365-1710-1260"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-4-1-6-ST-1032"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-4-1-6-ST-60"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-4-1-6-ST-"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-4-1-6-ST-1587">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1587</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-4-1-6-ST-3600">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3600</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-4-1-6-ST-4365-1710-1260">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4365</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1710</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1260</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-4-1-6-ST-1032">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1032</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-4-1-6-ST-60">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-4-1-6-ST-">
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-5-1-6-STi">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 5 gen, which engine version is 1.6 STi</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1989</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1993</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T180</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4A-FE</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.6 STi</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-5-1-6-STi-1587"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-5-1-6-STi-3200"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-5-1-6-STi-4420-1745-1300"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-5-1-6-STi-1000"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-5-1-6-STi-60"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-5-1-6-STi-"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-5-1-6-STi-1587">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1587</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-5-1-6-STi-3200">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3200</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-5-1-6-STi-4420-1745-1300">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4420</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1745</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1300</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-5-1-6-STi-1000">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1000</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-5-1-6-STi-60">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-5-1-6-STi-">
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-6-1-8i">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 6 gen, which engine version is 1.8i</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1993</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1999</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T200</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7A-FE</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.8i</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-6-1-8i-1762"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-6-1-8i-4400"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-6-1-8i-4420-1750-1300"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-6-1-8i-1170"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-6-1-8i-60"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-6-1-8i-18750"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-6-1-8i-1762">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1762</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-6-1-8i-4400">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4400</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-6-1-8i-4420-1750-1300">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4420</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1750</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1300</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-6-1-8i-1170">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1170</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-6-1-8i-60">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-6-1-8i-18750">
+	<price xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18750</price>
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-7-1-8-VVT-i">
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Car"/>
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This info is about the Toyota Celica 7 gen, which engine version is 1.8 VVT-i</comment>
+	<manufacturer xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toyota</manufacturer>
+	<Car_model xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celica</Car_model>
+	<productionStartYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1999</productionStartYear>
+	<productionEndYear xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2006</productionEndYear>
+	<platform xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T230</platform>
+	<engineCode xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1ZZ-FE</engineCode>
+	<engine xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.8 VVT-i</engine>
+	<engineDisplacement xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-7-1-8-VVT-i-1794"/>
+	<engineValve xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</engineValve>
+	<engineTorque xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-7-1-8-VVT-i-4200"/>
+	<traction xmlns="http://opendata.eurohelp.es/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWD</traction>
+	<size xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-7-1-8-VVT-i-4335-1735-1310"/>
+	<curbWeight xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-7-1-8-VVT-i-1202"/>
+	<fuelType xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrol</fuelType>
+	<fuelTank xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-7-1-8-VVT-i-55"/>
+	<Airbag xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</Airbag>
+	<Cardoor xmlns="http://dbpedia.org/resource/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Cardoor>
+	<priceSpain xmlns="http://opendata.eurohelp.es/property/" rdf:resource="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-7-1-8-VVT-i-23440"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-7-1-8-VVT-i-1794">
+	<displacement xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1794</displacement>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Cubic_centimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-7-1-8-VVT-i-4200">
+	<torqueOutput xmlns="http://dbpedia.org/ontology/Engine/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4200</torqueOutput>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Revolutions_per_minute"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-7-1-8-VVT-i-4335-1735-1310">
+	<length xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4335</length>
+	<width xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1735</width>
+	<height xmlns="http://live.dbpedia.org/ontology/MeanOfTransportation/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1310</height>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Millimetre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-7-1-8-VVT-i-1202">
+	<curbWeight xmlns="http://dbpedia.org/property/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1202</curbWeight>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Kilogram"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-7-1-8-VVT-i-55">
+	<fuelCapacity xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</fuelCapacity>
+	<measureType xmlns="http://purl.org/linked-data/cube#" rdf:resource="http://dbpedia.org/resource/Litre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-7-1-8-VVT-i-23440">
+	<price xmlns="http://dbpedia.org/ontology/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23440</price>
+	<Currency xmlns="http://dbpedia.org/ontology/" rdf:resource="http://dbpedia.org/resource/Euro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://opendata.eurohelp.es/resource/Car/Toyota-Celica">
+	<comment xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All the data references are taken from one model, even though, there are more</comment>
+</rdf:Description>
+
+</rdf:RDF>

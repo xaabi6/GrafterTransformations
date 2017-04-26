@@ -11,6 +11,8 @@
 
 (def base-air-quality (prefixer (base-domain "/station/")))
 
+(def base-calendar (prefixer (base-domain "/jaiegunak/")))
+
 (def base-vocab (prefixer (base-domain "/def/")))
 
 (def base-data (prefixer (base-domain "/data/")))

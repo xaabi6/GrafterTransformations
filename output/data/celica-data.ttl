@@ -1,0 +1,296 @@
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-1-1-4> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 1 gen, which engine version is 1.4" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1970"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A20/30" ;
+	<http://opendata.eurohelp.es/property/engineCode> "T" ;
+	<http://dbpedia.org/property/engine> "1.4" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-1-1-4-1407> ;
+	<http://dbpedia.org/property/engineValve> "8" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-1-1-4-3800> ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-1-1-4-4170-1600-1300> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-1-1-4-890> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-1-1-4-50> ;
+	<http://dbpedia.org/resource/Airbag> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-1-1-4-> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-1-1-4-1407> <http://dbpedia.org/ontology/Engine/displacement> "1407"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-1-1-4-3800> <http://dbpedia.org/ontology/Engine/torqueOutput> "3800"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-1-1-4-4170-1600-1300> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4170"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-1-1-4-890> <http://dbpedia.org/property/curbWeight> "890"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-1-1-4-50> <http://dbpedia.org/ontology/fuelCapacity> "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-1-1-4-> <http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-2-1-6> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 2 gen, which engine version is 1.6" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1981"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A40/50" ;
+	<http://opendata.eurohelp.es/property/engineCode> "2T" ;
+	<http://dbpedia.org/property/engine> "1.6" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-2-1-6-1588> ;
+	<http://dbpedia.org/property/engineValve> "8" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-2-1-6-3600> ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-2-1-6-4410-1640-1310> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-2-1-6-1060> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-2-1-6-61> ;
+	<http://dbpedia.org/resource/Airbag> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-2-1-6-> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-2-1-6-1588> <http://dbpedia.org/ontology/Engine/displacement> "1588"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-2-1-6-3600> <http://dbpedia.org/ontology/Engine/torqueOutput> "3600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-2-1-6-4410-1640-1310> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4410"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-2-1-6-1060> <http://dbpedia.org/property/curbWeight> "1060"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-2-1-6-61> <http://dbpedia.org/ontology/fuelCapacity> "61"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-2-1-6-> <http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-3-1-6> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 3 gen, which engine version is 1.6" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1981"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1985"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "A60" ;
+	<http://opendata.eurohelp.es/property/engineCode> "2T-B" ;
+	<http://dbpedia.org/property/engine> "1.6" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-3-1-6-1588> ;
+	<http://dbpedia.org/property/engineValve> "8" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-3-1-6-4000> ;
+	<http://opendata.eurohelp.es/property/traction> "RWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-3-1-6-4435-1665-1310> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-3-1-6-1095> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-3-1-6-61> ;
+	<http://dbpedia.org/resource/Airbag> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-3-1-6-> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-3-1-6-1588> <http://dbpedia.org/ontology/Engine/displacement> "1588"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-3-1-6-4000> <http://dbpedia.org/ontology/Engine/torqueOutput> "4000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-3-1-6-4435-1665-1310> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4435"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1665"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-3-1-6-1095> <http://dbpedia.org/property/curbWeight> "1095"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-3-1-6-61> <http://dbpedia.org/ontology/fuelCapacity> "61"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-3-1-6-> <http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-4-1-6-ST> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 4 gen, which engine version is 1.6 ST" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1985"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1989"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T160" ;
+	<http://opendata.eurohelp.es/property/engineCode> "4A-GE" ;
+	<http://dbpedia.org/property/engine> "1.6 ST" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-4-1-6-ST-1587> ;
+	<http://dbpedia.org/property/engineValve> "8" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-4-1-6-ST-3600> ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-4-1-6-ST-4365-1710-1260> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-4-1-6-ST-1032> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-4-1-6-ST-60> ;
+	<http://dbpedia.org/resource/Airbag> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-4-1-6-ST-> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-4-1-6-ST-1587> <http://dbpedia.org/ontology/Engine/displacement> "1587"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-4-1-6-ST-3600> <http://dbpedia.org/ontology/Engine/torqueOutput> "3600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-4-1-6-ST-4365-1710-1260> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4365"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1710"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1260"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-4-1-6-ST-1032> <http://dbpedia.org/property/curbWeight> "1032"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-4-1-6-ST-60> <http://dbpedia.org/ontology/fuelCapacity> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-4-1-6-ST-> <http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-5-1-6-STi> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 5 gen, which engine version is 1.6 STi" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1989"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T180" ;
+	<http://opendata.eurohelp.es/property/engineCode> "4A-FE" ;
+	<http://dbpedia.org/property/engine> "1.6 STi" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-5-1-6-STi-1587> ;
+	<http://dbpedia.org/property/engineValve> "16" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-5-1-6-STi-3200> ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-5-1-6-STi-4420-1745-1300> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-5-1-6-STi-1000> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-5-1-6-STi-60> ;
+	<http://dbpedia.org/resource/Airbag> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-5-1-6-STi-> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-5-1-6-STi-1587> <http://dbpedia.org/ontology/Engine/displacement> "1587"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-5-1-6-STi-3200> <http://dbpedia.org/ontology/Engine/torqueOutput> "3200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-5-1-6-STi-4420-1745-1300> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4420"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1745"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-5-1-6-STi-1000> <http://dbpedia.org/property/curbWeight> "1000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-5-1-6-STi-60> <http://dbpedia.org/ontology/fuelCapacity> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-5-1-6-STi-> <http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-6-1-8i> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 6 gen, which engine version is 1.8i" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "1999"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T200" ;
+	<http://opendata.eurohelp.es/property/engineCode> "7A-FE" ;
+	<http://dbpedia.org/property/engine> "1.8i" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-6-1-8i-1762> ;
+	<http://dbpedia.org/property/engineValve> "16" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-6-1-8i-4400> ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-6-1-8i-4420-1750-1300> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-6-1-8i-1170> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-6-1-8i-60> ;
+	<http://dbpedia.org/resource/Airbag> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-6-1-8i-18750> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-6-1-8i-1762> <http://dbpedia.org/ontology/Engine/displacement> "1762"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-6-1-8i-4400> <http://dbpedia.org/ontology/Engine/torqueOutput> "4400"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-6-1-8i-4420-1750-1300> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4420"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-6-1-8i-1170> <http://dbpedia.org/property/curbWeight> "1170"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-6-1-8i-60> <http://dbpedia.org/ontology/fuelCapacity> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-6-1-8i-18750> <http://dbpedia.org/ontology/price> "18750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .
+
+<http://opendata.eurohelp.es/resource/Car/Specifications/Toyota-Celica-7-1-8-VVT-i> a <http://dbpedia.org/resource/Car> ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "This info is about the Toyota Celica 7 gen, which engine version is 1.8 VVT-i" ;
+	<http://dbpedia.org/ontology/manufacturer> "Toyota" ;
+	<http://dbpedia.org/resource/Car_model> "Celica" ;
+	<http://dbpedia.org/ontology/productionStartYear> "1999"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/productionEndYear> "2006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/platform> "T230" ;
+	<http://opendata.eurohelp.es/property/engineCode> "1ZZ-FE" ;
+	<http://dbpedia.org/property/engine> "1.8 VVT-i" ;
+	<http://opendata.eurohelp.es/property/engineDisplacement> <http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-7-1-8-VVT-i-1794> ;
+	<http://dbpedia.org/property/engineValve> "16" ;
+	<http://opendata.eurohelp.es/property/engineTorque> <http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-7-1-8-VVT-i-4200> ;
+	<http://opendata.eurohelp.es/property/traction> "FWD" ;
+	<http://opendata.eurohelp.es/property/size> <http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-7-1-8-VVT-i-4335-1735-1310> ;
+	<http://opendata.eurohelp.es/property/curbWeight> <http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-7-1-8-VVT-i-1202> ;
+	<http://dbpedia.org/ontology/fuelType> "Petrol" ;
+	<http://opendata.eurohelp.es/property/fuelTank> <http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-7-1-8-VVT-i-55> ;
+	<http://dbpedia.org/resource/Airbag> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/resource/Cardoor> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://opendata.eurohelp.es/property/priceSpain> <http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-7-1-8-VVT-i-23440> .
+
+<http://opendata.eurohelp.es/resource/Car/displacement/Toyota-Celica-7-1-8-VVT-i-1794> <http://dbpedia.org/ontology/Engine/displacement> "1794"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Cubic_centimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/torqueOutput/Toyota-Celica-7-1-8-VVT-i-4200> <http://dbpedia.org/ontology/Engine/torqueOutput> "4200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Revolutions_per_minute> .
+
+<http://opendata.eurohelp.es/resource/Car/dimensions/Toyota-Celica-7-1-8-VVT-i-4335-1735-1310> <http://live.dbpedia.org/ontology/MeanOfTransportation/length> "4335"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/width> "1735"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://live.dbpedia.org/ontology/MeanOfTransportation/height> "1310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Millimetre> .
+
+<http://opendata.eurohelp.es/resource/Car/curbWeight/Toyota-Celica-7-1-8-VVT-i-1202> <http://dbpedia.org/property/curbWeight> "1202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Kilogram> .
+
+<http://opendata.eurohelp.es/resource/Car/fuelCapacity/Toyota-Celica-7-1-8-VVT-i-55> <http://dbpedia.org/ontology/fuelCapacity> "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://purl.org/linked-data/cube#measureType> <http://dbpedia.org/resource/Litre> .
+
+<http://opendata.eurohelp.es/resource/Car/price/Toyota-Celica-7-1-8-VVT-i-23440> <http://dbpedia.org/ontology/price> "23440"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://dbpedia.org/ontology/Currency> <http://dbpedia.org/resource/Euro> .
+
+<http://opendata.eurohelp.es/resource/Car/Toyota-Celica> <http://www.w3.org/2000/01/rdf-schema#comment> "All the data references are taken from one model, even though, there are more" .

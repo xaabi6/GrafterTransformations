@@ -11,12 +11,14 @@ notifications:
 script:
   - lein test
   - lein repl < test/query-commands-test.txt
-  - lein grafter run graftertransformations.pipeline/convert-air-quality-to-data ./data/air-quality-data.csv ./output/air-quality-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/celica-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/people-data.csv
-  - lein grafter run graftertransformations.pipeline/convert-air-quality-data-to-graph ./data/air-quality-data.csv ./output/air-quality-data.rdf
-  - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/celica-data.rdf
-  - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/celica-data.rdf
+  - lein grafter run graftertransformations.pipeline/convert-air-quality-to-data ./data/air-quality-data.csv ./output/data/air-quality-data.csv
+  - lein grafter run graftertransformations.pipeline/convert-celica-to-data ./data/celica-data.csv ./output/data/celica-data.csv
+  - lein grafter run graftertransformations.pipeline/convert-people-to-data ./data/people-data.csv ./output/data/people-data.csv
+  - lein grafter run graftertransformations.pipeline/convert-work-calendar-2017-to-data ./data/work-calendar-2017-data.csv ./output/data/work-calendar-2017-data.csv
+  - lein grafter run graftertransformations.pipeline/convert-air-quality-data-to-graph ./data/air-quality-data.csv ./output/data/air-quality-data.rdf
+  - lein grafter run graftertransformations.pipeline/convert-celica-data-to-graph ./data/celica-data.csv ./output/data/celica-data.rdf
+  - lein grafter run graftertransformations.pipeline/convert-people-data-to-graph ./data/people-data.csv ./output/data/people-data.rdf
+  - lein grafter run graftertransformations.pipeline/convert-work-calendar-2017-data-to-graph ./data/work-calendar-2017-data.csv ./output/data/work-calendar-2017-data.rdf
 
 after_script:
   - bash -ex test/coveralls.sh

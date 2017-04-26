@@ -1,0 +1,305 @@
+Fecha,DescripcionES,DescripcionEU,LugarES,LugarEU,Territorio,CodigoEustat,Latitud,Longitud,calendar-uri
+2017-01-06,Epifanía del Señor,Jaunaren Agerkundea,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Jaunaren-Agerkundea
+2017-04-13,Jueves Santo,Ostegun Santua,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Ostegun-Santua
+2017-04-14,Viernes Santo,Ostiral Santua,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Ostiral-Santua
+2017-04-17,Lunes de Pascua de Resurrección,Pazko Astelehena,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Pazko-Astelehena
+2017-05-01,Fiesta del trabajo,Langileen eguna,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Langileen-eguna
+2017-07-25,Santiago Apóstol,Santiago apostolua,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Santiago-apostolua
+2017-08-15,Asunción de la Virgen,Ama Birjinaren Jasokundea,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Ama-Birjinaren-Jasokundea
+2017-10-12,Fiesta Nacional,Festa Nazionala,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Festa-Nazionala
+2017-11-01,Todos los Santos,Santu guztien eguna,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Santu-guztien-eguna
+2017-12-06,La Constitución,Konstituzioaren eguna,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Konstituzioaren-eguna
+2017-12-08,Inmaculada Concepción,Sorkundez Garbiaren eguna,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Sorkundez-Garbiaren-eguna
+2017-12-25,Natividad del Señor,Eguberri eguna,CAV,EAE,Todos,,,,http://opendata.eurohelp.es/jaiegunak/Eguberri-eguna
+2017-07-31,San Ignacio de Loiola,Loiolako San Ignazio,Bizkaia,Bizkaia,Bizkaia,,,,http://opendata.eurohelp.es/jaiegunak/Loiolako-San-Ignazio
+2017-07-31,San Ignacio de Loiola,Loiolako San Ignazio,Gipuzkoa,Gipuzkoa,Gipuzkoa,,,,http://opendata.eurohelp.es/jaiegunak/Loiolako-San-Ignazio
+2017-04-28,San Prudencio,San Prudentzio,Álava/Araba,Álava/Araba,Álava/Araba,,,,http://opendata.eurohelp.es/jaiegunak/San-Prudentzio
+2017-05-15,San Isidro,San Isidro,Abadiño,Abadiño,Bizkaia,1,43.15,-2.610278,http://opendata.eurohelp.es/jaiegunak/San-Isidro
+2017-06-13,San Antonio,San Antonio,Abanto y Ciérvana,Abanto Zierbena,Bizkaia,2,43.316389,-3.083333,http://opendata.eurohelp.es/jaiegunak/San-Antonio
+2017-05-25,La Ascensión,Asentzio Eguna,Ajangiz,Ajangiz,Bizkaia,911,43.301,-2.671,http://opendata.eurohelp.es/jaiegunak/Asentzio-Eguna
+2017-08-24,San Bartolomé,San Bartolomé,Alonsotegi,Alonsotegi,Bizkaia,912,43.245186,-2.988701,http://opendata.eurohelp.es/jaiegunak/San-Bartolomé
+2017-07-17,Virgen del Carmen,Karmengo Andra Mari,Amorebieta-Etxano,Amorebieta-Etxano,Bizkaia,3,43.226104,-2.712628,http://opendata.eurohelp.es/jaiegunak/Karmengo-Andra-Mari
+2017-07-04,San Martín,Martin Deuna,Amoroto,Amoroto,Bizkaia,4,43.3285,-2.5125,http://opendata.eurohelp.es/jaiegunak/Martin-Deuna
+2017-07-18,Santa Marina,Santa Mariñe,Arakaldo,Arakaldo,Bizkaia,5,43.14955,-2.925086,http://opendata.eurohelp.es/jaiegunak/Santa-Mariñe
+2017-06-29,San Pedro,San Pedro,Arantzazu,Arantzazu,Bizkaia,6,43.152904,-2.79043,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-08-24,San Bartolomé,Jaun Done Bartolome,Areatza,Areatza,Bizkaia,93,43.121079,-2.767771,http://opendata.eurohelp.es/jaiegunak/Jaun-Done-Bartolome
+2017-06-29,San Pedro,San Pedro,Arrankudiaga,Arrankudiaga,Bizkaia,9,43.173503,-2.917886,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-12-21,Santu Tomas,Santo Tomás,Arratzu,Arratzu,Bizkaia,914,43.311667,-2.638611,http://opendata.eurohelp.es/jaiegunak/Santo-Tomás
+2017-09-08,Andra Mari,Andra Mari,Arrieta,Arrieta,Bizkaia,10,43.340362,-2.769799,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-07-22,La Magdalena,Madalena,Arrigorriaga,Arrigorriaga,Bizkaia,11,43.20752,-2.887839,http://opendata.eurohelp.es/jaiegunak/Madalena
+2017-09-08,Andra Mari,Andra Mari,Artea,Artea,Bizkaia,23,43.133718,-2.784141,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-09-08,Ntra. Sra. De Traslaviña,Ntra. Sra. De Traslaviña,Artzentales,Artzentales,Bizkaia,8,43.240556,-3.241389,http://opendata.eurohelp.es/jaiegunak/Ntra--Sra--De-Traslaviña
+2017-06-29,San Pedro,San Pedro,Atxondo,Atxondo,Bizkaia,91,43.130342,-2.585079,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-06-23,San Juan,San Juan,Aulesti,Aulesti,Bizkaia,70,43.296084,-2.563355,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-29,San Miguel,Mikel Deuna,Bakio,Bakio,Bizkaia,12,43.427778,-2.811389,http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna
+2017-10-23,San Severino,Seberino deuna,Balmaseda,Balmaseda,Bizkaia,90,43.192866,-3.196942,http://opendata.eurohelp.es/jaiegunak/Seberino-deuna
+2017-07-17,San Alejo,San Alejo,Barakaldo,Barakaldo,Bizkaia,13,43.297222,-2.991667,http://opendata.eurohelp.es/jaiegunak/San-Alejo
+2017-02-03,San Blas,San Blas,Barrika,Barrika,Bizkaia,14,43.406384,-2.962425,http://opendata.eurohelp.es/jaiegunak/San-Blas
+2017-10-13,San Fausto,San Fausto,Basauri,Basauri,Bizkaia,15,43.233333,-2.883333,http://opendata.eurohelp.es/jaiegunak/San-Fausto
+2017-06-24,San Juan,San Juan,Bedia,Bedia,Bizkaia,92,43.209374,-2.804965,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-08-04,Santo Domingo de Guzmán,Guzmanezko Santu Domingo,Berango,Berango,Bizkaia,16,43.365899,-2.996356,http://opendata.eurohelp.es/jaiegunak/Guzmanezko-Santu-Domingo
+2017-09-08,Almikako Andra Mari,Almikako Andra Mari,Bermeo,Bermeo,Bizkaia,17,43.420422,-2.722158,http://opendata.eurohelp.es/jaiegunak/Almikako-Andra-Mari
+2017-05-09,San Gregorio,San Gregorio,Berriatua,Berriatua,Bizkaia,18,43.316667,-2.466667,http://opendata.eurohelp.es/jaiegunak/San-Gregorio
+2017-06-29,San Pedro,San Pedro,Berriz,Berriz,Bizkaia,19,43.193923,-2.589165,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-08-25,Viernes de la Semana Grande,Aste Nagusiko Ostirala,Bilbao,Bilbao,Bizkaia,20,43.256963,-2.923441,http://opendata.eurohelp.es/jaiegunak/Aste-Nagusiko-Ostirala
+2017-07-10,San Cristóbal,San Kristobal,Busturia,Busturia,Bizkaia,21,43.383,-2.697,http://opendata.eurohelp.es/jaiegunak/San-Kristobal
+2017-05-15,San Isidro Labrador,Isidor Nekazari Deuna,Derio,Derio,Bizkaia,901,43.302,-2.881833,http://opendata.eurohelp.es/jaiegunak/Isidor-Nekazari-Deuna
+2017-06-29,San Pedro,San Pedro,Dima,Dima,Bizkaia,26,43.143389,-2.751464,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-10-13,San Fausto,San Fausto,Durango,Durango,Bizkaia,27,43.169068,-2.632655,http://opendata.eurohelp.es/jaiegunak/San-Fausto
+2017-08-24,San Bartolomé,San Bartolomé,Ea,Ea,Bizkaia,28,43.380135,-2.585593,http://opendata.eurohelp.es/jaiegunak/San-Bartolomé
+2017-06-29,San Pedro,San Pedro,Elantxobe,Elantxobe,Bizkaia,31,43.403422,-2.6398,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-04,San Valentín de Berri-Otxoa,Berrio-Otxoatar San Balendin,Elorrio,Elorrio,Bizkaia,32,43.130387,-2.542155,http://opendata.eurohelp.es/jaiegunak/Berrio-Otxoatar-San-Balendin
+2017-08-28,San Agustín,Agustin Deuna,Erandio,Erandio,Bizkaia,902,43.307458,-2.946418,http://opendata.eurohelp.es/jaiegunak/Agustin-Deuna
+2017-09-29,San Miguel,Mikel Deuna,Ereño,Ereño,Bizkaia,33,43.356944,-2.621667,http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna
+2017-07-27,Zezen eguna,Zezen eguna,Ermua,Ermua,Bizkaia,34,43.186642,-2.502607,http://opendata.eurohelp.es/jaiegunak/Zezen-eguna
+2017-06-13,San Antonio,San Antonio,Errigoiti,Errigoiti,Bizkaia,79,43.318709,-2.725344,http://opendata.eurohelp.es/jaiegunak/San-Antonio
+2017-12-26,San Esteban,Doneztebe,Etxebarri,Etxebarri,Bizkaia,29,43.247179,-2.890139,http://opendata.eurohelp.es/jaiegunak/Doneztebe
+2017-11-30,San Andrés,Andres Deuna,Etxebarria,Etxebarria,Bizkaia,30,43.254146,-2.477354,http://opendata.eurohelp.es/jaiegunak/Andres-Deuna
+2017-11-13,San Martin,Martin Deuna,Forua,Forua,Bizkaia,906,43.333712,-2.678589,http://opendata.eurohelp.es/jaiegunak/Martin-Deuna
+2017-08-10,Fiesta local,Tokiko jai-eguna,Fruiz,Fruiz,Bizkaia,35,43.328889,-2.783333,http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna
+2017-09-14,Exaltación de la Santa Cruz,Gurutze Santuaren Gorozpena,Galdakao,Galdakao,Bizkaia,36,43.230556,-2.845833,http://opendata.eurohelp.es/jaiegunak/Gurutze-Santuaren-Gorozpena
+2017-06-29,San Pedro,San Pedro,Galdames,Galdames,Bizkaia,37,43.255,-3.096389,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-11-11,San Antolín,San Antolin,Gamiz-Fika,Gamiz-Fika,Bizkaia,38,43.311728,-2.810701,http://opendata.eurohelp.es/jaiegunak/San-Antolin
+2017-06-26,Santa Ana,Santa Ana,Garai,Garai,Bizkaia,39,43.194722,-2.609722,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-04-25,San Bartolomé,San Bartolome,Gatika,Gatika,Bizkaia,40,43.363889,-2.871944,http://opendata.eurohelp.es/jaiegunak/San-Bartolome
+2017-01-26,San Polikarpo,San Polikarpo,Gautegiz Arteaga,Gautegiz Arteaga,Bizkaia,41,43.353104,-2.650985,http://opendata.eurohelp.es/jaiegunak/San-Polikarpo
+2017-08-16,Roke Deuna,Roke Deuna,Gernika-Lumo,Gernika-Lumo,Bizkaia,46,43.317073,-2.678975,http://opendata.eurohelp.es/jaiegunak/Roke-Deuna
+2017-05-15,San Isidro,Isidro Deuna,Getxo,Getxo,Bizkaia,44,43.344167,-3.006389,http://opendata.eurohelp.es/jaiegunak/Isidro-Deuna
+2017-09-08,Andra Mari,Andra Mari,Gizaburuaga,Gizaburuaga,Bizkaia,47,43.33194,-2.536111,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-09-26,San Cosme y San Damián,San Kosme eta San Damian,Gordexola,Gordexola,Bizkaia,42,43.178611,-3.072778,http://opendata.eurohelp.es/jaiegunak/San-Kosme-eta-San-Damian
+2017-08-05,Nª Sª de Agirre y de las Nieves,Edurne eta Agirreko Andra Mari,Gorliz,Gorliz,Bizkaia,43,43.416667,-2.933333,http://opendata.eurohelp.es/jaiegunak/Edurne-eta-Agirreko-Andra-Mari
+2017-08-10,San Lorenzo,San Lorentzo,Güeñes,Güeñes,Bizkaia,45,43.210321,-3.095317,http://opendata.eurohelp.es/jaiegunak/San-Lorentzo
+2017-06-15,Corpus Christi,Corpus Christi,Ibarrangelu,Ibarrangelu,Bizkaia,48,43.390215,-2.633802,http://opendata.eurohelp.es/jaiegunak/Corpus-Christi
+2017-06-13,San Antonio,San Antonio,Igorre,Igorre,Bizkaia,94,43.165833,-2.776111,http://opendata.eurohelp.es/jaiegunak/San-Antonio
+2017-07-26,Santa Ana,Santa Ana,Ispaster,Ispaster,Bizkaia,49,43.362954,-2.544635,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-09-29,San Miguel,San Migel,Iurreta,Iurreta,Bizkaia,910,43.176705,-2.633777,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-09-08,Nuestra Señora de Erdoiza,Erdoizako Andra Maria,Izurtza,Izurtza,Bizkaia,50,43.152273,-2.641978,http://opendata.eurohelp.es/jaiegunak/Erdoizako-Andra-Maria
+2017-09-18,Nuestra Señora del Buen Suceso,Buen Sucesoko Ama,Valle de Carranza,Karrantza Harana,Bizkaia,22,43.225278,-3.359444,http://opendata.eurohelp.es/jaiegunak/Buen-Sucesoko-Ama
+2017-07-26,Fiesta local,Tokiko jai-eguna,Kortezubi,Kortezubi,Bizkaia,907,43.335982,-2.654319,http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna
+2017-08-05,Nª Sª de las Nieves,Edurneko Andra Mari,Lanestosa,Lanestosa,Bizkaia,51,43.221169,-3.439148,http://opendata.eurohelp.es/jaiegunak/Edurneko-Andra-Mari
+2017-05-15,San Isidro Labrador,San Isidro baserritar,Larrabetzu,Larrabetzu,Bizkaia,52,43.260973,-2.796175,http://opendata.eurohelp.es/jaiegunak/San-Isidro-baserritar
+2017-09-29,San Miguel,Mikel Deuna,Laukiz,Laukiz,Bizkaia,53,43.353333,-2.906111,http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna
+2017-06-24,San Juan,San Juan,Leioa,Leioa,Bizkaia,54,43.326097,-2.987704,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-02,San Antolín,San Antolín,Lekeitio,Lekeitio,Bizkaia,57,43.365509,-2.503344,http://opendata.eurohelp.es/jaiegunak/San-Antolín
+2017-09-08,Andra Maria,Andra Mari,Lemoa,Lemoa,Bizkaia,55,43.208759,-2.774116,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-10-17,Fiesta local,Tokiko jai-eguna,Lemoiz,Lemoiz,Bizkaia,56,43.413244,-2.902253,http://opendata.eurohelp.es/jaiegunak/Tokiko-jai-eguna
+2017-09-08,Andra Maria,Andra Maria,Lezama,Lezama,Bizkaia,81,43.272167,-2.832167,http://opendata.eurohelp.es/jaiegunak/Andra-Maria
+2017-06-29,San Pedro,San Pedro,Loiu,Loiu,Bizkaia,903,43.315,-2.938333,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-03-01,Miércoles de Ceniza,Hausterre eguna,Mallabia,Mallabia,Bizkaia,58,43.189651,-2.529969,http://opendata.eurohelp.es/jaiegunak/Hausterre-eguna
+2017-10-21,Santa Ursula,Santa Urtsula,Mañaria,Mañaria,Bizkaia,59,43.137485,-2.661135,http://opendata.eurohelp.es/jaiegunak/Santa-Urtsula
+2017-09-29,San Miguel,Mikel Deuna,Markina-Xemein,Markina-Xemein,Bizkaia,60,43.270604,-2.497155,http://opendata.eurohelp.es/jaiegunak/Mikel-Deuna
+2017-08-10,San Lorenzo,San Lorentzo jai-eguna,Maruri-Jatabe,Maruri-Jatabe,Bizkaia,61,43.382772,-2.874989,http://opendata.eurohelp.es/jaiegunak/San-Lorentzo-jai-eguna
+2017-09-29,San Miguel,San Migel,Mendata,Mendata,Bizkaia,62,43.283333,-2.633333,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-08-01,San Pedro Ad Vincula,San Pedro Ad Vincula,Mendexa,Mendexa,Bizkaia,63,43.346389,-2.483333,http://opendata.eurohelp.es/jaiegunak/San-Pedro-Ad-Vincula
+2017-08-16,San Roque,San Roke eguna,Meñaka,Meñaka,Bizkaia,64,43.364464,-2.801795,http://opendata.eurohelp.es/jaiegunak/San-Roke-eguna
+2017-07-26,Santa Ana,Santa Ana,Morga,Morga,Bizkaia,66,43.297932,-2.752739,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-06-29,San Pedro y San Pablo,San Pedro eta San Pablo,Mundaka,Mundaka,Bizkaia,68,43.407335,-2.698322,http://opendata.eurohelp.es/jaiegunak/San-Pedro-eta-San-Pablo
+2017-06-29,San Pedro,San Pedro,Mungia,Mungia,Bizkaia,69,43.35441,-2.846714,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-06-29,San Pedro,San Pedro,Munitibar-Arbatzegi Gerrikaitz,Munitibar-Arbatzegi Gerrikaitz,Bizkaia,7,43.265332,-2.591845,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-09-08,Andra Maria,Andra Mari,Murueta,Murueta,Bizkaia,908,43.354463,-2.684153,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-06-24,San Juan,San Juan,Muskiz,Muskiz,Bizkaia,71,43.323333,-3.121667,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-10-30,Ultimo lunes de octubre,Urriako azken astelehena,Muxika,Muxika,Bizkaia,67,43.289668,-2.692941,http://opendata.eurohelp.es/jaiegunak/Urriako-azken-astelehena
+2017-09-08,Andra Maria,Andra Maria,Nabarniz,Nabarniz,Bizkaia,909,43.321597,-2.5844,http://opendata.eurohelp.es/jaiegunak/Andra-Maria
+2017-08-17,Día del pescador,Arrantzale eguna,Ondarroa,Ondarroa,Bizkaia,73,43.320698,-2.420475,http://opendata.eurohelp.es/jaiegunak/Arrantzale-eguna
+2017-09-02,San Antolin,Antolin Deuna,Orozko,Orozko,Bizkaia,75,43.108611,-2.911111,http://opendata.eurohelp.es/jaiegunak/Antolin-Deuna
+2017-05-18,San Félix de Cantalicio,Kantalizioko San Felix,Ortuella,Ortuella,Bizkaia,83,43.31137,-3.055952,http://opendata.eurohelp.es/jaiegunak/Kantalizioko-San-Felix
+2017-07-18,Fiesta local,Tokiko jaieguna,Otxandio,Otxandio,Bizkaia,72,43.040447,-2.654584,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-07-21,La Magdalena,Madalen,Plentzia,Plentzia,Bizkaia,77,43.40443,-2.950102,http://opendata.eurohelp.es/jaiegunak/Madalen
+2017-08-16,San Roke,Roke Deuna,Portugalete,Portugalete,Bizkaia,78,43.320664,-3.020252,http://opendata.eurohelp.es/jaiegunak/Roke-Deuna
+2017-09-08,Virgen del Mar,Itsasoko Ama Birjina,Santurtzi,Santurtzi,Bizkaia,82,43.328711,-3.031772,http://opendata.eurohelp.es/jaiegunak/Itsasoko-Ama-Birjina
+2017-06-29,San Pedro Apostol,San Pedro Apostol,Sestao,Sestao,Bizkaia,84,43.309635,-3.00694,http://opendata.eurohelp.es/jaiegunak/San-Pedro-Apostol
+2017-06-24,San Juan,San Juan,Sondika,Sondika,Bizkaia,904,43.300063,-2.927103,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-06-29,San Pedro,San Pedro,Sopelana,Sopelana,Bizkaia,85,43.378918,-2.983002,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-26,Santa Ana,Santa Ana,Sopuerta,Sopuerta,Bizkaia,86,43.262778,-3.1525,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-11-30,San Andrés,San Andres,Sukarrieta,Sukarrieta,Bizkaia,76,43.395342,-2.696367,http://opendata.eurohelp.es/jaiegunak/San-Andres
+2017-06-29,San Pedro,San Pedro,Trucios-Turtzioz,Trucios-Turtzioz,Bizkaia,87,43.272678,-3.288545,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-06-24,San Juan,San Juan,Ubide,Ubide,Bizkaia,88,43.026832,-2.688209,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-08,Nuestra Señora de Udiarraga,Udiarragako Andra Maria,Ugao-Miraballes,Ugao-Miraballes,Bizkaia,65,43.179989,-2.902508,http://opendata.eurohelp.es/jaiegunak/Udiarragako-Andra-Maria
+2017-09-08,Andra Maria,Andra Maria,Urduliz,Urduliz,Bizkaia,89,43.379667,-2.962,http://opendata.eurohelp.es/jaiegunak/Andra-Maria
+2017-05-08,Otxomaio,Otxomaio,Urduña/Orduña,Urduña/Orduña,Bizkaia,74,42.994449,-3.009622,http://opendata.eurohelp.es/jaiegunak/Otxomaio
+2017-08-07,Transfiguración del Señor,Jaungoikoaren antzaldatzea,Valle de Trápaga-Trapagaran,Valle de Trápaga-Trapagaran,Bizkaia,80,43.303108,-3.035548,http://opendata.eurohelp.es/jaiegunak/Jaungoikoaren-antzaldatzea
+2017-07-07,Fiesta local,Tokiko jaieguna,Zaldibar,Zaldibar,Bizkaia,95,43.17097,-2.54713,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-10-03,Día de Gangas,Mahuka Eguna,Zalla,Zalla,Bizkaia,96,43.214009,-3.135223,http://opendata.eurohelp.es/jaiegunak/Mahuka-Eguna
+2017-06-05,Pentecostes,Pentecostés,Zamudio,Zamudio,Bizkaia,905,43.283333,-2.866667,http://opendata.eurohelp.es/jaiegunak/Pentecostés
+2017-08-10,San Lorenzo,San Lorentzo,Zaratamo,Zaratamo,Bizkaia,97,43.211505,-2.873626,http://opendata.eurohelp.es/jaiegunak/San-Lorentzo
+2017-05-15,San Isidro,San Isidro,Zeanuri,Zeanuri,Bizkaia,24,43.099664,-2.749615,http://opendata.eurohelp.es/jaiegunak/San-Isidro
+2017-09-02,San Antolín,San Antolin,Zeberio,Zeberio,Bizkaia,25,43.152778,-2.852778,http://opendata.eurohelp.es/jaiegunak/San-Antolin
+2017-10-16,Día de la Independencia de Zierbena,Zierbenako Independentziaren Eguna,Zierbena,Zierbena,Bizkaia,913,43.347655,-3.086152,http://opendata.eurohelp.es/jaiegunak/Zierbenako-Independentziaren-Eguna
+2017-06-24,San Juan,San Juan,Ziortza-Bolibar,Ziortza-Bolibar,Bizkaia,915,43.24982,-2.550174,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-06-24,San Juan,San Juan,Abaltzisketa,Abaltzisketa,Gipuzkoa,1,43.047582,-2.105388,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-08-14,Fiestas de la Virgen,Ama Birjin jaiak,Aduna,Aduna,Gipuzkoa,2,43.203792,-2.050079,http://opendata.eurohelp.es/jaiegunak/Ama-Birjin-jaiak
+2017-08-07,San Donato,San Donato,Aia,Aia,Gipuzkoa,16,43.236922,-2.149008,http://opendata.eurohelp.es/jaiegunak/San-Donato
+2017-09-29,San Miguel,San Migel,Aizarnazabal,Aizarnazabal,Gipuzkoa,3,43.255405,-2.236461,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-08-14,Asunción de la Virgen,Jasokundeko Andra Mariren jaiak,Albiztur,Albiztur,Gipuzkoa,4,43.129723,-2.13718,http://opendata.eurohelp.es/jaiegunak/Jasokundeko-Andra-Mariren-jaiak
+2017-07-14,La Virgen del Carmen,Karmen eguna,Alegia,Alegia,Gipuzkoa,5,43.100017,-2.096273,http://opendata.eurohelp.es/jaiegunak/Karmen-eguna
+2017-09-08,Zaindariaren jaiak,Zaindariaren jaiak,Alkiza,Alkiza,Gipuzkoa,6,43.172434,-2.109436,http://opendata.eurohelp.es/jaiegunak/Zaindariaren-jaiak
+2017-09-29,San Miguel,San Migel,Altzaga,Altzaga,Gipuzkoa,906,43.06449,-2.153833,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-02-27,Lunes Carnaval,Iñauterietako astelehena,Altzo,Altzo,Gipuzkoa,7,43.100072,-2.083905,http://opendata.eurohelp.es/jaiegunak/Iñauterietako-astelehena
+2017-08-24,San Bartolome,San Bartolome,Amezketa,Amezketa,Gipuzkoa,8,43.044517,-2.083235,http://opendata.eurohelp.es/jaiegunak/San-Bartolome
+2017-06-24,San Juan,San Juan,Andoain,Andoain,Gipuzkoa,9,43.22048,-2.021122,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-06-15,Corpus Christi,Gorpuzti-eguna,Anoeta,Anoeta,Gipuzkoa,10,43.161467,-2.070695,http://opendata.eurohelp.es/jaiegunak/Gorpuzti-eguna
+2017-07-14,Viernes anterior al 3er domingo julio,Uztailaren 3. igandearen aurreko ostirala,Antzuola,Antzuola,Gipuzkoa,11,43.099441,-2.381747,http://opendata.eurohelp.es/jaiegunak/Uztailaren-3--igandearen-aurreko-ostirala
+2017-11-11,San Martín,San Martin,Arama,Arama,Gipuzkoa,12,43.063637,-2.165558,http://opendata.eurohelp.es/jaiegunak/San-Martin
+2017-08-16,Andra Mari,Andramaixak,Aretxabaleta,Aretxabaleta,Gipuzkoa,13,43.036248,-2.504542,http://opendata.eurohelp.es/jaiegunak/Andramaixak
+2017-06-24,San Juan,San Juan,Mondragón,Arrasate,Gipuzkoa,55,43.066517,-2.487562,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-06-29,San Pedro,San Pedro,Asteasu,Asteasu,Gipuzkoa,14,43.195198,-2.097548,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-26,Santa Ana,Santa Ana,Astigarraga,Astigarraga,Gipuzkoa,903,43.280652,-1.94756,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-11-11,San Martín,San Martín,Ataun/Bº San Martin,Ataun/San Martin auzoa,Gipuzkoa,15,43.00548,-2.17662,http://opendata.eurohelp.es/jaiegunak/San-Martín
+2017-09-01,San Gregorio,San Gregorio,Ataun/Bº San Gregorio,Ataun/San Gregorio auzoa,Gipuzkoa,15,42.978091,-2.180286,http://opendata.eurohelp.es/jaiegunak/San-Gregorio
+2017-06-30,Viernes anterior a Santa Isabel,Santa Isabel aurreko ostirala,Ataun/Bº de Aia,Ataun/Aia auzoa,Gipuzkoa,15,42.966249,-2.15433,http://opendata.eurohelp.es/jaiegunak/Santa-Isabel-aurreko-ostirala
+2017-11-30,San Andrés,San Andres,Azkoitia,Azkoitia,Gipuzkoa,17,43.178205,-2.31164,http://opendata.eurohelp.es/jaiegunak/San-Andres
+2017-01-20,San Sebastián,San Sebastian,Azpeitia,Azpeitia,Gipuzkoa,18,43.1839,-2.265466,http://opendata.eurohelp.es/jaiegunak/San-Sebastian
+2017-05-15,San Isidro,San Isidro,Baliarrain,Baliarrain,Gipuzkoa,904,43.069306,-2.129235,http://opendata.eurohelp.es/jaiegunak/San-Isidro
+2017-05-29,San Martin de Loinaz,Loinatz bigarrena,Beasain,Beasain,Gipuzkoa,19,43.047076,-2.204605,http://opendata.eurohelp.es/jaiegunak/Loinatz-bigarrena
+2017-06-29,San Pedro,San Pedro,Beizama,Beizama,Gipuzkoa,20,43.134191,-2.200113,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-06-23,Víspera de San Juan,San Juan bezpera,Belaunza,Belaunza,Gipuzkoa,21,43.135283,-2.050705,http://opendata.eurohelp.es/jaiegunak/San-Juan-bezpera
+2017-08-10,San Lorenzo,San Lorentzo,Berastegi,Berastegi,Gipuzkoa,22,43.124029,-1.979426,http://opendata.eurohelp.es/jaiegunak/San-Lorentzo
+2017-09-16,San Martín de Agirre,San Martin Agirre,Bergara,Bergara,Gipuzkoa,74,43.118217,-2.413358,http://opendata.eurohelp.es/jaiegunak/San-Martin-Agirre
+2017-08-28,San Agustín,San Agustin,Berrobi,Berrobi,Gipuzkoa,23,43.145479,-2.026374,http://opendata.eurohelp.es/jaiegunak/San-Agustin
+2017-08-16,La Virgen,Ama Birjina,Bidegoian /Goiatz,Bidegoian /Goiatz,Gipuzkoa,24,43.142086,-2.167475,http://opendata.eurohelp.es/jaiegunak/Ama-Birjina
+2017-08-24,San Bartolomé,San Bartolome,Bidegoian/Bidania,Bidegoian/Bidania,Gipuzkoa,24,43.139399,-2.159979,http://opendata.eurohelp.es/jaiegunak/San-Bartolome
+2017-08-16,San Roque,San Roke,Deba,Deba,Gipuzkoa,29,43.295562,-2.353894,http://opendata.eurohelp.es/jaiegunak/San-Roke
+2017-01-20,San Sebastián,San Sebastian,San Sebastián,Donostia,Gipuzkoa,69,43.321874,-1.98552,http://opendata.eurohelp.es/jaiegunak/San-Sebastian
+2017-06-24,San Juan,San Juan,Eibar,Eibar,Gipuzkoa,30,43.18418,-2.473289,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-08,La Natividad de la Virgen,Birjinaren jaiotza,Elduaien,Elduaien,Gipuzkoa,31,43.140712,-2.000488,http://opendata.eurohelp.es/jaiegunak/Birjinaren-jaiotza
+2017-06-30,Viernes fiestas Feria Principal,Ferixa Nagusiko jaietako ostirala,Elgeta,Elgeta,Gipuzkoa,33,43.136572,-2.487392,http://opendata.eurohelp.es/jaiegunak/Ferixa-Nagusiko-jaietako-ostirala
+2017-01-17,San Antón,San Anton,Elgoibar,Elgoibar,Gipuzkoa,32,43.215187,-2.415702,http://opendata.eurohelp.es/jaiegunak/San-Anton
+2017-07-22,María Magdalena,Madalena,Errenteria,Errenteria,Gipuzkoa,67,43.312752,-1.899633,http://opendata.eurohelp.es/jaiegunak/Madalena
+2017-06-13,Fiesta local,Tokiko jaieguna,Errezil,Errezil,Gipuzkoa,66,43.164674,-2.173594,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-06-29,San Pedro,San Pedro,Eskoriatza,Eskoriatza,Gipuzkoa,34,43.017074,-2.52698,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-05-08,Aparicion de S. Miguel,S. Migelen Ageraldia,Ezkio-Itsaso/Ezkio,Ezkio-Itsaso/Ezkio,Gipuzkoa,35,43.080484,-2.275421,http://opendata.eurohelp.es/jaiegunak/S--Migelen-Ageraldia
+2017-06-29,San Pedro,San Pedro,Ezkio-Itsaso/Sta. Lutzi-Anduaga,Ezkio-Itsaso/Sta. Lutzi-Anduaga,Gipuzkoa,35,43.064321,-2.274735,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-22,Maria Madalena,Madalena,Ezkio-Itsaso/Alegia,Ezkio-Itsaso/Alegia,Gipuzkoa,35,43.058055,-2.268215,http://opendata.eurohelp.es/jaiegunak/Madalena
+2017-02-05,Santa Ageda,Ageda Donea,Ezkio-Itsaso/Matxinbenta,Ezkio-Itsaso/Matxinbenta,Gipuzkoa,35,43.072544,-2.257418,http://opendata.eurohelp.es/jaiegunak/Ageda-Donea
+2017-08-16,San Roque,San Roke,Gabiria,Gabiria,Gipuzkoa,38,43.049689,-2.279856,http://opendata.eurohelp.es/jaiegunak/San-Roke
+2017-09-29,San Miguel,San Migel,Gaintza,Gaintza,Gipuzkoa,37,43.052629,-2.13237,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-08-14,La Virgen,Andra Mari,Gaztelu,Gaztelu,Gipuzkoa,907,43.116579,-2.022278,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-08-07,San Salvador,Salbatore Deuna,Getaria,Getaria,Gipuzkoa,39,43.303261,-2.204363,http://opendata.eurohelp.es/jaiegunak/Salbatore-Deuna
+2017-06-24,San Juan,San Juan,Hernani,Hernani,Gipuzkoa,40,43.267549,-1.975814,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-08-16,La Virgen,Andra Mari,Hernialde,Hernialde,Gipuzkoa,41,43.154467,-2.085025,http://opendata.eurohelp.es/jaiegunak/Andra-Mari
+2017-09-08,Virgen de Guadalupe,Ama Guadalupekoa,Hondarribia,Hondarribia,Gipuzkoa,36,43.362531,-1.791498,http://opendata.eurohelp.es/jaiegunak/Ama-Guadalupekoa
+2017-08-24,San Bartolomé,San Bartolome,Ibarra,Ibarra,Gipuzkoa,42,43.132345,-2.065462,http://opendata.eurohelp.es/jaiegunak/San-Bartolome
+2017-02-03,San Blas,San Blas biharamuna,Idiazabal,Idiazabal,Gipuzkoa,43,43.011782,-2.234214,http://opendata.eurohelp.es/jaiegunak/San-Blas-biharamuna
+2017-08-10,San Lorenzo,San Lorentzo,Ikaztegieta,Ikaztegieta,Gipuzkoa,44,43.09496,-2.1239,http://opendata.eurohelp.es/jaiegunak/San-Lorentzo
+2017-06-30,San Marcial,San Martzial,Irun,Irun,Gipuzkoa,45,43.338233,-1.789272,http://opendata.eurohelp.es/jaiegunak/San-Martzial
+2017-09-29,San Miguel,San Migel,Irura,Irura,Gipuzkoa,46,43.165688,-2.069616,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-09-22,Fiestas de septiembre,Iraileko jaiak,Itsasondo,Itsasondo,Gipuzkoa,47,43.066932,-2.167393,http://opendata.eurohelp.es/jaiegunak/Iraileko-jaiak
+2017-08-03,San Esteban,San Esteban,Larraul,Larraul,Gipuzkoa,48,43.187739,-2.102534,http://opendata.eurohelp.es/jaiegunak/San-Esteban
+2017-06-29,San Pedro,San Pedro,Lasarte,Lasarte,Gipuzkoa,902,43.267455,-2.020179,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-04-28,San Prudencio,San Prudentzio,Lazkao,Lazkao,Gipuzkoa,49,43.034324,-2.187379,http://opendata.eurohelp.es/jaiegunak/San-Prudentzio
+2017-06-29,San Pedro,San Pedro,Leaburu,Leaburu,Gipuzkoa,50,43.124984,-2.052106,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-05-03,Santa Cruz,Santikutz,Legazpi,Legazpi,Gipuzkoa,51,43.054361,-2.333641,http://opendata.eurohelp.es/jaiegunak/Santikutz
+2017-05-25,La Ascensión,Azintzio eguna,Legorreta,Legorreta,Gipuzkoa,52,43.085794,-2.150909,http://opendata.eurohelp.es/jaiegunak/Azintzio-eguna
+2017-09-08,Virgen de Dorleta,Dorletako Ama Birjina,Leintz-Gatzaga,Leintz-Gatzaga,Gipuzkoa,68,42.987112,-2.568626,http://opendata.eurohelp.es/jaiegunak/Dorletako-Ama-Birjina
+2017-09-14,Exaltación de la Sta Cruz,Gurutze Santuaren Gorespena,Lezo,Lezo,Gipuzkoa,53,43.321127,-1.898775,http://opendata.eurohelp.es/jaiegunak/Gurutze-Santuaren-Gorespena
+2017-09-08,Fiesta local,Tokiko jaieguna,Lizartza,Lizartza,Gipuzkoa,54,43.10372,-2.034254,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-07-26,Santa Ana,Santa Ana,Mendaro,Mendaro,Gipuzkoa,901,43.264167,-2.3755,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-06-29,San Pedro,San Pedro,Mutiloa,Mutiloa,Gipuzkoa,57,43.02238,-2.272826,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-09-14,Maria Madalena,Madalena,Mutriku,Mutriku,Gipuzkoa,56,43.307069,-2.385083,http://opendata.eurohelp.es/jaiegunak/Madalena
+2017-08-03,San Esteban,Doneztebe,Oiartzun,Oiartzun,Gipuzkoa,63,43.299282,-1.857874,http://opendata.eurohelp.es/jaiegunak/Doneztebe
+2017-06-24,San Juan,San Juan,Olaberria,Olaberria,Gipuzkoa,58,43.027075,-2.203089,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-29,San Miguel,San Migel,Oñati,Oñati,Gipuzkoa,59,43.032888,-2.411348,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-07-26,Santa Ana,Santa Ana,Ordizia,Ordizia,Gipuzkoa,76,43.054198,-2.178115,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-01-20,San Sebastián,San Sebastian,Orendain,Orendain,Gipuzkoa,905,43.079721,-2.11429,http://opendata.eurohelp.es/jaiegunak/San-Sebastian
+2017-05-03,Santa Cruz,Santa Kruz,Orexa,Orexa,Gipuzkoa,60,43.093881,-2.011392,http://opendata.eurohelp.es/jaiegunak/Santa-Kruz
+2017-06-29,San Pedro,San Pedro,Orio,Orio,Gipuzkoa,61,43.278323,-2.126597,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-11-30,San Andrés,San Andres,Ormaiztegi,Ormaiztegi,Gipuzkoa,62,43.042735,-2.255848,http://opendata.eurohelp.es/jaiegunak/San-Andres
+2017-07-07,San Fermín,San Fermin,Pasai Antxo,Pasai Antxo,Gipuzkoa,64,43.317534,-1.917562,http://opendata.eurohelp.es/jaiegunak/San-Fermin
+2017-06-24,San Juan,San Juan,Pasai Donibane,Pasai Donibane,Gipuzkoa,64,43.327481,-1.919883,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-06-29,San Pedro,San Pedro,Pasai San Pedro,Pasai San Pedro,Gipuzkoa,64,43.323348,-1.930432,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-17,Siguiente al Carmen,Karmen biharamuna,Trintxerpe,Trintxerpe,Gipuzkoa,64,43.326138,-1.931587,http://opendata.eurohelp.es/jaiegunak/Karmen-biharamuna
+2017-06-24,San Juan,San Juan,Segura,Segura,Gipuzkoa,70,43.009216,-2.252519,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-07-26,Santa Ana,Santa Ana,Soraluze/P. De Las Armas,Soraluze/P. De Las Armas,Gipuzkoa,65,43.17543,-2.412494,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-06-24,San Juan,San Juan,Tolosa,Tolosa,Gipuzkoa,71,43.136978,-2.073914,http://opendata.eurohelp.es/jaiegunak/San-Juan
+2017-09-29,San Miguel,San Migel,Urnieta,Urnieta,Gipuzkoa,72,43.2482,-1.990517,http://opendata.eurohelp.es/jaiegunak/San-Migel
+2017-09-18,Santa Anastasia,Santa Anastasia,Urretxu,Urretxu,Gipuzkoa,77,43.092282,-2.314383,http://opendata.eurohelp.es/jaiegunak/Santa-Anastasia
+2017-06-30,Viernes anterior a Santa Isabel,Santa Ixabel aurreko ostirala,Usurbil,Usurbil,Gipuzkoa,73,43.271382,-2.049934,http://opendata.eurohelp.es/jaiegunak/Santa-Ixabel-aurreko-ostirala
+2017-07-26,Santa Ana,Santa Ana,Villabona,Billabona,Gipuzkoa,75,43.189944,-2.052453,http://opendata.eurohelp.es/jaiegunak/Santa-Ana
+2017-10-06,Santa Fe,Santa Fe,Zaldibia,Zaldibia,Gipuzkoa,78,43.037964,-2.150894,http://opendata.eurohelp.es/jaiegunak/Santa-Fe
+2017-06-26,San Pelayo,San Pelaio,Zarautz,Zarautz,Gipuzkoa,79,43.280364,-2.171588,http://opendata.eurohelp.es/jaiegunak/San-Pelaio
+2017-06-05,Lunes de Pentecostés,Mendekoste astelehena,Zegama,Zegama,Gipuzkoa,25,42.975677,-2.290072,http://opendata.eurohelp.es/jaiegunak/Mendekoste-astelehena
+2017-08-16,San Roque,San Roke,Zerain,Zerain,Gipuzkoa,26,43.012119,-2.274118,http://opendata.eurohelp.es/jaiegunak/San-Roke
+2017-09-08,Natividad de la Virgen,Birjinaren jaiotza,Zestoa,Zestoa,Gipuzkoa,27,43.239442,-2.258113,http://opendata.eurohelp.es/jaiegunak/Birjinaren-jaiotza
+2017-09-08,Fiesta local,Tokiko jaieguna,Zizurkil,Zizurkil,Gipuzkoa,28,43.199523,-2.074073,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-06-29,San Pedro,San Pedro,Zumaia,Zumaia,Gipuzkoa,81,43.297258,-2.256848,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-07-03,Santa Isabel,Santa Isabel,Zumarraga,Zumarraga,Gipuzkoa,80,43.090476,-2.31322,http://opendata.eurohelp.es/jaiegunak/Santa-Isabel
+2017-02-03,San Blas,Done Blas,Alegría-Dulantzi,Alegria-Dulantzi,Álava/Araba,2,42.841035,-2.512684,http://opendata.eurohelp.es/jaiegunak/Done-Blas
+2017-08-16,San Roque,San Roke,Amurrio,Amurrio,Álava/Araba,1,43.057875,-2.998775,http://opendata.eurohelp.es/jaiegunak/San-Roke
+2017-07-10,San Cristóbal,Done Kristobal,Añana,Añana,Álava/Araba,49,42.802352,-2.982607,http://opendata.eurohelp.es/jaiegunak/Done-Kristobal
+2017-07-03,San Martín,San Martin,Aramaio,Aramaio,Álava/Araba,3,43.054,-2.566,http://opendata.eurohelp.es/jaiegunak/San-Martin
+2017-11-11,San Martin de Tours,San Martin Toursekoa,Armiñón,Armiñón,Álava/Araba,6,42.723045,-2.872574,http://opendata.eurohelp.es/jaiegunak/San-Martin-Toursekoa
+2017-06-19,San Adrián,Done Adrian,Arraia-Maeztu,Arraia-Maeztu,Álava/Araba,37,42.739815,-2.44598,http://opendata.eurohelp.es/jaiegunak/Done-Adrian
+2017-12-26,San Esteban,Done Esteban,Arrazua-Ubarrundia,Arrazua-Ubarrundia,Álava/Araba,8,42.890278,-2.639167,http://opendata.eurohelp.es/jaiegunak/Done-Esteban
+2017-09-08,Virgen de la Encina,Arteko Andra Maria,Artziniega,Artziniega,Álava/Araba,4,43.122201,-3.128209,http://opendata.eurohelp.es/jaiegunak/Arteko-Andra-Maria
+2017-06-29,San Pedro,Done Petri,Asparrena,Asparrena,Álava/Araba,9,42.895667,-2.321,http://opendata.eurohelp.es/jaiegunak/Done-Petri
+2017-07-25,Santiago,Done Jakue,Ayala/Agiñaga,Aiara/Agiñaga,Álava/Araba,10,43.03508,-3.071144,http://opendata.eurohelp.es/jaiegunak/Done-Jakue
+2017-05-22,San Ramiro,Done Ramiro,Ayala/Añes,Aiara/Añes,Álava/Araba,10,43.058414,-3.132924,http://opendata.eurohelp.es/jaiegunak/Done-Ramiro
+2017-09-29,San Miguel,Done Mikel,Ayala/Beotegi,Aiara/Beotegi,Álava/Araba,10,43.08866,-3.075259,http://opendata.eurohelp.es/jaiegunak/Done-Mikel
+2017-09-29,San Miguel,Done Mikel,Ayala/Costera,Aiara/Opellora,Álava/Araba,10,43.102599,-3.103772,http://opendata.eurohelp.es/jaiegunak/Done-Mikel
+2017-05-03,La Cruz,Gurutzea,Ayala/Erbi,Aiara/Erbi,Álava/Araba,10,43.074143,-3.111819,http://opendata.eurohelp.es/jaiegunak/Gurutzea
+2017-05-08,Ntra. Sra. de la Antigua,Antiguako Ama,Ayala/Etxegoien,Aiara/Etxegoien,Álava/Araba,10,43.043726,-3.02107,http://opendata.eurohelp.es/jaiegunak/Antiguako-Ama
+2017-01-07,San Julián,Done Julian,Ayala/Izoria,Aiara/Izoria,Álava/Araba,10,43.061416,-3.036324,http://opendata.eurohelp.es/jaiegunak/Done-Julian
+2017-12-09,La Inmaculada,Sortzez Garbiaren Eguna,Ayala/Lejarzo,Aiara/Lejarzo,Álava/Araba,10,43.060158,-3.122923,http://opendata.eurohelp.es/jaiegunak/Sortzez-Garbiaren-Eguna
+2017-08-16,La Asunción,Jasokundearen Eguna,Ayala/Lujo,Aiara/Luxo,Álava/Araba,10,43.077952,-3.096407,http://opendata.eurohelp.es/jaiegunak/Jasokundearen-Eguna
+2017-07-22,La Magdalena,Magdalena Eguna,Ayala/Luiaondo,Aiara/Luiaondo,Álava/Araba,10,43.102723,-2.997211,http://opendata.eurohelp.es/jaiegunak/Magdalena-Eguna
+2017-07-25,Santiago,Done Jakue,Ayala/Llanteno,Aiara/Llanteno,Álava/Araba,10,43.091803,-3.099984,http://opendata.eurohelp.es/jaiegunak/Done-Jakue
+2017-11-23,San Clemente,Done Klemente,Ayala/Madaria,Aiara/Madaria,Álava/Araba,10,43.04389,-3.085953,http://opendata.eurohelp.es/jaiegunak/Done-Klemente
+2017-01-17,San Antón,Done Anton,Ayala/Maroño,Aiara/Maroño,Álava/Araba,10,43.055065,-3.05901,http://opendata.eurohelp.es/jaiegunak/Done-Anton
+2017-06-29,San Pedro,Done Petri,Ayala/Menagarai,Aiara/Menagarai,Álava/Araba,10,43.096299,-3.072769,http://opendata.eurohelp.es/jaiegunak/Done-Petri
+2017-04-25,San Marcos,Done Marko,Ayala/Menoio,Aiara/Menoio,Álava/Araba,10,43.069585,-3.072926,http://opendata.eurohelp.es/jaiegunak/Done-Marko
+2017-06-24,San Juan,Done Joane,Ayala/Murga,Aiara/Murga,Álava/Araba,10,43.075372,-3.02559,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-01-24,San Babilás,Done Babilas,Ayala/Olabezar,Aiara/Olabezar,Álava/Araba,10,43.069997,-3.014813,http://opendata.eurohelp.es/jaiegunak/Done-Babilas
+2017-10-09,Ntra. Sra. del Rosario,Errosarioko Andra Maria,Ayala/Ozeka,Aiara/Ozeka,Álava/Araba,10,43.070824,-3.090905,http://opendata.eurohelp.es/jaiegunak/Errosarioko-Andra-Maria
+2017-08-05,Las Nieves,Elurretako Andra Maria,Ayala/Quejana,Aiara/Kexaa,Álava/Araba,10,43.081485,-3.063094,http://opendata.eurohelp.es/jaiegunak/Elurretako-Andra-Maria
+2017-05-15,San Isidro,Done Isidro,Ayala/Respaldiza,Aiara/Arespalditza,Álava/Araba,10,43.078065,-3.042931,http://opendata.eurohelp.es/jaiegunak/Done-Isidro
+2017-07-22,La Magdalena,Magdalena Eguna,Ayala/Retes de Llanteno,Aiara/Retes de Llanteno,Álava/Araba,10,43.091803,-3.099984,http://opendata.eurohelp.es/jaiegunak/Magdalena-Eguna
+2017-07-18,Santa Marina,Dona Marina,Ayala/Salmantón,Aiara/Salmanton,Álava/Araba,10,43.052629,-3.088347,http://opendata.eurohelp.es/jaiegunak/Dona-Marina
+2017-08-30,San Emeterio,Done Meteri,Ayala/Sojo,Aiara/Sojo,Álava/Araba,10,43.09073,-3.122839,http://opendata.eurohelp.es/jaiegunak/Done-Meteri
+2017-07-18,Santa Marina,Dona Marina,Ayala/Zuaza,Aiara/Zuaza,Álava/Araba,10,43.099672,-3.049447,http://opendata.eurohelp.es/jaiegunak/Dona-Marina
+2017-07-10,San Cristóbal,Done Kristobal,Baños de Ebro,Mañueta,Álava/Araba,11,42.53029,-2.679144,http://opendata.eurohelp.es/jaiegunak/Done-Kristobal
+2017-06-26,San Juan,Done Joane,Barrundia,Barrundia,Álava/Araba,13,42.916667,-2.491667,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-09-08,La Natividad,Jaiotzaren eguna,Berantevilla,Berantevilla,Álava/Araba,14,42.68245,-2.860401,http://opendata.eurohelp.es/jaiegunak/Jaiotzaren-eguna
+2017-09-08,Santa María Magdalena,Santa Maria,Bernedo,Bernedo,Álava/Araba,16,42.626684,-2.497532,http://opendata.eurohelp.es/jaiegunak/Santa-Maria
+2017-05-15,San Isidro,Done Isidro,Campezo,Kanpezu,Álava/Araba,17,42.691944,-2.37,http://opendata.eurohelp.es/jaiegunak/Done-Isidro
+2017-09-08,La Virgen,Andra maria,Kripan,Kripan,Álava/Araba,19,42.591666,-2.516079,http://opendata.eurohelp.es/jaiegunak/Andra-maria
+2017-06-23,Fiesta local,Tokiko jaieguna,Kuartango,Kuartango,Álava/Araba,20,42.871389,-2.885556,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-06-29,San Pedro,San Pedro,Elburgo,Burgelu,Álava/Araba,21,42.849564,-2.544762,http://opendata.eurohelp.es/jaiegunak/San-Pedro
+2017-09-08,Virgen de la Plaza,Plazako Andra Maria,Elciego,Zieko,Álava/Araba,22,42.515073,-2.618277,http://opendata.eurohelp.es/jaiegunak/Plazako-Andra-Maria
+2017-08-16,San Roque,Done Roke,Elvillar,Bilar,Álava/Araba,23,42.570497,-2.544915,http://opendata.eurohelp.es/jaiegunak/Done-Roke
+2017-05-15,San Isidro Labrador,San Isidro Nekazaria,Valle de Arana,Harana,Álava/Araba,,42.752731,-2.312303,http://opendata.eurohelp.es/jaiegunak/San-Isidro-Nekazaria
+2017-06-29,San Pedro,Done Petri,Valle de Arana/Alda,Harana/Alda,Álava/Araba,56,42.752791,-2.33071,http://opendata.eurohelp.es/jaiegunak/Done-Petri
+2017-08-16,San Roque,Done Roke,Valle de Arana/Contrasta,Harana/Kontrasta,Álava/Araba,56,42.770305,-2.295079,http://opendata.eurohelp.es/jaiegunak/Done-Roke
+2017-01-22,San Vicente de Arana,Aranako Done Bikendi,Valle de Arana/San Vicente De Arana,Harana/Done Bikendi Arana,Álava/Araba,56,42.744143,-2.360905,http://opendata.eurohelp.es/jaiegunak/Aranako-Done-Bikendi
+2017-06-24,San Juan,Done Joane,Valle de Arana,Ullibarri-Harana,Álava/Araba,56,42.75957,-2.319402,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-08-17,Fiesta local,Tokiko jaieguna,Iruña de Oca/Nanclares de la Oca,Iruña Oka/Langraiz Oka,Álava/Araba,901,42.817197,-2.811518,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-05-20,Fiesta local,Tokiko jaieguna,Iruña de Oca/Trespuentes,Iruña Oka/Tresponde,Álava/Araba,901,42.845544,-2.789037,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-01-10,Fiesta local,Tokiko jaieguna,Iruña de Oca/Villodas,Iruña Oka/Billoda,Álava/Araba,901,42.83253,-2.787077,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-06-23,San Juan,Done Joane,Iruraiz-Gauna,Iruraiz-Gauna,Álava/Araba,27,42.822072,-2.495043,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-11-24,2º día de Acción de Gracias,2. Esker Oneko Eguna,Labastida,Labastida,Álava/Araba,28,42.590459,-2.792991,http://opendata.eurohelp.es/jaiegunak/2--Esker-Oneko-Eguna
+2017-08-24,San Bartolomé,Done Bartolome,Lagrán,Lagrán,Álava/Araba,30,42.626395,-2.58382,http://opendata.eurohelp.es/jaiegunak/Done-Bartolome
+2017-06-29,San Juan Bautista,Done Joane,Laguardia,Laguardia,Álava/Araba,31,42.554278,-2.584237,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-09-08,Virgen del Campo,Amabirjina,Lanciego,Lantziego,Álava/Araba,32,42.562619,-2.513204,http://opendata.eurohelp.es/jaiegunak/Amabirjina
+2017-09-18,Santos Cornelio y Cipriano,Done Kornelio eta Done Zipri,Lantarón,Lantarón,Álava/Araba,902,42.756673,-2.987556,http://opendata.eurohelp.es/jaiegunak/Done-Kornelio-eta-Done-Zipri
+2017-08-24,San Bartolomé,Done Bartolome,Lapuebla de Labarca,Lapuebla de Labarca,Álava/Araba,33,42.493969,-2.573024,http://opendata.eurohelp.es/jaiegunak/Done-Bartolome
+2017-09-11,La Cofradias,Kofradiak,Legutio,Legutiano,Álava/Araba,58,42.977822,-2.642724,http://opendata.eurohelp.es/jaiegunak/Kofradiak
+2017-08-16,San Roque,Done Roke,Leza,Leza,Álava/Araba,34,42.566068,-2.633635,http://opendata.eurohelp.es/jaiegunak/Done-Roke
+2017-08-16,San Roque,Done Roke,Llodio,Laudio,Álava/Araba,36,43.143333,-2.962985,http://opendata.eurohelp.es/jaiegunak/Done-Roke
+2017-08-18,Acción de Gracias,Esker Oneko eguna,Moreda de Alava,Moreda de Alava,Álava/Araba,39,42.528016,-2.40767,http://opendata.eurohelp.es/jaiegunak/Esker-Oneko-eguna
+2017-06-02,San Juan de Ortega,Done Joane Ortegakoa,Navaridas,Nabaridas,Álava/Araba,41,42.545171,-2.624532,http://opendata.eurohelp.es/jaiegunak/Done-Joane-Ortegakoa
+2017-08-24,San Bartolomé,Done Bartolome,Okondo,Okondo,Álava/Araba,42,43.162222,-3.018889,http://opendata.eurohelp.es/jaiegunak/Done-Bartolome
+2017-01-23,San Vicente y San Anastasio,Bikendi eta Anastasi Santuak,Oyón/Oion,Oyón/Oion,Álava/Araba,43,42.506137,-2.436965,http://opendata.eurohelp.es/jaiegunak/Bikendi-eta-Anastasi-Santuak
+2017-05-15,San Isidro Labrador,Done Isidro Nekazaria,Peñacerrada,Urizaharra,Álava/Araba,44,42.644095,-2.713374,http://opendata.eurohelp.es/jaiegunak/Done-Isidro-Nekazaria
+2017-05-15,San Isidro Labrador,Done Isidro Nekazaria,Ribera Alta,Erribera Goitia,Álava/Araba,46,42.807222,-2.9175,http://opendata.eurohelp.es/jaiegunak/Done-Isidro-Nekazaria
+2017-08-28,Fiesta local,Tokiko jaieguna,Ribera Baja,Erribera Beitia,Álava/Araba,47,42.719678,-2.907609,http://opendata.eurohelp.es/jaiegunak/Tokiko-jaieguna
+2017-06-24,San Juan,Done Joane,Salvatierra,Agurain,Álava/Araba,51,42.852442,-2.389455,http://opendata.eurohelp.es/jaiegunak/Done-Joane
+2017-09-08,Virgen del Valle,Haranako Andra Maria,Samaniego,Samaniego,Álava/Araba,52,42.569832,-2.680185,http://opendata.eurohelp.es/jaiegunak/Haranako-Andra-Maria
+2017-11-13,San Millán,Done Milian,San Millán,Donemiliaga,Álava/Araba,53,42.874722,-2.376111,http://opendata.eurohelp.es/jaiegunak/Done-Milian
+2017-10-02,Nuestra Señora del Rosario,Errosarioko Andra Maria,Urkabustaiz,Urkabustaiz,Álava/Araba,54,42.971944,-2.922222,http://opendata.eurohelp.es/jaiegunak/Errosarioko-Andra-Maria
+2017-05-15,San Isidro,Done Isidro,Valdegovía,Valdegovía,Álava/Araba,55,42.85,-3.1,http://opendata.eurohelp.es/jaiegunak/Done-Isidro
+2017-05-15,San Torcuato,Done Torkuato,Villabuena de Álava,Eskuernaga,Álava/Araba,57,42.548717,-2.665456,http://opendata.eurohelp.es/jaiegunak/Done-Torkuato
+2017-08-05,Virgen Blanca,Andra Mari Zuria,Vitoria-Gasteiz,Vitoria-Gasteiz,Álava/Araba,59,42.846406,-2.667893,http://opendata.eurohelp.es/jaiegunak/Andra-Mari-Zuria
+2017-08-18,Nuestra Señora de Bercijana,Berzijanako Andra Maria,Yécora,Ikeora,Álava/Araba,60,42.569303,-2.470064,http://opendata.eurohelp.es/jaiegunak/Berzijanako-Andra-Maria
+2017-06-10,San Kisimos,Hargatiko Eguna,Zalduondo,Zalduondo,Álava/Araba,61,42.885626,-2.347254,http://opendata.eurohelp.es/jaiegunak/Hargatiko-Eguna
+2017-08-05,Santa Lucia,Santa Luzia,Zambrana,Zambrana,Álava/Araba,62,42.659981,-2.879353,http://opendata.eurohelp.es/jaiegunak/Santa-Luzia
+2017-08-04,Eguzki Jaia,Eguzki Jaia,Zigoitia,Zigoitia,Álava/Araba,18,42.9682,-2.7183,http://opendata.eurohelp.es/jaiegunak/Eguzki-Jaia
+2017-09-29,San Miguel,Done Mikel,Zuia,Zuia,Álava/Araba,63,42.981667,-2.844,http://opendata.eurohelp.es/jaiegunak/Done-Mikel

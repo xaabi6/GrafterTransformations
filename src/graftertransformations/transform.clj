@@ -11,9 +11,7 @@
 ;;; within the pipeline.
 
 ;; GENERAL
-(defn integer
-  "An example transformation function that converts a string to an integer"
-  [s]
+(defn integer [s]
   (Integer/parseInt s)
 )
 
@@ -29,14 +27,17 @@
   (io/s st)
 )
 
+;Español
 (defn langSp [st]
   (io/s st :es)
 )
 
+;English
 (defn langEn [st]
   (io/s st :en)
 )
 
+;Euskera
 (defn langVq [st]
   (io/s st :eu)
 )
@@ -72,6 +73,15 @@
                                                 )
                                               ))
 
+;Cambia el formato de la fecha [dd/mm/yyyy ~> yyyy-mm-dd]
+(defn organizeDate [date]
+  (when (seq date)
+    (let [[d m y] (st/split date #"/")]
+      (apply str (interpose "-" [y m d] ))
+    )
+  )
+)
+
 ;; AIR QUALITY
 (defn quality-uri [a]
   (base-air-quality
@@ -80,54 +90,66 @@
 )
 
 ;; CELICA
-(defn add-cubic-centimetre [st]
-  (str st "cm³")
-)
-
-(defn add-revolutions-per-minute [st]
-  (str st "rpm")
-)
-
-(defn add-millimeters [st]
-  (str st "mm")
-)
-
-(defn add-kilograms [st]
-  (str st "kg")
-)
-
-(defn add-litres [st]
-  (str st "l")
-)
-
-(defn add-euro-symbol [st]
-  (str st "€")
-)
-
-;; Still not working :(
-
-;(defn add-euro-symbol [st]
-;  (if-not (empty? st) (str st "€"))
-;)
-
-;(defn add-euro-symbol [st]
-;  (if-not (st/includes? "N/D" st) (str st "€"))
-;)
-
-;(defn add-euro-symbol [st]
-;  (when-not (.contains st "N/D") (str st "€"))
-;)
-
-;(defmethod add-euro-symbol java.lang.String [st]
-;  (when-not (.contains st "N/D")
-;      (str st "€")
-;  )
-;)
-
 (defn celica-uri [a b c d]
   (base-id
     (str "Car/Specifications/" (urlify
         (str a "-" b "-" c "-" d)
+      )
+    )
+  )
+)
+
+;;TODO: This 'extended' functions should be done in a single generic one, but I will have to find out how
+
+(defn celica-displacement-extended-uri [a b c d e]
+  (base-id
+    (str "Car/displacement/" (urlify
+        (str a "-" b "-" c "-" d "-" e)
+      )
+    )
+  )
+)
+
+(defn celica-torqueOutput-extended-uri [a b c d e]
+  (base-id
+    (str "Car/torqueOutput/" (urlify
+        (str a "-" b "-" c "-" d "-" e)
+      )
+    )
+  )
+)
+
+(defn celica-dimensions-extended-uri [a b c d e f g]
+  (base-id
+    (str "Car/dimensions/" (urlify
+        (str a "-" b "-" c "-" d "-" e "-" f "-" g)
+      )
+    )
+  )
+)
+
+(defn celica-curbWeight-extended-uri [a b c d e]
+  (base-id
+    (str "Car/curbWeight/" (urlify
+        (str a "-" b "-" c "-" d "-" e)
+      )
+    )
+  )
+)
+
+(defn celica-fuelCapacity-extended-uri [a b c d e]
+  (base-id
+    (str "Car/fuelCapacity/" (urlify
+        (str a "-" b "-" c "-" d "-" e)
+      )
+    )
+  )
+)
+
+(defn celica-price-extended-uri [a b c d e]
+  (base-id
+    (str "Car/price/" (urlify
+        (str a "-" b "-" c "-" d "-" e)
       )
     )
   )
@@ -142,43 +164,21 @@
   )
 )
 
-(def car-manufacturer (base-domain "/property/brand"))
-
-(def car-name (base-domain "/property/name"))
-
-(def start-manufacture (base-domain "/property/startedProduction"))
-
-(def end-manufacture (base-domain "/property/finishedProduction"))
-
 (def platform-types (base-domain "/property/platform"))
 
 (def engine-code (base-domain "/property/engineCode"))
 
-(def car-version (base-domain "/property/version"))
+(def engine-displacement (base-domain "/property/engineDisplacement"))
 
-(def engine-size (base-domain "/property/engineSize"))
+(def engine-torque (base-domain "/property/engineTorque"))
 
-(def engine-valves (base-domain "/property/engineValves"))
-
-(def engine-maxTorque (base-domain "/property/engineMaxTorque"))
-
-(def car-traction (base-domain "/property/traction"))
-
-(def measurements-length (base-domain "/property/length"))
-
-(def measurements-width (base-domain "/property/width"))
-
-(def measurements-height (base-domain "/property/height"))
+(def measurements-size (base-domain "/property/size"))
 
 (def measurements-curbWeight (base-domain "/property/curbWeight"))
 
-(def car-fuel (base-domain "/property/fuel"))
-
 (def car-fuel-tank (base-domain "/property/fuelTank"))
 
-(def car-airbags (base-domain "/property/airbags"))
-
-(def car-doors (base-domain "/property/doors"))
+(def car-traction (base-domain "/property/traction"))
 
 (def car-price (base-domain "/property/priceSpain"))
 
@@ -206,3 +206,32 @@
 (def base-surname (base-domain "/property/surname"))
 
 (def base-email (base-domain "/property/email"))
+
+;; WORK CALENDAR 2017
+(defn replaceDashes [st]
+  (let [replace clojure.string/replace]
+    (-> (str st)
+        clojure.string/trim
+        (replace " - " "/")
+     )
+   )
+)
+
+(defn adaptDescriptions [st]
+  (let [replace clojure.string/replace]
+    (-> (str st)
+        clojure.string/trim
+        (replace "  " "")
+     )
+   )
+)
+
+(defn calendar-uri [a]
+  (base-calendar
+    (urlify
+      (str a)
+    )
+  )
+)
+
+(def base-eustatCode (base-domain "/property/EustatCode"))

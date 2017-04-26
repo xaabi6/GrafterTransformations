@@ -152,475 +152,760 @@
                  049&nbsp;&nbsp;(def&nbsp;make-celica-graph
                 </span><br/>
 <span class="partial" title="8 out of 15 forms covered">
-                 050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph-fn&nbsp;[{:keys&nbsp;[brand&nbsp;name&nbsp;generation&nbsp;startedProduction&nbsp;finishedProduction
+                 050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph-fn&nbsp;[{:keys&nbsp;[manufacturer&nbsp;model&nbsp;generation&nbsp;productionStartYear&nbsp;productionEndYear
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;platform&nbsp;engineCode&nbsp;version&nbsp;engineSize&nbsp;valves&nbsp;maxTorque&nbsp;traction&nbsp;length&nbsp;width&nbsp;height&nbsp;curbWeight&nbsp;fuelType&nbsp;fuelTank
+                 051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;platform&nbsp;engineCode&nbsp;engine&nbsp;displacement&nbsp;valves&nbsp;torqueOutput&nbsp;traction&nbsp;length&nbsp;width&nbsp;height&nbsp;curbWeight&nbsp;fuelType&nbsp;fuelTank
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numberAirbags&nbsp;numberDoors&nbsp;price&nbsp;celica-uri&nbsp;data-uri]&nbsp;:as&nbsp;row}]
+                 052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numberAirbags&nbsp;numberDoors&nbsp;price&nbsp;celica-uri&nbsp;celica-displacement-extended-uri&nbsp;celica-torqueOutput-extended-uri
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;celica-dimensions-extended-uri&nbsp;celica-curbWeight-extended-uri&nbsp;celica-fuelCapacity-extended-uri
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;celica-price-extended-uri&nbsp;data-uri]&nbsp;:as&nbsp;row}]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph&nbsp;(base-graph&nbsp;&quot;Celica&quot;)
+                 055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph&nbsp;(base-graph&nbsp;&quot;Celica&quot;)
                 </span><br/>
 <span class="not-covered" title="0 out of 2 forms covered">
-                 054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-uri
+                 056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-uri
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdf:a&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Car&quot;]
+                 057&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdf:a&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Car&quot;]
                 </span><br/>
 <span class="not-covered" title="0 out of 14 forms covered">
-                 056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;This&nbsp;info&nbsp;is&nbsp;about&nbsp;the&nbsp;&quot;&nbsp;brand&nbsp;&quot;&nbsp;&quot;&nbsp;name&nbsp;&quot;&nbsp;&quot;&nbsp;generation&nbsp;&quot;&nbsp;gen,&nbsp;which&nbsp;engine&nbsp;version&nbsp;is&nbsp;&quot;&nbsp;version))]
+                 058&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;This&nbsp;info&nbsp;is&nbsp;about&nbsp;the&nbsp;&quot;&nbsp;manufacturer&nbsp;&quot;&nbsp;&quot;&nbsp;model&nbsp;&quot;&nbsp;&quot;&nbsp;generation&nbsp;&quot;&nbsp;gen,&nbsp;which&nbsp;engine&nbsp;version&nbsp;is&nbsp;&quot;&nbsp;engine))]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 057&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-manufacturer&nbsp;(s&nbsp;brand)]
+                 059&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;manufacturer&quot;&nbsp;(s&nbsp;manufacturer)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 058&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-name&nbsp;(s&nbsp;name)]
+                 060&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Car_model&quot;&nbsp;(s&nbsp;model)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 059&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[start-manufacture&nbsp;(integer&nbsp;startedProduction)]
+                 061&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;productionStartYear&quot;&nbsp;(integer&nbsp;productionStartYear)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 060&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[end-manufacture&nbsp;(integer&nbsp;finishedProduction)]
+                 062&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;productionEndYear&quot;&nbsp;(integer&nbsp;productionEndYear)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 061&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[platform-types&nbsp;(s&nbsp;platform)]
+                 063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[platform-types&nbsp;(s&nbsp;platform)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 062&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-code&nbsp;(s&nbsp;engineCode)]
+                 064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-code&nbsp;(s&nbsp;engineCode)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-version&nbsp;(s&nbsp;version)]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-size&nbsp;(s&nbsp;(add-cubic-centimetre&nbsp;engineSize))]
-                </span><br/>
-<span class="not-covered" title="0 out of 5 forms covered">
-                 065&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-valves&nbsp;(s&nbsp;valves)]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 066&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-maxTorque&nbsp;(s&nbsp;(add-revolutions-per-minute&nbsp;maxTorque))]
-                </span><br/>
-<span class="not-covered" title="0 out of 5 forms covered">
-                 067&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-traction&nbsp;(s&nbsp;traction)]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 068&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-length&nbsp;(s&nbsp;(add-millimeters&nbsp;length))]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 069&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-width&nbsp;(s&nbsp;(add-millimeters&nbsp;width))]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 070&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-height&nbsp;(s&nbsp;(add-millimeters&nbsp;height))]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 071&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-curbWeight&nbsp;(s&nbsp;(add-kilograms&nbsp;curbWeight))]
+                 065&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;property&#x2F;engine&quot;&nbsp;(s&nbsp;engine)]
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 072&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-fuel&nbsp;fuelType]
-                </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 073&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-fuel-tank&nbsp;(s&nbsp;(add-litres&nbsp;fuelTank))]
+                 066&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-displacement&nbsp;celica-displacement-extended-uri]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 074&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-airbags&nbsp;(integer&nbsp;numberAirbags)]
+                 067&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;property&#x2F;engineValve&quot;&nbsp;(s&nbsp;valves)]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 068&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[engine-torque&nbsp;celica-torqueOutput-extended-uri]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-doors&nbsp;(integer&nbsp;numberDoors)]
+                 069&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-traction&nbsp;(s&nbsp;traction)]
                 </span><br/>
-<span class="not-covered" title="0 out of 7 forms covered">
-                 076&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-price&nbsp;(s&nbsp;(add-euro-symbol&nbsp;price))]
+<span class="not-covered" title="0 out of 3 forms covered">
+                 070&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-size&nbsp;celica-dimensions-extended-uri]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 071&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[measurements-curbWeight&nbsp;celica-curbWeight-extended-uri]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 072&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;fuelType&quot;&nbsp;fuelType]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 073&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-fuel-tank&nbsp;celica-fuelCapacity-extended-uri]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 074&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Airbag&quot;&nbsp;(integer&nbsp;numberAirbags)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Cardoor&quot;&nbsp;(integer&nbsp;numberDoors)]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 076&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[car-price&nbsp;celica-price-extended-uri]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
                  077&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
                 </span><br/>
 <span class="not-covered" title="0 out of 2 forms covered">
-                 078&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data-uri
+                 078&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-displacement-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 079&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Engine&#x2F;displacement&quot;&nbsp;displacement]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 080&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:measureType&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Cubic_centimetre&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 082&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-torqueOutput-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 083&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Engine&#x2F;torqueOutput&quot;&nbsp;torqueOutput]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 084&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:measureType&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Revolutions_per_minute&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 085&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 086&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-dimensions-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 087&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;live.dbpedia.org&#x2F;ontology&#x2F;MeanOfTransportation&#x2F;length&quot;&nbsp;length]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 088&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;live.dbpedia.org&#x2F;ontology&#x2F;MeanOfTransportation&#x2F;width&quot;&nbsp;width]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 089&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;live.dbpedia.org&#x2F;ontology&#x2F;MeanOfTransportation&#x2F;height&quot;&nbsp;height]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:measureType&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Millimetre&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 091&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 092&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-curbWeight-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 093&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;property&#x2F;curbWeight&quot;&nbsp;curbWeight]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:measureType&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Kilogram&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 095&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 096&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-fuelCapacity-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 097&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;fuelCapacity&quot;&nbsp;fuelTank]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 098&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:measureType&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Litre&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 099&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[celica-price-extended-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;price&quot;&nbsp;price]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Currency&quot;&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Euro&quot;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data-uri
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 079&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;All&nbsp;the&nbsp;data&nbsp;references&nbsp;are&nbsp;taken&nbsp;from&nbsp;one&nbsp;model,&nbsp;even&nbsp;though,&nbsp;there&nbsp;are&nbsp;more&quot;)&nbsp;)]
+                 105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;All&nbsp;the&nbsp;data&nbsp;references&nbsp;are&nbsp;taken&nbsp;from&nbsp;one&nbsp;model,&nbsp;even&nbsp;though,&nbsp;there&nbsp;are&nbsp;more&quot;)&nbsp;)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 080&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                 106&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 081&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 107&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 082&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 083&nbsp;&nbsp;)
+                 109&nbsp;&nbsp;)
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 084&nbsp;&nbsp;
+                 110&nbsp;&nbsp;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 085&nbsp;&nbsp;;;&nbsp;PEOPLE
+                 111&nbsp;&nbsp;;;&nbsp;PEOPLE
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 086&nbsp;&nbsp;(def&nbsp;make-people-graph
+                 112&nbsp;&nbsp;(def&nbsp;make-people-graph
                 </span><br/>
 <span class="partial" title="8 out of 15 forms covered">
-                 087&nbsp;&nbsp;&nbsp;&nbsp;(graph-fn&nbsp;[{:keys&nbsp;[name&nbsp;surname&nbsp;nick&nbsp;sex&nbsp;age&nbsp;email&nbsp;web&nbsp;married&nbsp;city&nbsp;nationality&nbsp;birthPlace&nbsp;work&nbsp;car&nbsp;gender&nbsp;marriage&nbsp;person-uri&nbsp;info-uri]&nbsp;:as&nbsp;row}]
+                 113&nbsp;&nbsp;&nbsp;&nbsp;(graph-fn&nbsp;[{:keys&nbsp;[name&nbsp;surname&nbsp;nick&nbsp;sex&nbsp;age&nbsp;email&nbsp;web&nbsp;married&nbsp;city&nbsp;nationality&nbsp;birthPlace&nbsp;work&nbsp;car&nbsp;gender&nbsp;marriage&nbsp;person-uri&nbsp;info-uri]&nbsp;:as&nbsp;row}]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 088&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph&nbsp;(base-graph&nbsp;&quot;People&quot;)
+                 114&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph&nbsp;(base-graph&nbsp;&quot;People&quot;)
                 </span><br/>
 <span class="not-covered" title="0 out of 2 forms covered">
-                 089&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[person-uri
+                 115&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[person-uri
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 090&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdf:a&nbsp;foaf:Person]
+                 116&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdf:a&nbsp;foaf:Person]
                 </span><br/>
 <span class="not-covered" title="0 out of 10 forms covered">
-                 091&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;This&nbsp;description&nbsp;is&nbsp;about&nbsp;&quot;&nbsp;name&nbsp;&quot;&nbsp;&quot;&nbsp;surname))]
+                 117&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;This&nbsp;description&nbsp;is&nbsp;about&nbsp;&quot;&nbsp;name&nbsp;&quot;&nbsp;&quot;&nbsp;surname))]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 092&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:name&nbsp;(s&nbsp;name)]
+                 118&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:name&nbsp;(s&nbsp;name)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 093&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-surname&nbsp;(s&nbsp;surname)]
+                 119&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-surname&nbsp;(s&nbsp;surname)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:nick&nbsp;(s&nbsp;nick)]
+                 120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:nick&nbsp;(s&nbsp;nick)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 095&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:age&nbsp;(integer&nbsp;age)]
+                 121&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:age&nbsp;(integer&nbsp;age)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 096&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;[foaf:mbox&nbsp;(s&nbsp;mail)]
+                 122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;[foaf:mbox&nbsp;(s&nbsp;mail)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 097&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;[foaf:mbox_sha1sum&nbsp;mail]
+                 123&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;[foaf:mbox_sha1sum&nbsp;mail]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 098&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:homepage&nbsp;(s&nbsp;web)]
+                 124&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:homepage&nbsp;(s&nbsp;web)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 099&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-email&nbsp;(s&nbsp;email)]
+                 125&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-email&nbsp;(s&nbsp;email)]
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:gender&nbsp;sex]
+                 126&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:gender&nbsp;sex]
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-marriage&nbsp;married]
+                 127&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-marriage&nbsp;married]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 102&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[vcard:locality&nbsp;(s&nbsp;city)]
+                 128&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[vcard:locality&nbsp;(s&nbsp;city)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;nationality&quot;&nbsp;(s&nbsp;nationality)]
+                 129&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;nationality&quot;&nbsp;(s&nbsp;nationality)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 104&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;birthPlace&quot;&nbsp;(s&nbsp;birthPlace)]
+                 130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;birthPlace&quot;&nbsp;(s&nbsp;birthPlace)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Work&quot;&nbsp;(s&nbsp;work)]
+                 131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Work&quot;&nbsp;(s&nbsp;work)]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 106&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Car&quot;&nbsp;(s&nbsp;car)]
+                 132&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Car&quot;&nbsp;(s&nbsp;car)]
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 107&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:knows&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Bob_Marley&quot;]
+                 133&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[foaf:knows&nbsp;&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;resource&#x2F;Bob_Marley&quot;]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                 134&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
                 </span><br/>
 <span class="not-covered" title="0 out of 2 forms covered">
-                 109&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[info-uri
+                 135&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[info-uri
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;All&nbsp;the&nbsp;data&nbsp;of&nbsp;this&nbsp;file&nbsp;has&nbsp;been&nbsp;created&nbsp;randomly&quot;))]
+                 136&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[rdfs:comment&nbsp;(commentary&nbsp;(str&nbsp;&quot;All&nbsp;the&nbsp;data&nbsp;of&nbsp;this&nbsp;file&nbsp;has&nbsp;been&nbsp;created&nbsp;randomly&quot;))]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                 137&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 112&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 138&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 113&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 139&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 114&nbsp;&nbsp;)
+                 140&nbsp;&nbsp;)
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 115&nbsp;&nbsp;
+                 141&nbsp;&nbsp;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 116&nbsp;&nbsp;;;&nbsp;Declare&nbsp;pipes&nbsp;so&nbsp;the&nbsp;plugin&nbsp;can&nbsp;find&nbsp;and&nbsp;run&nbsp;them.&nbsp;It&#x27;s&nbsp;just&nbsp;a
-                </span><br/>
-<span class="not-tracked" title="0 out of 0 forms covered">
-                 117&nbsp;&nbsp;;;&nbsp;function&nbsp;from&nbsp;Datasetable&nbsp;-&gt;&nbsp;Dataset.
-                </span><br/>
-<span class="blank" title="0 out of 0 forms covered">
-                 118&nbsp;&nbsp;
-                </span><br/>
-<span class="not-tracked" title="0 out of 0 forms covered">
-                 119&nbsp;&nbsp;;;&nbsp;AIR&nbsp;QUALITY
+                 142&nbsp;&nbsp;;;&nbsp;WORK&nbsp;CALENDAR&nbsp;2017
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 120&nbsp;&nbsp;(defn&nbsp;convert-air-quality-to-data
+                 143&nbsp;&nbsp;(def&nbsp;make-work-calendar-2017-graph
                 </span><br/>
-<span class="not-tracked" title="0 out of 0 forms covered">
-                 121&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;people&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
-                </span><br/>
-<span class="not-tracked" title="0 out of 0 forms covered">
-                 122&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
+<span class="partial" title="8 out of 15 forms covered">
+                 144&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph-fn&nbsp;[{:keys&nbsp;[Fecha&nbsp;DescripcionES&nbsp;DescripcionEU&nbsp;LugarES&nbsp;LugarEU&nbsp;Territorio&nbsp;CodigoEustat&nbsp;Latitud&nbsp;Longitud&nbsp;calendar-uri]&nbsp;:as&nbsp;row}]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 123&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
+                 145&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(graph&nbsp;(base-graph&nbsp;&quot;Work&nbsp;Calendar&nbsp;of&nbsp;Basque&nbsp;Country&nbsp;2017&quot;)
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 146&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[calendar-uri
+                </span><br/>
+<span class="not-covered" title="0 out of 2 forms covered">
+                 147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[qb:Observation]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 148&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;purl.org&#x2F;dc&#x2F;terms&#x2F;date&quot;&nbsp;(s&nbsp;Fecha)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 149&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;purl.org&#x2F;dc&#x2F;terms&#x2F;description&quot;&nbsp;(langSp&nbsp;DescripcionES)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;purl.org&#x2F;dc&#x2F;terms&#x2F;description&quot;&nbsp;(langVq&nbsp;DescripcionEU)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 151&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[vcard:locality&nbsp;(langSp&nbsp;LugarES)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 152&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[vcard:locality&nbsp;(langVq&nbsp;LugarEU)]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 153&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;dbpedia.org&#x2F;ontology&#x2F;Territory&quot;&nbsp;(s&nbsp;Territorio)]
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 124&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
+                 154&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[base-eustatCode&nbsp;CodigoEustat]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 155&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2003&#x2F;01&#x2F;geo&#x2F;wgs84_pos#lat&quot;&nbsp;Latitud]
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 156&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2003&#x2F;01&#x2F;geo&#x2F;wgs84_pos#long&quot;&nbsp;Longitud]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 160&nbsp;&nbsp;)
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 161&nbsp;&nbsp;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 162&nbsp;&nbsp;;;&nbsp;Declare&nbsp;pipes&nbsp;so&nbsp;the&nbsp;plugin&nbsp;can&nbsp;find&nbsp;and&nbsp;run&nbsp;them.&nbsp;It&#x27;s&nbsp;just&nbsp;a
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 163&nbsp;&nbsp;;;&nbsp;function&nbsp;from&nbsp;Datasetable&nbsp;-&gt;&nbsp;Dataset.
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 164&nbsp;&nbsp;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 165&nbsp;&nbsp;;;&nbsp;AIR&nbsp;QUALITY
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 166&nbsp;&nbsp;(defn&nbsp;convert-air-quality-to-data
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 167&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;air&nbsp;quality&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 168&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 169&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
                 </span><br/>
 <span class="not-covered" title="0 out of 12 forms covered">
-                 125&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:Name&nbsp;:Description&nbsp;:Province&nbsp;:Town&nbsp;:Address&nbsp;:CoordenatesX&nbsp;:CoordenatesY&nbsp;:Latitude&nbsp;:Longitude])
+                 171&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:Name&nbsp;:Description&nbsp;:Province&nbsp;:Town&nbsp;:Address&nbsp;:CoordenatesX&nbsp;:CoordenatesY&nbsp;:Latitude&nbsp;:Longitude])
                 </span><br/>
 <span class="not-covered" title="0 out of 8 forms covered">
-                 126&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{
+                 172&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{
                 </span><br/>
 <span class="not-covered" title="0 out of 1 forms covered">
-                 127&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Latitude&nbsp;&nbsp;parseValue
+                 173&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Latitude&nbsp;&nbsp;parseValue
                 </span><br/>
 <span class="not-covered" title="0 out of 1 forms covered">
-                 128&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Longitude&nbsp;parseValue
+                 174&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Longitude&nbsp;parseValue
                 </span><br/>
 <span class="not-covered" title="0 out of 1 forms covered">
-                 129&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:CoordenatesX&nbsp;&nbsp;parseValue
+                 175&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:CoordenatesX&nbsp;&nbsp;parseValue
                 </span><br/>
 <span class="not-covered" title="0 out of 1 forms covered">
-                 130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:CoordenatesY&nbsp;parseValue
+                 176&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:CoordenatesY&nbsp;parseValue
                 </span><br/>
 <span class="not-covered" title="0 out of 1 forms covered">
-                 131&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Address&nbsp;removeSymbols
+                 177&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Address&nbsp;removeSymbols
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 132&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                 178&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 133&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 179&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-covered" title="0 out of 4 forms covered">
-                 134&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:quality-uri&nbsp;[:Name]&nbsp;quality-uri)
+                 180&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:quality-uri&nbsp;[:Name]&nbsp;quality-uri)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 135&nbsp;&nbsp;&nbsp;&nbsp;)
+                 181&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 136&nbsp;&nbsp;)
+                 182&nbsp;&nbsp;)
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 137&nbsp;&nbsp;
+                 183&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 138&nbsp;&nbsp;(defn&nbsp;convert-air-quality-data-to-graph
+                 184&nbsp;&nbsp;(defn&nbsp;convert-air-quality-data-to-graph
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 139&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;people&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
+                 185&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;air&nbsp;quality&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 140&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
+                 186&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 141&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-air-quality-to-data&nbsp;make-air-quality-graph&nbsp;missing-data-filter))
+                 187&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-air-quality-to-data&nbsp;make-air-quality-graph&nbsp;missing-data-filter))
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 142&nbsp;&nbsp;
+                 188&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 143&nbsp;&nbsp;(declare-pipeline&nbsp;convert-air-quality-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
+                 189&nbsp;&nbsp;(declare-pipeline&nbsp;convert-air-quality-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 144&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
+                 190&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 145&nbsp;&nbsp;
+                 191&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 146&nbsp;&nbsp;(declare-pipeline&nbsp;convert-air-quality-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
+                 192&nbsp;&nbsp;(declare-pipeline&nbsp;convert-air-quality-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 147&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
+                 193&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 148&nbsp;&nbsp;
+                 194&nbsp;&nbsp;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 149&nbsp;&nbsp;;;&nbsp;CELICA
+                 195&nbsp;&nbsp;;;&nbsp;CELICA
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 150&nbsp;&nbsp;(defn&nbsp;convert-celica-to-data
+                 196&nbsp;&nbsp;(defn&nbsp;convert-celica-to-data
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 151&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;celica&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
+                 197&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;Celica&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 152&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
+                 198&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
                 </span><br/>
 <span class="covered" title="5 out of 5 forms covered">
-                 153&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
+                 199&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
                 </span><br/>
 <span class="covered" title="3 out of 3 forms covered">
-                 154&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
+                 200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
                 </span><br/>
 <span class="covered" title="24 out of 24 forms covered">
-                 155&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:brand&nbsp;:name&nbsp;:generation&nbsp;:startedProduction&nbsp;:finishedProduction
+                 201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:productionStartYear&nbsp;:productionEndYear
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 156&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:platform&nbsp;:engineCode&nbsp;:version&nbsp;:engineSize&nbsp;:valves&nbsp;:maxTorque&nbsp;:traction
+                 202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:platform&nbsp;:engineCode&nbsp;:engine&nbsp;:displacement&nbsp;:valves&nbsp;:torqueOutput&nbsp;:traction
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:length&nbsp;:width&nbsp;:height&nbsp;:curbWeight&nbsp;:fuelType&nbsp;:fuelTank
+                 203&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:length&nbsp;:width&nbsp;:height&nbsp;:curbWeight&nbsp;:fuelType&nbsp;:fuelTank
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:numberAirbags&nbsp;:numberDoors&nbsp;:price])
+                 204&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:numberAirbags&nbsp;:numberDoors&nbsp;:price])
                 </span><br/>
-<span class="covered" title="10 out of 10 forms covered">
-                 159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{:fuelType&nbsp;{&quot;p&quot;&nbsp;(s&nbsp;&quot;Petrol&quot;)
+<span class="covered" title="18 out of 18 forms covered">
+                 205&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{:fuelType&nbsp;{&quot;p&quot;&nbsp;(s&nbsp;&quot;Petrol&quot;)
                 </span><br/>
 <span class="covered" title="3 out of 3 forms covered">
-                 160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;d&quot;&nbsp;(s&nbsp;&quot;Diesel&quot;)
+                 206&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;d&quot;&nbsp;(s&nbsp;&quot;Diesel&quot;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 161&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                 207&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 208&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:displacement&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 209&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:torqueOutput&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 210&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:length&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 211&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:width&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 212&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:height&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 213&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:curbWeight&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 214&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:fuelTank&nbsp;parseValue
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 215&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:price&nbsp;parseValue
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 162&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                 216&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                 217&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="covered" title="9 out of 9 forms covered">
-                 164&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-uri&nbsp;[:brand&nbsp;:name&nbsp;:generation&nbsp;:version]&nbsp;celica-uri)
+                 218&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine]&nbsp;celica-uri)
+                </span><br/>
+<span class="covered" title="10 out of 10 forms covered">
+                 219&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-displacement-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:displacement]&nbsp;celica-displacement-extended-uri)
+                </span><br/>
+<span class="covered" title="10 out of 10 forms covered">
+                 220&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-torqueOutput-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:torqueOutput]&nbsp;celica-torqueOutput-extended-uri)
+                </span><br/>
+<span class="covered" title="12 out of 12 forms covered">
+                 221&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-dimensions-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:length&nbsp;:width&nbsp;:height]&nbsp;celica-dimensions-extended-uri)
+                </span><br/>
+<span class="covered" title="10 out of 10 forms covered">
+                 222&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-curbWeight-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:curbWeight]&nbsp;celica-curbWeight-extended-uri)
+                </span><br/>
+<span class="covered" title="10 out of 10 forms covered">
+                 223&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-fuelCapacity-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:fuelTank]&nbsp;celica-fuelCapacity-extended-uri)
+                </span><br/>
+<span class="covered" title="10 out of 10 forms covered">
+                 224&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:celica-price-extended-uri&nbsp;[:manufacturer&nbsp;:model&nbsp;:generation&nbsp;:engine&nbsp;:price]&nbsp;celica-price-extended-uri)
                 </span><br/>
 <span class="covered" title="5 out of 5 forms covered">
-                 165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:data-uri&nbsp;[:brand&nbsp;:name]&nbsp;data-uri)
+                 225&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:data-uri&nbsp;[:manufacturer&nbsp;:model]&nbsp;data-uri)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 166&nbsp;&nbsp;&nbsp;&nbsp;)
+                 226&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 167&nbsp;&nbsp;)
+                 227&nbsp;&nbsp;)
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 168&nbsp;&nbsp;
+                 228&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 169&nbsp;&nbsp;(defn&nbsp;convert-celica-data-to-graph
+                 229&nbsp;&nbsp;(defn&nbsp;convert-celica-data-to-graph
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 170&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;Celica&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
+                 230&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;Celica&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 171&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
+                 231&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 172&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-celica-to-data&nbsp;make-celica-graph&nbsp;missing-data-filter))
+                 232&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-celica-to-data&nbsp;make-celica-graph&nbsp;missing-data-filter))
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 173&nbsp;&nbsp;
+                 233&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 174&nbsp;&nbsp;(declare-pipeline&nbsp;convert-celica-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
+                 234&nbsp;&nbsp;(declare-pipeline&nbsp;convert-celica-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 175&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
+                 235&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 176&nbsp;&nbsp;
+                 236&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 177&nbsp;&nbsp;(declare-pipeline&nbsp;convert-celica-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
+                 237&nbsp;&nbsp;(declare-pipeline&nbsp;convert-celica-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 178&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
+                 238&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 179&nbsp;&nbsp;
+                 239&nbsp;&nbsp;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 180&nbsp;&nbsp;;;&nbsp;PEOPLE
+                 240&nbsp;&nbsp;;;&nbsp;PEOPLE
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 181&nbsp;&nbsp;(defn&nbsp;convert-people-to-data
+                 241&nbsp;&nbsp;(defn&nbsp;convert-people-to-data
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 182&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;people&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
+                 242&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;people&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 183&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
+                 243&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
                 </span><br/>
 <span class="not-covered" title="0 out of 5 forms covered">
-                 184&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
+                 244&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 185&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
+                 245&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
                 </span><br/>
 <span class="not-covered" title="0 out of 16 forms covered">
-                 186&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:name&nbsp;:surname&nbsp;:nick&nbsp;:sex&nbsp;:age&nbsp;:email&nbsp;:web
+                 246&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:name&nbsp;:surname&nbsp;:nick&nbsp;:sex&nbsp;:age&nbsp;:email&nbsp;:web
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 187&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:married&nbsp;:city&nbsp;:nationality&nbsp;:birthPlace&nbsp;:work&nbsp;:car])
+                 247&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:married&nbsp;:city&nbsp;:nationality&nbsp;:birthPlace&nbsp;:work&nbsp;:car])
                 </span><br/>
 <span class="not-covered" title="0 out of 11 forms covered">
-                 188&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{:sex&nbsp;{&quot;f&quot;&nbsp;(s&nbsp;&quot;Female&quot;)
+                 248&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{:sex&nbsp;{&quot;f&quot;&nbsp;(s&nbsp;&quot;Female&quot;)
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 189&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;m&quot;&nbsp;(s&nbsp;&quot;Male&quot;)}
+                 249&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;m&quot;&nbsp;(s&nbsp;&quot;Male&quot;)}
                 </span><br/>
 <span class="not-covered" title="0 out of 6 forms covered">
-                 190&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:married&nbsp;{&quot;y&quot;&nbsp;(s&nbsp;&quot;Yes&quot;)
+                 250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:married&nbsp;{&quot;y&quot;&nbsp;(s&nbsp;&quot;Yes&quot;)
                 </span><br/>
 <span class="not-covered" title="0 out of 3 forms covered">
-                 191&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;n&quot;&nbsp;(s&nbsp;&quot;No&quot;)}})
+                 251&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;n&quot;&nbsp;(s&nbsp;&quot;No&quot;)}})
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 192&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:person-uri&nbsp;[:name&nbsp;:surname]&nbsp;person-uri)
+                 252&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:person-uri&nbsp;[:name&nbsp;:surname]&nbsp;person-uri)
                 </span><br/>
 <span class="not-covered" title="0 out of 4 forms covered">
-                 193&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:info-uri&nbsp;[&quot;Info&quot;]&nbsp;info-uri)
+                 253&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:info-uri&nbsp;[&quot;Info&quot;]&nbsp;info-uri)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 194&nbsp;&nbsp;&nbsp;&nbsp;)
+                 254&nbsp;&nbsp;&nbsp;&nbsp;)
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 195&nbsp;&nbsp;)
+                 255&nbsp;&nbsp;)
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 196&nbsp;&nbsp;
+                 256&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 197&nbsp;&nbsp;(defn&nbsp;convert-people-data-to-graph
+                 257&nbsp;&nbsp;(defn&nbsp;convert-people-data-to-graph
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 198&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;people&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
+                 258&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;people&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 199&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
+                 259&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
                 </span><br/>
 <span class="not-covered" title="0 out of 7 forms covered">
-                 200&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-people-to-data&nbsp;make-people-graph&nbsp;missing-data-filter))
+                 260&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-people-to-data&nbsp;make-people-graph&nbsp;missing-data-filter))
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 201&nbsp;&nbsp;
+                 261&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 202&nbsp;&nbsp;(declare-pipeline&nbsp;convert-people-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
+                 262&nbsp;&nbsp;(declare-pipeline&nbsp;convert-people-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 203&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
+                 263&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
                 </span><br/>
 <span class="blank" title="0 out of 0 forms covered">
-                 204&nbsp;&nbsp;
+                 264&nbsp;&nbsp;
                 </span><br/>
 <span class="covered" title="1 out of 1 forms covered">
-                 205&nbsp;&nbsp;(declare-pipeline&nbsp;convert-people-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
+                 265&nbsp;&nbsp;(declare-pipeline&nbsp;convert-people-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
                 </span><br/>
 <span class="not-tracked" title="0 out of 0 forms covered">
-                 206&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
+                 266&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 267&nbsp;&nbsp;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 268&nbsp;&nbsp;;;&nbsp;WORK&nbsp;CALENDAR&nbsp;2017
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 269&nbsp;&nbsp;(defn&nbsp;convert-work-calendar-2017-to-data
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 270&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;tabular&nbsp;work&nbsp;calendar&nbsp;data&nbsp;into&nbsp;a&nbsp;different&nbsp;tabular&nbsp;format.&quot;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 271&nbsp;&nbsp;&nbsp;&nbsp;[data-file]
+                </span><br/>
+<span class="not-covered" title="0 out of 5 forms covered">
+                 272&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;(read-dataset&nbsp;data-file)
+                </span><br/>
+<span class="not-covered" title="0 out of 3 forms covered">
+                 273&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;move-first-row-to-header)
+                </span><br/>
+<span class="not-covered" title="0 out of 12 forms covered">
+                 274&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(make-dataset&nbsp;[:Fecha&nbsp;:DescripcionES&nbsp;:DescripcionEU&nbsp;:LugarES&nbsp;:LugarEU
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 275&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Territorio&nbsp;:CodigoEustat&nbsp;:Latitud&nbsp;:Longitud])
+                </span><br/>
+<span class="not-covered" title="0 out of 12 forms covered">
+                 276&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(mapc&nbsp;{
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 277&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Fecha&nbsp;organizeDate
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 278&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:DescripcionES&nbsp;adaptDescriptions
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 279&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:DescripcionEU&nbsp;adaptDescriptions
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 280&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:LugarES&nbsp;replaceDashes
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 281&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:LugarEU&nbsp;replaceDashes
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 282&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Territorio&nbsp;replaceDashes
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 283&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:CodigoEustat&nbsp;parseValue
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 284&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Latitud&nbsp;parseValue
+                </span><br/>
+<span class="not-covered" title="0 out of 1 forms covered">
+                 285&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:Longitud&nbsp;parseValue
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 286&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 287&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                </span><br/>
+<span class="not-covered" title="0 out of 4 forms covered">
+                 288&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(derive-column&nbsp;:calendar-uri&nbsp;[:DescripcionEU]&nbsp;calendar-uri)
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 289&nbsp;&nbsp;&nbsp;&nbsp;)
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 290&nbsp;&nbsp;)
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 291&nbsp;&nbsp;
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 292&nbsp;&nbsp;(defn&nbsp;convert-work-calendar-2017-data-to-graph
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 293&nbsp;&nbsp;&nbsp;&nbsp;&quot;Pipeline&nbsp;to&nbsp;convert&nbsp;the&nbsp;tabular&nbsp;work&nbsp;calendar&nbsp;data&nbsp;sheet&nbsp;into&nbsp;graph&nbsp;data.&quot;
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 294&nbsp;&nbsp;&nbsp;&nbsp;[dataset]
+                </span><br/>
+<span class="not-covered" title="0 out of 7 forms covered">
+                 295&nbsp;&nbsp;&nbsp;&nbsp;(-&gt;&nbsp;dataset&nbsp;convert-work-calendar-2017-to-data&nbsp;make-work-calendar-2017-graph&nbsp;missing-data-filter))
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 296&nbsp;&nbsp;
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 297&nbsp;&nbsp;(declare-pipeline&nbsp;convert-work-calendar-2017-to-data&nbsp;[Dataset&nbsp;-&gt;&nbsp;Dataset]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 298&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data-file&nbsp;&quot;A&nbsp;data&nbsp;file&quot;})
+                </span><br/>
+<span class="blank" title="0 out of 0 forms covered">
+                 299&nbsp;&nbsp;
+                </span><br/>
+<span class="covered" title="1 out of 1 forms covered">
+                 300&nbsp;&nbsp;(declare-pipeline&nbsp;convert-work-calendar-2017-data-to-graph&nbsp;[Dataset&nbsp;-&gt;&nbsp;(Seq&nbsp;Statement)]
+                </span><br/>
+<span class="not-tracked" title="0 out of 0 forms covered">
+                 301&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{dataset&nbsp;&quot;The&nbsp;data&nbsp;file&nbsp;to&nbsp;convert&nbsp;into&nbsp;a&nbsp;graph.&quot;})
                 </span><br/>
  </body>
 </html>

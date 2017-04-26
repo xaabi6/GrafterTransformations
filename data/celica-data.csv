@@ -1,4 +1,4 @@
-brand,name,generation,startedProduction,finishedProduction,platform,engineCode,version,engineSize,valves,maxTorque,traction,length,width,height,curbWeight,fuelType,fuelTank,numberAirbags,numberDoors,price
+manufacturer,model,generation,productionStartYear,productionEndYear,platform,engineCode,engine,displacement,valves,torqueOutput,traction,length,width,height,curbWeight,fuelType,fuelTank,numberAirbags,numberDoors,price
 Toyota,Celica,1,1970,1977,A20/30,T,1.4,1407,8,3800,RWD,4170,1600,1300,890,p,50,0,3,
 Toyota,Celica,2,1977,1981,A40/50,2T,1.6,1588,8,3600,RWD,4410,1640,1310,1060,p,61,0,3,
 Toyota,Celica,3,1981,1985,A60,2T-B,1.6,1588,8,4000,RWD,4435,1665,1310,1095,p,61,0,3,
