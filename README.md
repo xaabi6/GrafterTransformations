@@ -1,4 +1,4 @@
-# Grafter Test Transformations [![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=develop)](https://travis-ci.org/xaabi6/GrafterTransformations) [![Coverage Status](https://coveralls.io/repos/github/xaabi6/GrafterTransformations/badge.svg?branch=develop)](https://coveralls.io/github/xaabi6/GrafterTransformations?branch=develop)
+# Grafter Test Transformations [![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=master)](https://travis-ci.org/xaabi6/GrafterTransformations) [![Coverage Status](https://coveralls.io/repos/github/xaabi6/GrafterTransformations/badge.svg?branch=master)](https://coveralls.io/github/xaabi6/GrafterTransformations?branch=master)
 
 ## Datasets
 
