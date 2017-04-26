@@ -33,4 +33,4 @@ You just need to copy the name of the .rdf file and replace 'FILENAME' with one 
 `(clear-store triples)`
 
 You will get an output like this one:
-![Alt text](/relative/path/to/query-test-output.png?raw=true)
+![Query Test Output](query-test-output.png?raw=true)
