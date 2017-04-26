@@ -1,6 +1,6 @@
 (use 'graftertransformations.querytest)
 (def triples (create-triple-store))
 (.isEmpty (.getConnection triples))
-(insert-triples triples (java.io.File. "output/celica-data.rdf"))
+(insert-triples triples (java.io.File. "output/data/celica-data.rdf"))
 (query-result-set triples (with-common-ns-prefixes (from-file "no-limit")))
 (clear-store triples)

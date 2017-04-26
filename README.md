@@ -17,3 +17,20 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.csv`
 
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.rdf`
+
+### SPARQL QUERIES
+
+This code will run a query over the .rdf file you specify. You can also select a file from where queries will be loaded. These files are located under 'queries' folder.
+
+You just need to copy the name of the .rdf file and replace 'FILENAME' with one of the above datasets names, and for specifying the query file, you will need to replace 'QUERYFILE' with one of the file names you can find under 'queries' folder (without the extension, just the name).
+
+`lein repl`
+`(use 'graftertransformations.querytest)`
+`(def triples (create-triple-store))`
+`(.isEmpty (.getConnection triples))`
+`(insert-triples triples (java.io.File. "output/data/FILENAME-data.rdf"))`
+`(query-result-set triples (with-common-ns-prefixes (from-file "QUERYFILE")))`
+`(clear-store triples)`
+
+You will get an output like this one:
+![Alt text](/relative/path/to/query-test-output.png?raw=true)
