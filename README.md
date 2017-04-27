@@ -1,4 +1,4 @@
-# Grafter Test Transformations [![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=master)](https://travis-ci.org/xaabi6/GrafterTransformations) [![Coverage Status](https://coveralls.io/repos/github/xaabi6/GrafterTransformations/badge.svg?branch=master)](https://coveralls.io/github/xaabi6/GrafterTransformations?branch=master)
+# Grafter Transformations [![Build Status](https://travis-ci.org/xaabi6/GrafterTransformations.svg?branch=feature-create-tests)](https://travis-ci.org/xaabi6/GrafterTransformations) [![Coverage Status](https://coveralls.io/repos/github/xaabi6/GrafterTransformations/badge.svg?branch=feature-create-tests)](https://coveralls.io/github/xaabi6/GrafterTransformations?branch=feature-create-tests)
 
 ## Datasets
 
@@ -20,6 +20,12 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.csv`
 
 `lein grafter run graftertransformations.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.rdf`
+
+### Tests
+
+If you want to execute the tests you could do it with the following command:
+
+`lein test`
 
 ### SPARQL Queries
 
